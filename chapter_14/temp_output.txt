@@ -1,0 +1,2 @@
+read 65 bytes
+nwrite = 65,errno 0
