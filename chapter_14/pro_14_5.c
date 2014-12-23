@@ -1,6 +1,5 @@
 #include <apue.h>
 #include <fcntl.h>
-#include <apue.h>
 
 int lock_reg(int fd,int cmd,int type,off_t offset,int whence,off_t len)
 {
@@ -15,4 +14,4 @@ int lock_reg(int fd,int cmd,int type,off_t offset,int whence,off_t len)
 }
 
 //I am not very like this function....
-//There are too many parameter in this funcking API........
+//There are too many parameter in this fucking API........
