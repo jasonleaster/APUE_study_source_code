@@ -11,6 +11,8 @@ int       db_delete(DBHANDLE, const char *);
 void      db_rewind(DBHANDLE);
 char     *db_nextrec(DBHANDLE, char *);
 
+#define	FILE_MODE	(S_IRUSR | S_IWUSR | S_IRGRP | S_IROTH)
+
 /*
  * Flags for db_store().
  */

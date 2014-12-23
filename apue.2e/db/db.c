@@ -1,9 +1,48 @@
-#include "apue.h"
+
+/*
+** EOF replaced the "apue.h" with these files. Don't panic.
+*/
 #include "apue_db.h"
-#include <fcntl.h>		/* open & db_open flags */
+#include <stdio.h>
+#include <unistd.h>
+#include <fcntl.h>
 #include <stdarg.h>
 #include <errno.h>
-#include <sys/uio.h>	/* struct iovec */
+#include <sys/uio.h>
+#include <string.h>
+#include <stdlib.h>
+
+#define read_lock(fd, offset, whence, len) \
+	lock_reg((fd), F_SETLK, F_RDLCK, (offset), (whence), (len))
+
+#define readw_lock(fd, offset, whence, len) \
+	lock_reg((fd), F_SETLKW, F_RDLCK, (offset), (whence), (len))
+
+#define write_lock(fd, offset, whence, len) \
+	lock_reg((fd), F_SETLK, F_WRLCK, (offset), (whence), (len))
+
+#define writew_lock(fd, offset, whence, len) \
+	lock_reg((fd), F_SETLKW, F_WRLCK, (offset), (whence), (len))
+
+
+#define un_lock(fd, offset, whence, len) \
+	lock_reg((fd), F_SETLK, F_UNLCK, (offset), (whence), (len))
+
+int lock_reg(int fd,       int    cmd, int type, 
+             off_t offset, int whence, off_t len)
+{
+	struct flock lock;
+	
+	lock.l_type = type;
+	lock.l_start = offset;
+	lock.l_whence = whence;
+	lock.l_len = len;
+
+	return (fcntl(fd,cmd,&lock));
+}
+
+//----------------------beyond this line is what I added----------------
+
 
 /*
  * Internal index file constants.
@@ -97,7 +136,7 @@ db_open(const char *pathname, int oflag, ...)
 	 */
 	len = strlen(pathname);
 	if ((db = _db_alloc(len)) == NULL)
-		err_dump("db_open: _db_alloc error for DB");
+		printf("db_open: _db_alloc error for DB");
 
 	db->nhash   = NHASH_DEF;/* hash table size */
 	db->hashoff = HASH_OFF;	/* offset in index file of hash table */
@@ -138,10 +177,10 @@ db_open(const char *pathname, int oflag, ...)
 		 * it, check its size, and initialize it, atomically.
 		 */
 		if (writew_lock(db->idxfd, 0, SEEK_SET, 0) < 0)
-			err_dump("db_open: writew_lock error");
+			printf("db_open: writew_lock error");
 
 		if (fstat(db->idxfd, &statbuff) < 0)
-			err_sys("db_open: fstat error");
+			printf("db_open: fstat error");
 
 		if (statbuff.st_size == 0) {
 			/*
@@ -156,10 +195,10 @@ db_open(const char *pathname, int oflag, ...)
 			strcat(hash, "\n");
 			i = strlen(hash);
 			if (write(db->idxfd, hash, i) != i)
-				err_dump("db_open: index file init write error");
+				printf("db_open: index file init write error");
 		}
 		if (un_lock(db->idxfd, 0, SEEK_SET, 0) < 0)
-			err_dump("db_open: un_lock error");
+			printf("db_open: un_lock error");
 	}
 	db_rewind(db);
 	return(db);
@@ -177,7 +216,7 @@ _db_alloc(int namelen)
 	 * Use calloc, to initialize the structure to zero.
 	 */
 	if ((db = calloc(1, sizeof(DB))) == NULL)
-		err_dump("_db_alloc: calloc error for DB");
+		printf("_db_alloc: calloc error for DB");
 	db->idxfd = db->datfd = -1;				/* descriptors */
 
 	/*
@@ -185,16 +224,16 @@ _db_alloc(int namelen)
 	 * +5 for ".idx" or ".dat" plus null at end.
 	 */
 	if ((db->name = malloc(namelen + 5)) == NULL)
-		err_dump("_db_alloc: malloc error for name");
+		printf("_db_alloc: malloc error for name");
 
 	/*
 	 * Allocate an index buffer and a data buffer.
 	 * +2 for newline and null at end.
 	 */
 	if ((db->idxbuf = malloc(IDXLEN_MAX + 2)) == NULL)
-		err_dump("_db_alloc: malloc error for index buffer");
+		printf("_db_alloc: malloc error for index buffer");
 	if ((db->datbuf = malloc(DATLEN_MAX + 2)) == NULL)
-		err_dump("_db_alloc: malloc error for data buffer");
+		printf("_db_alloc: malloc error for data buffer");
 	return(db);
 }
 
@@ -248,7 +287,7 @@ db_fetch(DBHANDLE h, const char *key)
 	 * Unlock the hash chain that _db_find_and_lock locked.
 	 */
 	if (un_lock(db->idxfd, db->chainoff, SEEK_SET, 1) < 0)
-		err_dump("db_fetch: un_lock error");
+		printf("db_fetch: un_lock error");
 	return(ptr);
 }
 
@@ -276,10 +315,10 @@ _db_find_and_lock(DB *db, const char *key, int writelock)
 	 */
 	if (writelock) {
 		if (writew_lock(db->idxfd, db->chainoff, SEEK_SET, 1) < 0)
-			err_dump("_db_find_and_lock: writew_lock error");
+			printf("_db_find_and_lock: writew_lock error");
 	} else {
 		if (readw_lock(db->idxfd, db->chainoff, SEEK_SET, 1) < 0)
-			err_dump("_db_find_and_lock: readw_lock error");
+			printf("_db_find_and_lock: readw_lock error");
 	}
 
 	/*
@@ -326,9 +365,9 @@ _db_readptr(DB *db, off_t offset)
 	char	asciiptr[PTR_SZ + 1];
 
 	if (lseek(db->idxfd, offset, SEEK_SET) == -1)
-		err_dump("_db_readptr: lseek error to ptr field");
+		printf("_db_readptr: lseek error to ptr field");
 	if (read(db->idxfd, asciiptr, PTR_SZ) != PTR_SZ)
-		err_dump("_db_readptr: read error of ptr field");
+		printf("_db_readptr: read error of ptr field");
 	asciiptr[PTR_SZ] = 0;		/* null terminate */
 	return(atol(asciiptr));
 }
@@ -355,7 +394,7 @@ _db_readidx(DB *db, off_t offset)
 	 */
 	if ((db->idxoff = lseek(db->idxfd, offset,
 	  offset == 0 ? SEEK_CUR : SEEK_SET)) == -1)
-		err_dump("_db_readidx: lseek error");
+		printf("_db_readidx: lseek error");
 
 	/*
 	 * Read the ascii chain ptr and the ascii length at
@@ -369,7 +408,7 @@ _db_readidx(DB *db, off_t offset)
 	if ((i = readv(db->idxfd, &iov[0], 2)) != PTR_SZ + IDXLEN_SZ) {
 		if (i == 0 && offset == 0)
 			return(-1);		/* EOF for db_nextrec */
-		err_dump("_db_readidx: readv error of index record");
+		printf("_db_readidx: readv error of index record");
 	}
 
 	/*
@@ -381,39 +420,39 @@ _db_readidx(DB *db, off_t offset)
 	asciilen[IDXLEN_SZ] = 0;     /* null terminate */
 	if ((db->idxlen = atoi(asciilen)) < IDXLEN_MIN ||
 	  db->idxlen > IDXLEN_MAX)
-		err_dump("_db_readidx: invalid length");
+		printf("_db_readidx: invalid length");
 
 	/*
 	 * Now read the actual index record.  We read it into the key
 	 * buffer that we malloced when we opened the database.
 	 */
 	if ((i = read(db->idxfd, db->idxbuf, db->idxlen)) != db->idxlen)
-		err_dump("_db_readidx: read error of index record");
+		printf("_db_readidx: read error of index record");
 	if (db->idxbuf[db->idxlen-1] != NEWLINE)	/* sanity check */
-		err_dump("_db_readidx: missing newline");
+		printf("_db_readidx: missing newline");
 	db->idxbuf[db->idxlen-1] = 0;	 /* replace newline with null */
 
 	/*
 	 * Find the separators in the index record.
 	 */
 	if ((ptr1 = strchr(db->idxbuf, SEP)) == NULL)
-		err_dump("_db_readidx: missing first separator");
+		printf("_db_readidx: missing first separator");
 	*ptr1++ = 0;				/* replace SEP with null */
 
 	if ((ptr2 = strchr(ptr1, SEP)) == NULL)
-		err_dump("_db_readidx: missing second separator");
+		printf("_db_readidx: missing second separator");
 	*ptr2++ = 0;				/* replace SEP with null */
 
 	if (strchr(ptr2, SEP) != NULL)
-		err_dump("_db_readidx: too many separators");
+		printf("_db_readidx: too many separators");
 
 	/*
 	 * Get the starting offset and length of the data record.
 	 */
 	if ((db->datoff = atol(ptr1)) < 0)
-		err_dump("_db_readidx: starting offset < 0");
+		printf("_db_readidx: starting offset < 0");
 	if ((db->datlen = atol(ptr2)) <= 0 || db->datlen > DATLEN_MAX)
-		err_dump("_db_readidx: invalid length");
+		printf("_db_readidx: invalid length");
 	return(db->ptrval);		/* return offset of next key in chain */
 }
 
@@ -425,11 +464,11 @@ static char *
 _db_readdat(DB *db)
 {
 	if (lseek(db->datfd, db->datoff, SEEK_SET) == -1)
-		err_dump("_db_readdat: lseek error");
+		printf("_db_readdat: lseek error");
 	if (read(db->datfd, db->datbuf, db->datlen) != db->datlen)
-		err_dump("_db_readdat: read error");
+		printf("_db_readdat: read error");
 	if (db->datbuf[db->datlen-1] != NEWLINE)	/* sanity check */
-		err_dump("_db_readdat: missing newline");
+		printf("_db_readdat: missing newline");
 	db->datbuf[db->datlen-1] = 0; /* replace newline with null */
 	return(db->datbuf);		/* return pointer to data record */
 }
@@ -451,7 +490,7 @@ db_delete(DBHANDLE h, const char *key)
 		db->cnt_delerr++;
 	}
 	if (un_lock(db->idxfd, db->chainoff, SEEK_SET, 1) < 0)
-		err_dump("db_delete: un_lock error");
+		printf("db_delete: un_lock error");
 	return(rc);
 }
 
@@ -481,7 +520,7 @@ _db_dodelete(DB *db)
 	 * We have to lock the free list.
 	 */
 	if (writew_lock(db->idxfd, FREE_OFF, SEEK_SET, 1) < 0)
-		err_dump("_db_dodelete: writew_lock error");
+		printf("_db_dodelete: writew_lock error");
 
 	/*
 	 * Write the data record with all blanks.
@@ -521,7 +560,7 @@ _db_dodelete(DB *db)
 	 */
 	_db_writeptr(db, db->ptroff, saveptr);
 	if (un_lock(db->idxfd, FREE_OFF, SEEK_SET, 1) < 0)
-		err_dump("_db_dodelete: un_lock error");
+		printf("_db_dodelete: un_lock error");
 }
 
 /*
@@ -541,10 +580,10 @@ _db_writedat(DB *db, const char *data, off_t offset, int whence)
 	 */
 	if (whence == SEEK_END) /* we're appending, lock entire file */
 		if (writew_lock(db->datfd, 0, SEEK_SET, 0) < 0)
-			err_dump("_db_writedat: writew_lock error");
+			printf("_db_writedat: writew_lock error");
 
 	if ((db->datoff = lseek(db->datfd, offset, whence)) == -1)
-		err_dump("_db_writedat: lseek error");
+		printf("_db_writedat: lseek error");
 	db->datlen = strlen(data) + 1;	/* datlen includes newline */
 
 	iov[0].iov_base = (char *) data;
@@ -552,11 +591,11 @@ _db_writedat(DB *db, const char *data, off_t offset, int whence)
 	iov[1].iov_base = &newline;
 	iov[1].iov_len  = 1;
 	if (writev(db->datfd, &iov[0], 2) != db->datlen)
-		err_dump("_db_writedat: writev error of data record");
+		printf("_db_writedat: writev error of data record");
 
 	if (whence == SEEK_END)
 		if (un_lock(db->datfd, 0, SEEK_SET, 0) < 0)
-			err_dump("_db_writedat: un_lock error");
+			printf("_db_writedat: un_lock error");
 }
 
 /*
@@ -574,14 +613,14 @@ _db_writeidx(DB *db, const char *key,
 	char			*fmt;
 
 	if ((db->ptrval = ptrval) < 0 || ptrval > PTR_MAX)
-		err_quit("_db_writeidx: invalid ptr: %d", ptrval);
+		printf("_db_writeidx: invalid ptr: %d", ptrval);
 	if (sizeof(off_t) == sizeof(long long))
 		fmt = "%s%c%lld%c%d\n";
 	else
 		fmt = "%s%c%ld%c%d\n";
 	sprintf(db->idxbuf, fmt, key, SEP, db->datoff, SEP, db->datlen);
 	if ((len = strlen(db->idxbuf)) < IDXLEN_MIN || len > IDXLEN_MAX)
-		err_dump("_db_writeidx: invalid length");
+		printf("_db_writeidx: invalid length");
 	sprintf(asciiptrlen, "%*ld%*d", PTR_SZ, ptrval, IDXLEN_SZ, len);
 
 	/*
@@ -592,25 +631,25 @@ _db_writeidx(DB *db, const char *key,
 	if (whence == SEEK_END)		/* we're appending */
 		if (writew_lock(db->idxfd, ((db->nhash+1)*PTR_SZ)+1,
 		  SEEK_SET, 0) < 0)
-			err_dump("_db_writeidx: writew_lock error");
+			printf("_db_writeidx: writew_lock error");
 
 	/*
 	 * Position the index file and record the offset.
 	 */
 	if ((db->idxoff = lseek(db->idxfd, offset, whence)) == -1)
-		err_dump("_db_writeidx: lseek error");
+		printf("_db_writeidx: lseek error");
 
 	iov[0].iov_base = asciiptrlen;
 	iov[0].iov_len  = PTR_SZ + IDXLEN_SZ;
 	iov[1].iov_base = db->idxbuf;
 	iov[1].iov_len  = len;
 	if (writev(db->idxfd, &iov[0], 2) != PTR_SZ + IDXLEN_SZ + len)
-		err_dump("_db_writeidx: writev error of index record");
+		printf("_db_writeidx: writev error of index record");
 
 	if (whence == SEEK_END)
 		if (un_lock(db->idxfd, ((db->nhash+1)*PTR_SZ)+1,
 		  SEEK_SET, 0) < 0)
-			err_dump("_db_writeidx: un_lock error");
+			printf("_db_writeidx: un_lock error");
 }
 
 /*
@@ -623,13 +662,13 @@ _db_writeptr(DB *db, off_t offset, off_t ptrval)
 	char	asciiptr[PTR_SZ + 1];
 
 	if (ptrval < 0 || ptrval > PTR_MAX)
-		err_quit("_db_writeptr: invalid ptr: %d", ptrval);
+		printf("_db_writeptr: invalid ptr: %d", ptrval);
 	sprintf(asciiptr, "%*ld", PTR_SZ, ptrval);
 
 	if (lseek(db->idxfd, offset, SEEK_SET) == -1)
-		err_dump("_db_writeptr: lseek error to ptr field");
+		printf("_db_writeptr: lseek error to ptr field");
 	if (write(db->idxfd, asciiptr, PTR_SZ) != PTR_SZ)
-		err_dump("_db_writeptr: write error of ptr field");
+		printf("_db_writeptr: write error of ptr field");
 }
 
 /*
@@ -651,7 +690,7 @@ db_store(DBHANDLE h, const char *key, const char *data, int flag)
 	keylen = strlen(key);
 	datlen = strlen(data) + 1;		/* +1 for newline at end */
 	if (datlen < DATLEN_MIN || datlen > DATLEN_MAX)
-		err_dump("db_store: invalid data length");
+		printf("db_store: invalid data length");
 
 	/*
 	 * _db_find_and_lock calculates which hash table this new record
@@ -743,7 +782,7 @@ db_store(DBHANDLE h, const char *key, const char *data, int flag)
 
 doreturn:	/* unlock hash chain locked by _db_find_and_lock */
 	if (un_lock(db->idxfd, db->chainoff, SEEK_SET, 1) < 0)
-		err_dump("db_store: un_lock error");
+		printf("db_store: un_lock error");
 	return(rc);
 }
 
@@ -761,7 +800,7 @@ _db_findfree(DB *db, int keylen, int datlen)
 	 * Lock the free list.
 	 */
 	if (writew_lock(db->idxfd, FREE_OFF, SEEK_SET, 1) < 0)
-		err_dump("_db_findfree: writew_lock error");
+		printf("_db_findfree: writew_lock error");
 
 	/*
 	 * Read the free list pointer.
@@ -802,7 +841,7 @@ _db_findfree(DB *db, int keylen, int datlen)
 	 * Unlock the free list.
 	 */
 	if (un_lock(db->idxfd, FREE_OFF, SEEK_SET, 1) < 0)
-		err_dump("_db_findfree: un_lock error");
+		printf("_db_findfree: un_lock error");
 	return(rc);
 }
 
@@ -825,7 +864,7 @@ db_rewind(DBHANDLE h)
 	 * +1 below for newline at end of hash table.
 	 */
 	if ((db->idxoff = lseek(db->idxfd, offset+1, SEEK_SET)) == -1)
-		err_dump("db_rewind: lseek error");
+		printf("db_rewind: lseek error");
 }
 
 /*
@@ -846,7 +885,7 @@ db_nextrec(DBHANDLE h, char *key)
 	 * a record in the middle of its being deleted.
 	 */
 	if (readw_lock(db->idxfd, FREE_OFF, SEEK_SET, 1) < 0)
-		err_dump("db_nextrec: readw_lock error");
+		printf("db_nextrec: readw_lock error");
 
 	do {
 		/*
@@ -872,6 +911,6 @@ db_nextrec(DBHANDLE h, char *key)
 
 doreturn:
 	if (un_lock(db->idxfd, FREE_OFF, SEEK_SET, 1) < 0)
-		err_dump("db_nextrec: un_lock error");
+		printf("db_nextrec: un_lock error");
 	return(ptr);
 }

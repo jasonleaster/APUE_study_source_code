@@ -1,5 +1,5 @@
-#include "apue.h"
 #include "apue_db.h"
+#include <stdio.h>
 #include <fcntl.h>
 
 int
@@ -9,14 +9,14 @@ main(void)
 
 	if ((db = db_open("db4", O_RDWR | O_CREAT | O_TRUNC,
 	  FILE_MODE)) == NULL)
-		err_sys("db_open error");
+		printf("db_open error");
 
 	if (db_store(db, "Alpha", "data1", DB_INSERT) != 0)
-		err_quit("db_store error for alpha");
+		printf("db_store error for alpha");
 	if (db_store(db, "beta", "Data for beta", DB_INSERT) != 0)
-		err_quit("db_store error for beta");
+		printf("db_store error for beta");
 	if (db_store(db, "gamma", "record3", DB_INSERT) != 0)
-		err_quit("db_store error for gamma");
+		printf("db_store error for gamma");
 
 	db_close(db);
 	exit(0);

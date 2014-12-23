@@ -1,0 +1,1798 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+ACORE	apue.2e/proc/pracct.c	10;"	d	file:
+ACORE	chapter_8/pro_8_29.c	13;"	d	file:
+AR	apue.2e/db/freebsd.mk	/^AR	= ar$/;"	m
+AR	apue.2e/db/linux.mk	/^AR	= ar$/;"	m
+AR	apue.2e/db/macos.mk	/^AR	= ar$/;"	m
+AR	apue.2e/db/solaris.mk	/^AR	= ar$/;"	m
+AR	apue.2e/lib/freebsd.mk	/^AR	= ar$/;"	m
+AR	apue.2e/lib/linux.mk	/^AR	= ar$/;"	m
+AR	apue.2e/lib/macos.mk	/^AR	= ar$/;"	m
+AR	apue.2e/lib/solaris.mk	/^AR	= ar$/;"	m
+ARRAY_SIZE	apue.2e/ipc/tshm.c	4;"	d	file:
+ARRAY_SIZE	chapter_10/test.c	2;"	d	file:
+ARRAY_SIZE	chapter_15/pro_15_31.c	5;"	d	file:
+ARRAY_SIZE	hello.c	6;"	d	file:
+AXSIG	apue.2e/proc/pracct.c	13;"	d	file:
+AXSIG	chapter_8/pro_8_29.c	17;"	d	file:
+BIGCOUNT	apue.2e/lib/semaph.c	43;"	d	file:
+BUFFERSZ	apue.2e/stdio/buf.c	7;"	d	file:
+BUFFERSZ	apue.2e/stdio/buf.c	9;"	d	file:
+BUFFSIZE	apue.2e/advio/catgetmsg.c	4;"	d	file:
+BUFFSIZE	apue.2e/call/loop.poll.c	4;"	d	file:
+BUFFSIZE	apue.2e/mycat/mycat.c	3;"	d	file:
+BUFFSIZE	apue.2e/open.fe/main.c	4;"	d	file:
+BUFFSIZE	apue.2e/pty/loop.c	3;"	d	file:
+BUFFSIZE	apue.2e/signals/sigtstp.c	3;"	d	file:
+BUFFSIZE	chapter_1/laf.c	3;"	d	file:
+BUFFSIZE	chapter_14/pro_14_1.c	8;"	d	file:
+BUFFSIZE	chapter_14/pro_14_19.c	5;"	d	file:
+BUFFSIZE	chapter_3/practice.c	14;"	d	file:
+BUFFSIZE	chapter_3/practice_atomic.c	16;"	d	file:
+BUFFSIZE	chapter_3/pro_3_4.c	4;"	d	file:
+BUFFSIZE	chapter_3/test_lseek_read.c	3;"	d	file:
+BUFFSIZE	chapter_4/exercise_4_6.c	22;"	d	file:
+BUFFSIZE	chapter_4/truncation_test.c	5;"	d	file:
+BUFFSIZE	chapter_5/freopen_test.c	4;"	d	file:
+BUFFSIZE	chapter_5/fwide_test.c	4;"	d	file:
+BUFFSIZE	chapter_5/setbuf_test.c	3;"	d	file:
+BUFLEN	apue.2e/sockets/ruptime-dg.c	6;"	d	file:
+BUFLEN	apue.2e/sockets/ruptime.c	7;"	d	file:
+BUFLEN	apue.2e/sockets/ruptimed-dg.c	7;"	d	file:
+BUFLEN	apue.2e/sockets/ruptimed.c	7;"	d	file:
+BUFLEN	chapter_16/pro_16_14.c	9;"	d	file:
+BUFLEN	chapter_16/pro_16_15.c	10;"	d	file:
+BUFLEN	chapter_16/pro_16_17.c	6;"	d	file:
+BUFLEN	chapter_16/pro_16_18.c	8;"	d	file:
+CBREAK	apue.2e/lib/ttymodes.c	/^static enum { RESET, RAW, CBREAK }	ttystate = RESET;$/;"	e	enum:__anon2	file:
+CBREAK	chapter_18/pro_18_20.c	/^static enum { RESET,RAW,CBREAK} ttystate = RESET;$/;"	e	enum:__anon10	file:
+CFLAGS	apue.2e/db/freebsd.mk	/^CFLAGS=-DLINUX -ansi -I$(WKDIR)\/include -Wall$/;"	m
+CFLAGS	apue.2e/db/linux.mk	/^CFLAGS=-DLINUX -ansi -I$(WKDIR)\/include -Wall$/;"	m
+CFLAGS	apue.2e/db/macos.mk	/^CFLAGS=-DLINUX -ansi -I$(WKDIR)\/include -Wall$/;"	m
+CLI_PATH	apue.2e/lib/cliconn.c	6;"	d	file:
+CLI_PATH	apue.2e/sockets/cliconn.c	6;"	d	file:
+CLI_PERM	apue.2e/lib/cliconn.c	7;"	d	file:
+CLI_PERM	apue.2e/sockets/cliconn.c	7;"	d	file:
+CL_CALL	apue.2e/call/call.h	6;"	d
+CL_CALL	apue.2e/calld/calld.h	5;"	d
+CL_OPEN	apue.2e/open.fe/open.h	4;"	d
+CL_OPEN	apue.2e/open/open.h	4;"	d
+CL_OPEN	apue.2e/opend.fe/opend.h	4;"	d
+CL_OPEN	apue.2e/opend/opend.h	5;"	d
+CMSG_LEN	apue.2e/include/apue.h	8;"	d
+COMM_OBJ	apue.2e/db/freebsd.mk	/^COMM_OBJ   = db.o$/;"	m
+COMM_OBJ	apue.2e/db/linux.mk	/^COMM_OBJ   = db.o$/;"	m
+COMM_OBJ	apue.2e/db/macos.mk	/^COMM_OBJ   = db.o$/;"	m
+COMM_OBJ	apue.2e/db/solaris.mk	/^COMM_OBJ   = db.o$/;"	m
+CONFIG_FILE	apue.2e/ipp/print.h	14;"	d
+CONTROLLEN	apue.2e/lib/recvfd.c	9;"	d	file:
+CONTROLLEN	apue.2e/lib/sendfd.c	8;"	d	file:
+CONTROLLEN	apue.2e/sockets/recvfd.c	9;"	d	file:
+CONTROLLEN	apue.2e/sockets/recvfd2.c	22;"	d	file:
+CONTROLLEN	apue.2e/sockets/sendfd.c	8;"	d	file:
+CONTROLLEN	apue.2e/sockets/sendfd2.c	17;"	d	file:
+COUNT	apue.2e/db/db.c	/^typedef unsigned long	COUNT;	\/* unsigned counter *\/$/;"	t	file:
+COUNT	chapter_20/db.c	/^typedef unsigned long COUNT;$/;"	t	file:
+CREDOPT	apue.2e/sockets/recvfd2.c	13;"	d	file:
+CREDOPT	apue.2e/sockets/recvfd2.c	8;"	d	file:
+CREDSLEN	apue.2e/sockets/recvfd2.c	21;"	d	file:
+CREDSLEN	apue.2e/sockets/sendfd2.c	16;"	d	file:
+CREDSTRUCT	apue.2e/sockets/recvfd2.c	11;"	d	file:
+CREDSTRUCT	apue.2e/sockets/recvfd2.c	6;"	d	file:
+CREDSTRUCT	apue.2e/sockets/sendfd2.c	5;"	d	file:
+CREDSTRUCT	apue.2e/sockets/sendfd2.c	8;"	d	file:
+CR_UID	apue.2e/sockets/recvfd2.c	12;"	d	file:
+CR_UID	apue.2e/sockets/recvfd2.c	7;"	d	file:
+CS_CALL	apue.2e/call/call.h	5;"	d
+CS_CALL	apue.2e/calld/calld.h	4;"	d
+CS_OPEN	apue.2e/open/open.h	5;"	d
+CS_OPEN	apue.2e/opend/opend.h	4;"	d
+CTRLA	apue.2e/call/take.c	3;"	d	file:
+Client	apue.2e/calld/calld.h	/^} Client;$/;"	t	typeref:struct:__anon6
+Client	apue.2e/opend/opend.h	/^} Client;$/;"	t	typeref:struct:__anon3
+DATADIR	apue.2e/ipp/print.h	17;"	d
+DATAFILE	apue.2e/environ/opendata.c	3;"	d	file:
+DATLEN_MAX	apue.2e/db/apue_db.h	27;"	d
+DATLEN_MAX	chapter_20/apue_db.h	30;"	d
+DATLEN_MIN	apue.2e/db/apue_db.h	26;"	d
+DATLEN_MIN	chapter_20/apue_db.h	29;"	d
+DB	apue.2e/db/db.c	/^} DB;$/;"	t	typeref:struct:__anon4	file:
+DB	chapter_20/db.c	/^} DB;$/;"	t	typeref:struct:__anon11	file:
+DBHANDLE	apue.2e/db/apue_db.h	/^typedef	void *	DBHANDLE;$/;"	t
+DBHANDLE	chapter_20/apue_db.h	/^	typedef void* DBHANDLE;$/;"	t
+DBHASH	apue.2e/db/db.c	/^typedef unsigned long	DBHASH;	\/* hash values *\/$/;"	t	file:
+DBHASH	chapter_20/db.c	/^typedef unsigned long DBHASH;$/;"	t	file:
+DB_INSERT	apue.2e/db/apue_db.h	17;"	d
+DB_INSERT	chapter_20/apue_db.h	19;"	d
+DB_REPLACE	apue.2e/db/apue_db.h	18;"	d
+DB_REPLACE	chapter_20/apue_db.h	20;"	d
+DB_STORE	apue.2e/db/apue_db.h	19;"	d
+DB_STORE	chapter_20/apue_db.h	21;"	d
+DEBUG	apue.2e/calld/debug.c	/^DEBUG(char *fmt, ...)		\/* debug output, newline at end *\/$/;"	f
+DEBUG_NONL	apue.2e/calld/debug.c	/^DEBUG_NONL(char *fmt, ...)	\/* debug output, NO newline at end *\/$/;"	f
+DEF_PAGER	apue.2e/ipc/pipe2.c	4;"	d	file:
+DEF_PAGER	chapter_15/pro_15_6.c	8;"	d	file:
+DEPTH	apue.2e/file/longpath.c	4;"	d	file:
+DEVICES	apue.2e/calld/calld.h	17;"	d
+DIALERS	apue.2e/calld/calld.h	18;"	d
+DIRS	apue.2e/Makefile	/^DIRS = lib sockets advio call calld daemons datafiles db environ exercises \\$/;"	m
+DIR_MODE	apue.2e/include/apue.h	36;"	d
+Debug	apue.2e/calld/calld.h	/^  int	Debug;				\/* option from client *\/$/;"	m	struct:__anon6
+Debug	apue.2e/calld/main.c	/^int			Debug;	\/* Debug controlled by client, not cmd line *\/$/;"	v
+Devices	apue.2e/calld/calld.h	/^} Devices;$/;"	t	typeref:struct:__anon8
+Dialers	apue.2e/calld/calld.h	/^} Dialers;$/;"	t	typeref:struct:__anon9
+ETIME	apue.2e/ipp/print.h	37;"	d
+EVEN	apue.2e/calld/calld.h	/^extern enum parity { NONE, EVEN, ODD } parity;	\/* specified by client *\/$/;"	e	enum:parity
+EXPALRM	apue.2e/calld/expectstr.c	3;"	d	file:
+EXTRA	apue.2e/advio/freebsd.mk	/^EXTRA=$/;"	m
+EXTRA	apue.2e/advio/linux.mk	/^EXTRA=$/;"	m
+EXTRA	apue.2e/advio/macos.mk	/^EXTRA=$/;"	m
+EXTRA	apue.2e/advio/solaris.mk	/^EXTRA=$/;"	m
+EXTRA	apue.2e/call/freebsd.mk	/^EXTRA=-DDEBUG$/;"	m
+EXTRA	apue.2e/call/linux.mk	/^EXTRA=-DDEBUG$/;"	m
+EXTRA	apue.2e/call/macos.mk	/^EXTRA=-DDEBUG$/;"	m
+EXTRA	apue.2e/call/solaris.mk	/^EXTRA=-DDEBUG$/;"	m
+EXTRA	apue.2e/calld/freebsd.mk	/^EXTRA=$/;"	m
+EXTRA	apue.2e/calld/linux.mk	/^EXTRA=$/;"	m
+EXTRA	apue.2e/calld/macos.mk	/^EXTRA=$/;"	m
+EXTRA	apue.2e/calld/solaris.mk	/^EXTRA=$/;"	m
+EXTRA	apue.2e/daemons/freebsd.mk	/^EXTRA=$/;"	m
+EXTRA	apue.2e/daemons/linux.mk	/^EXTRA=$/;"	m
+EXTRA	apue.2e/daemons/macos.mk	/^EXTRA=$/;"	m
+EXTRA	apue.2e/daemons/solaris.mk	/^EXTRA=$/;"	m
+EXTRA	apue.2e/datafiles/freebsd.mk	/^EXTRA=$/;"	m
+EXTRA	apue.2e/datafiles/linux.mk	/^EXTRA=$/;"	m
+EXTRA	apue.2e/datafiles/macos.mk	/^EXTRA=$/;"	m
+EXTRA	apue.2e/datafiles/solaris.mk	/^EXTRA=$/;"	m
+EXTRA	apue.2e/exercises/freebsd.mk	/^EXTRA=$/;"	m
+EXTRA	apue.2e/exercises/linux.mk	/^EXTRA=$/;"	m
+EXTRA	apue.2e/exercises/macos.mk	/^EXTRA=-DOS_INLINE=static$/;"	m
+EXTRA	apue.2e/exercises/solaris.mk	/^EXTRA=$/;"	m
+EXTRA	apue.2e/ipc/freebsd.mk	/^EXTRA=$/;"	m
+EXTRA	apue.2e/ipc/linux.mk	/^EXTRA=$/;"	m
+EXTRA	apue.2e/ipc/macos.mk	/^EXTRA=$/;"	m
+EXTRA	apue.2e/ipc/solaris.mk	/^EXTRA=$/;"	m
+EXTRA	apue.2e/ipp/freebsd.mk	/^EXTRA=-DDEBUG$/;"	m
+EXTRA	apue.2e/ipp/linux.mk	/^EXTRA=-DDEBUG$/;"	m
+EXTRA	apue.2e/ipp/macos.mk	/^EXTRA=-DDEBUG -DOS_INLINE=static$/;"	m
+EXTRA	apue.2e/ipp/solaris.mk	/^EXTRA=-D__EXTENSIONS__$/;"	m
+EXTRA	apue.2e/lib/freebsd.mk	/^EXTRA= -D_HAS_OPENPT -D_HAS_GRANTPT -D_HAS_UNLOCKPT -D_HAS_PTSNAME$/;"	m
+EXTRA	apue.2e/lib/solaris.mk	/^EXTRA=-D__EXTENSIONS__ -D_HAS_PTSNAME -D_HAS_GRANTPT -D_HAS_UNLOCKPT$/;"	m
+EXTRA	apue.2e/lock/freebsd.mk	/^EXTRA=$/;"	m
+EXTRA	apue.2e/lock/linux.mk	/^EXTRA=$/;"	m
+EXTRA	apue.2e/lock/macos.mk	/^EXTRA=$/;"	m
+EXTRA	apue.2e/lock/solaris.mk	/^EXTRA=$/;"	m
+EXTRA	apue.2e/open.fe/freebsd.mk	/^EXTRA=$/;"	m
+EXTRA	apue.2e/open.fe/linux.mk	/^EXTRA=$/;"	m
+EXTRA	apue.2e/open.fe/macos.mk	/^EXTRA=$/;"	m
+EXTRA	apue.2e/open.fe/solaris.mk	/^EXTRA=$/;"	m
+EXTRA	apue.2e/open/freebsd.mk	/^EXTRA=$/;"	m
+EXTRA	apue.2e/open/linux.mk	/^EXTRA=$/;"	m
+EXTRA	apue.2e/open/macos.mk	/^EXTRA=$/;"	m
+EXTRA	apue.2e/open/solaris.mk	/^EXTRA=$/;"	m
+EXTRA	apue.2e/opend.fe/freebsd.mk	/^EXTRA=$/;"	m
+EXTRA	apue.2e/opend.fe/linux.mk	/^EXTRA=$/;"	m
+EXTRA	apue.2e/opend.fe/macos.mk	/^EXTRA=$/;"	m
+EXTRA	apue.2e/opend.fe/solaris.mk	/^EXTRA=$/;"	m
+EXTRA	apue.2e/opend/freebsd.mk	/^EXTRA=$/;"	m
+EXTRA	apue.2e/opend/linux.mk	/^EXTRA=$/;"	m
+EXTRA	apue.2e/opend/macos.mk	/^EXTRA=-DOS_INLINE=static$/;"	m
+EXTRA	apue.2e/opend/solaris.mk	/^EXTRA=$/;"	m
+EXTRA	apue.2e/proc/solaris.mk	/^EXTRA=$/;"	m
+EXTRA	apue.2e/pty/solaris.mk	/^EXTRA=-D__EXTENSIONS__$/;"	m
+EXTRA	apue.2e/sockets/freebsd.mk	/^EXTRA=$/;"	m
+EXTRA	apue.2e/sockets/linux.mk	/^EXTRA=$/;"	m
+EXTRA	apue.2e/sockets/macos.mk	/^EXTRA=$/;"	m
+EXTRA	apue.2e/sockets/solaris.mk	/^EXTRA=-D__EXTENSIONS__$/;"	m
+EXTRA	apue.2e/streams/freebsd.mk	/^EXTRA=$/;"	m
+EXTRA	apue.2e/streams/linux.mk	/^EXTRA=$/;"	m
+EXTRA	apue.2e/streams/macos.mk	/^EXTRA=$/;"	m
+EXTRA	apue.2e/streams/solaris.mk	/^EXTRA=$/;"	m
+EXTRA	apue.2e/termios/freebsd.mk	/^EXTRA=$/;"	m
+EXTRA	apue.2e/termios/linux.mk	/^EXTRA=$/;"	m
+EXTRA	apue.2e/termios/macos.mk	/^EXTRA=$/;"	m
+EXTRA	apue.2e/termios/solaris.mk	/^EXTRA=-D__EXTENSIONS__$/;"	m
+EXTRA	apue.2e/threadctl/linux.mk	/^EXTRA=$/;"	m
+EXTRA	apue.2e/threadctl/macos.mk	/^EXTRA=$/;"	m
+EXTRA	apue.2e/threadctl/solaris.mk	/^EXTRA=-D_POSIX_PTHREAD_SEMANTICS$/;"	m
+EXTRA	apue.2e/threads/freebsd.mk	/^EXTRA=$/;"	m
+EXTRA	apue.2e/threads/linux.mk	/^EXTRA=$/;"	m
+EXTRA	apue.2e/threads/macos.mk	/^EXTRA=$/;"	m
+EXTRA	apue.2e/threads/solaris.mk	/^EXTRA=$/;"	m
+EXTRALIBS	apue.2e/call/solaris.mk	/^EXTRALIBS=-lsocket -lnsl$/;"	m
+EXTRALIBS	apue.2e/calld/solaris.mk	/^EXTRALIBS=-lsocket -lnsl$/;"	m
+EXTRALIBS	apue.2e/ipc/solaris.mk	/^EXTRALIBS=-lsocket -lnsl$/;"	m
+EXTRALIBS	apue.2e/ipp/solaris.mk	/^EXTRALIBS=-lsocket -lnsl -lrt -lpthread$/;"	m
+EXTRALIBS	apue.2e/open.fe/solaris.mk	/^EXTRALIBS=-lsocket -lnsl$/;"	m
+EXTRALIBS	apue.2e/open/solaris.mk	/^EXTRALIBS=-lsocket -lnsl$/;"	m
+EXTRALIBS	apue.2e/opend.fe/solaris.mk	/^EXTRALIBS=-lsocket -lnsl$/;"	m
+EXTRALIBS	apue.2e/opend/solaris.mk	/^EXTRALIBS=-lsocket -lnsl$/;"	m
+EXTRALIBS	apue.2e/pty/solaris.mk	/^EXTRALIBS=-lsocket -lnsl$/;"	m
+EXTRALIBS	apue.2e/sockets/solaris.mk	/^EXTRALIBS=-lsocket -lnsl$/;"	m
+EXTRALIBS	apue.2e/threadctl/freebsd.mk	/^EXTRALIBS=-pthread$/;"	m
+EXTRALIBS	apue.2e/threadctl/linux.mk	/^EXTRALIBS=-pthread$/;"	m
+EXTRALIBS	apue.2e/threadctl/solaris.mk	/^EXTRALIBS=-lrt -lpthread$/;"	m
+EXTRALIBS	apue.2e/threads/freebsd.mk	/^EXTRALIBS=-pthread$/;"	m
+EXTRALIBS	apue.2e/threads/linux.mk	/^EXTRALIBS=-pthread$/;"	m
+EXTRALIBS	apue.2e/threads/solaris.mk	/^EXTRALIBS=-lpthread$/;"	m
+FIFO	apue.2e/ipc/fifo1.c	4;"	d	file:
+FIFO_MODE	apue.2e/streams/servlisten.c	6;"	d	file:
+FILENMSZ	apue.2e/ipp/print.h	20;"	d
+FILEPERM	apue.2e/ipp/print.h	21;"	d
+FILES	apue.2e/environ/freebsd.mk	/^FILES= doatexit testjmp.opt testjmp$/;"	m
+FILES	apue.2e/environ/linux.mk	/^FILES= doatexit testjmp.opt testjmp$/;"	m
+FILES	apue.2e/environ/macos.mk	/^FILES= doatexit testjmp.opt testjmp$/;"	m
+FILES	apue.2e/environ/solaris.mk	/^FILES= doatexit testjmp.opt testjmp$/;"	m
+FILE_MODE	apue.2e/include/apue.h	31;"	d
+FMT	apue.2e/environ/getrlimit.c	4;"	d	file:
+FMT	apue.2e/environ/getrlimit.c	6;"	d	file:
+FMT	apue.2e/proc/pracct.c	5;"	d	file:
+FMT	apue.2e/proc/pracct.c	7;"	d	file:
+FMT	chapter_8/pro_8_29.c	7;"	d	file:
+FMT	chapter_8/pro_8_29.c	9;"	d	file:
+FREE_OFF	apue.2e/db/db.c	25;"	d	file:
+FREE_OFF	chapter_20/db.c	30;"	d	file:
+FTW_D	apue.2e/file/ftw4.c	50;"	d	file:
+FTW_D	chapter_4/pro_4_22.c	42;"	d	file:
+FTW_DNR	apue.2e/file/ftw4.c	51;"	d	file:
+FTW_DNR	chapter_4/pro_4_22.c	43;"	d	file:
+FTW_F	apue.2e/file/ftw4.c	49;"	d	file:
+FTW_F	chapter_4/pro_4_22.c	41;"	d	file:
+FTW_NS	apue.2e/file/ftw4.c	52;"	d	file:
+FTW_NS	chapter_4/pro_4_22.c	44;"	d	file:
+HASH	apue.2e/threads/mutex2.c	5;"	d	file:
+HASH	apue.2e/threads/mutex3.c	5;"	d	file:
+HASH	chapter_11/pro_11_11.c	5;"	d	file:
+HASH_OFF	apue.2e/db/db.c	26;"	d	file:
+HASH_OFF	chapter_20/db.c	31;"	d	file:
+HBUFSZ	apue.2e/ipp/print.h	33;"	d
+HDRS	apue.2e/call/freebsd.mk	/^HDRS = call.h$/;"	m
+HDRS	apue.2e/call/linux.mk	/^HDRS = call.h$/;"	m
+HDRS	apue.2e/call/macos.mk	/^HDRS = call.h$/;"	m
+HDRS	apue.2e/call/solaris.mk	/^HDRS = call.h$/;"	m
+HDRS	apue.2e/calld/freebsd.mk	/^HDRS = calld.h$/;"	m
+HDRS	apue.2e/calld/linux.mk	/^HDRS = calld.h$/;"	m
+HDRS	apue.2e/calld/macos.mk	/^HDRS = calld.h$/;"	m
+HDRS	apue.2e/calld/solaris.mk	/^HDRS = calld.h$/;"	m
+HDRS	apue.2e/ipp/freebsd.mk	/^HDRS = print.h ipp.h$/;"	m
+HDRS	apue.2e/ipp/linux.mk	/^HDRS = print.h ipp.h$/;"	m
+HDRS	apue.2e/ipp/macos.mk	/^HDRS = print.h ipp.h$/;"	m
+HDRS	apue.2e/ipp/solaris.mk	/^HDRS = print.h ipp.h$/;"	m
+HOST_NAME_MAX	apue.2e/ipp/print.h	27;"	d
+HOST_NAME_MAX	apue.2e/sockets/ruptimed-dg.c	11;"	d	file:
+HOST_NAME_MAX	apue.2e/sockets/ruptimed-fd.c	12;"	d	file:
+HOST_NAME_MAX	apue.2e/sockets/ruptimed.c	11;"	d	file:
+HOST_NAME_MAX	chapter_16/pro_16_15.c	14;"	d	file:
+HOST_NAME_MAX	chapter_16/pro_16_16.c	19;"	d	file:
+HOST_NAME_MAX	chapter_16/pro_16_18.c	13;"	d	file:
+HTTP_INFO	apue.2e/ipp/printd.c	19;"	d	file:
+HTTP_SUCCESS	apue.2e/ipp/printd.c	20;"	d	file:
+IBUFSZ	apue.2e/ipp/print.h	32;"	d
+IDXLEN_MAX	apue.2e/db/apue_db.h	25;"	d
+IDXLEN_MAX	chapter_20/apue_db.h	28;"	d
+IDXLEN_MIN	apue.2e/db/apue_db.h	24;"	d
+IDXLEN_MIN	chapter_20/apue_db.h	27;"	d
+IDXLEN_SZ	apue.2e/db/db.c	13;"	d	file:
+IDXLEN_SZ	chapter_20/db.c	17;"	d	file:
+IOBUFSZ	apue.2e/ipp/print.h	34;"	d
+IPP_PORT	apue.2e/ipp/print.h	30;"	d
+JOBFILE	apue.2e/ipp/print.h	16;"	d
+JOBNM_MAX	apue.2e/ipp/print.h	23;"	d
+LIBMISC	apue.2e/db/freebsd.mk	/^LIBMISC	= libapue_db.a$/;"	m
+LIBMISC	apue.2e/db/linux.mk	/^LIBMISC	= libapue_db.a$/;"	m
+LIBMISC	apue.2e/db/macos.mk	/^LIBMISC	= libapue_db.a$/;"	m
+LIBMISC	apue.2e/db/solaris.mk	/^LIBMISC	= libapue_db.a$/;"	m
+LIBMISC	apue.2e/lib/freebsd.mk	/^LIBMISC	= libapue.a$/;"	m
+LIBMISC	apue.2e/lib/linux.mk	/^LIBMISC	= libapue.a$/;"	m
+LIBMISC	apue.2e/lib/macos.mk	/^LIBMISC	= libapue.a$/;"	m
+LIBMISC	apue.2e/lib/solaris.mk	/^LIBMISC	= libapue.a$/;"	m
+LOCKFILE	apue.2e/daemons/single.c	10;"	d	file:
+LOCKFILE	chapter_13/pro_13_6.c	10;"	d	file:
+LOCKMODE	apue.2e/daemons/single.c	11;"	d	file:
+LOCKMODE	chapter_13/pro_13_6.c	11;"	d	file:
+Lock	apue.2e/calld/lock.c	/^} Lock;$/;"	t	typeref:struct:__anon5	file:
+MALLOC_SIZE	apue.2e/ipc/tshm.c	5;"	d	file:
+MALLOC_SIZE	chapter_15/pro_15_31.c	6;"	d	file:
+MAXADDRLEN	apue.2e/sockets/ruptime.c	6;"	d	file:
+MAXADDRLEN	apue.2e/sockets/ruptimed-dg.c	8;"	d	file:
+MAXADDRLEN	chapter_16/pro_16_14.c	8;"	d	file:
+MAXADDRLEN	chapter_16/pro_16_18.c	9;"	d	file:
+MAXARGC	apue.2e/lib/bufargs.c	3;"	d	file:
+MAXCFGLINE	apue.2e/ipp/util.c	6;"	d	file:
+MAXFMTLEN	apue.2e/ipp/util.c	8;"	d	file:
+MAXKWLEN	apue.2e/ipp/util.c	7;"	d	file:
+MAXLINE	apue.2e/include/apue.h	26;"	d
+MAXLINE	chapter_15/add2.c	4;"	d	file:
+MAXLINE	chapter_15/pro_15_11.c	6;"	d	file:
+MAXLINE	chapter_15/pro_15_15.c	5;"	d	file:
+MAXLINE	chapter_15/pro_15_17.c	6;"	d	file:
+MAXLINE	chapter_15/pro_15_18.c	9;"	d	file:
+MAXLINE	chapter_15/pro_15_19.c	3;"	d	file:
+MAXLINE	chapter_15/pro_15_5.c	19;"	d	file:
+MAXLINE	chapter_15/pro_15_6.c	9;"	d	file:
+MAXLINE	chapter_15/test.c	7;"	d	file:
+MAXLINE	chapter_17/pro_17_4.c	7;"	d	file:
+MAXSLEEP	apue.2e/sockets/clconn.c	4;"	d	file:
+MAXSLEEP	chapter_16/pro_16_9.c	4;"	d	file:
+MAXSPEEDSTR	apue.2e/calld/calld.h	7;"	d
+MAXSYSNAME	apue.2e/calld/calld.h	6;"	d
+MAXSZ	apue.2e/file/longpath.c	7;"	d	file:
+MAX_PASS_LEN	apue.2e/termios/getpass.c	5;"	d	file:
+MAX_PASS_LEN	chapter_18/pro_18_17.c	5;"	d	file:
+MSGLEN_MAX	apue.2e/ipp/print.h	24;"	d
+MYHOME	apue.2e/file/longpath.c	5;"	d	file:
+Myfunc	apue.2e/file/ftw4.c	/^typedef	int	Myfunc(const char *, const struct stat *, int);$/;"	t	file:
+Myfunc	chapter_4/pro_4_22.c	/^typedef int Myfunc(const char* ,const struct stat *,int);$/;"	t	file:
+NALLOC	apue.2e/calld/calld.h	13;"	d
+NALLOC	apue.2e/opend/client.c	3;"	d	file:
+NAME	apue.2e/file/longpath.c	6;"	d	file:
+NEWLINE	apue.2e/db/db.c	16;"	d	file:
+NEWLINE	chapter_20/db.c	20;"	d	file:
+NHASH	apue.2e/threads/mutex2.c	4;"	d	file:
+NHASH	apue.2e/threads/mutex3.c	4;"	d	file:
+NHASH	chapter_11/pro_11_11.c	4;"	d	file:
+NHASH_DEF	apue.2e/db/db.c	24;"	d	file:
+NHASH_DEF	chapter_20/db.c	29;"	d	file:
+NLOOPS	apue.2e/advio/devzero.c	5;"	d	file:
+NLOOPS	chapter_15/anonymous_memory_mapping_test.c	5;"	d	file:
+NLOOPS	chapter_15/pro_15_33.c	5;"	d	file:
+NONE	apue.2e/calld/calld.h	/^extern enum parity { NONE, EVEN, ODD } parity;	\/* specified by client *\/$/;"	e	enum:parity
+OBJ	apue.2e/datafiles/freebsd.mk	/^OBJ = getpwnam.o$/;"	m
+OBJ	apue.2e/datafiles/linux.mk	/^OBJ = getpwnam.o$/;"	m
+OBJ	apue.2e/datafiles/macos.mk	/^OBJ = getpwnam.o$/;"	m
+OBJ	apue.2e/datafiles/solaris.mk	/^OBJ = getpwnam.o$/;"	m
+OBJS	apue.2e/lib/freebsd.mk	/^OBJS   = bufargs.o cliconn.o clrfl.o \\$/;"	m
+OBJS	apue.2e/lib/linux.mk	/^OBJS   = bufargs.o cliconn.o clrfl.o \\$/;"	m
+OBJS	apue.2e/lib/macos.mk	/^OBJS   = bufargs.o cliconn.o clrfl.o \\$/;"	m
+OBJS	apue.2e/lib/solaris.mk	/^OBJS   = bufargs.o cliconn.o clrfl.o \\$/;"	m
+ODD	apue.2e/calld/calld.h	/^extern enum parity { NONE, EVEN, ODD } parity;	\/* specified by client *\/$/;"	e	enum:parity
+OPEN_MAX_GUESS	apue.2e/exercises/openmax.c	5;"	d	file:
+OPEN_MAX_GUESS	apue.2e/lib/openmax.c	15;"	d	file:
+OPTSTR	apue.2e/pty/main.c	10;"	d	file:
+OPTSTR	apue.2e/pty/main.c	8;"	d	file:
+OP_CANCEL_JOB	apue.2e/ipp/ipp.h	65;"	d
+OP_CREATE_JOB	apue.2e/ipp/ipp.h	62;"	d
+OP_GET_JOBS	apue.2e/ipp/ipp.h	67;"	d
+OP_GET_JOB_ATTR	apue.2e/ipp/ipp.h	66;"	d
+OP_GET_PRINTER_ATTR	apue.2e/ipp/ipp.h	68;"	d
+OP_HOLD_JOB	apue.2e/ipp/ipp.h	69;"	d
+OP_PAUSE_PRINTER	apue.2e/ipp/ipp.h	72;"	d
+OP_PRINT_JOB	apue.2e/ipp/ipp.h	59;"	d
+OP_PRINT_URI	apue.2e/ipp/ipp.h	60;"	d
+OP_PURGE_JOBS	apue.2e/ipp/ipp.h	74;"	d
+OP_RELEASE_JOB	apue.2e/ipp/ipp.h	70;"	d
+OP_RESTART_JOB	apue.2e/ipp/ipp.h	71;"	d
+OP_RESUME_PRINTER	apue.2e/ipp/ipp.h	73;"	d
+OP_SEND_DOC	apue.2e/ipp/ipp.h	63;"	d
+OP_SEND_URI	apue.2e/ipp/ipp.h	64;"	d
+OP_VALIDATE_JOB	apue.2e/ipp/ipp.h	61;"	d
+PAGER	apue.2e/ipc/popen2.c	4;"	d	file:
+PAGER	chapter_15/pro_15_11.c	5;"	d	file:
+PATH_MAX_GUESS	apue.2e/lib/pathalloc.c	16;"	d	file:
+PATH_MAX_GUESS	chapter_2/path_alloc.c	15;"	d	file:
+POSITIVE	chapter_5/fwide_test.c	5;"	d	file:
+PROGS	apue.2e/advio/freebsd.mk	/^PROGS = devzero mcopy nonblockw pendlock$/;"	m
+PROGS	apue.2e/advio/linux.mk	/^PROGS = catgetmsg devzero mcopy nonblockw pendlock$/;"	m
+PROGS	apue.2e/advio/macos.mk	/^PROGS = devzero mcopy nonblockw pendlock$/;"	m
+PROGS	apue.2e/advio/solaris.mk	/^PROGS = catgetmsg devzero mcopy nonblockw pendlock$/;"	m
+PROGS	apue.2e/call/freebsd.mk	/^PROGS = call$/;"	m
+PROGS	apue.2e/call/linux.mk	/^PROGS = call$/;"	m
+PROGS	apue.2e/call/macos.mk	/^PROGS = call$/;"	m
+PROGS	apue.2e/call/solaris.mk	/^PROGS = call$/;"	m
+PROGS	apue.2e/calld/freebsd.mk	/^PROGS = calld$/;"	m
+PROGS	apue.2e/calld/linux.mk	/^PROGS = calld$/;"	m
+PROGS	apue.2e/calld/macos.mk	/^PROGS = calld$/;"	m
+PROGS	apue.2e/calld/solaris.mk	/^PROGS = calld$/;"	m
+PROGS	apue.2e/exercises/freebsd.mk	/^PROGS =	getpw44bsd goodexit getlogin sizepipe$/;"	m
+PROGS	apue.2e/exercises/linux.mk	/^PROGS =	getpwsvr4 getpw44bsd goodexit getlogin sizepipe$/;"	m
+PROGS	apue.2e/exercises/macos.mk	/^PROGS =	getpw44bsd goodexit getlogin sizepipe$/;"	m
+PROGS	apue.2e/exercises/solaris.mk	/^PROGS =	getpwsvr4 goodexit getlogin sizepipe$/;"	m
+PROGS	apue.2e/file/freebsd.mk	/^PROGS =	access cdpwd changemod devrdev fileflags filetype ftw4 \\$/;"	m
+PROGS	apue.2e/file/linux.mk	/^PROGS =	access cdpwd changemod devrdev fileflags filetype ftw4 \\$/;"	m
+PROGS	apue.2e/file/macos.mk	/^PROGS =	access cdpwd changemod devrdev fileflags filetype ftw4 \\$/;"	m
+PROGS	apue.2e/file/solaris.mk	/^PROGS =	access cdpwd changemod devrdev fileflags filetype ftw4 \\$/;"	m
+PROGS	apue.2e/ipc/freebsd.mk	/^PROGS = add2 add2stdio fifo1 myuclc pipe1 pipe2 pipe4 popen1 popen2 spipe4 tshm$/;"	m
+PROGS	apue.2e/ipc/linux.mk	/^PROGS = add2 add2stdio fifo1 myuclc pipe1 pipe2 pipe4 popen1 popen2 spipe4 tshm$/;"	m
+PROGS	apue.2e/ipc/macos.mk	/^PROGS = add2 add2stdio fifo1 myuclc pipe1 pipe2 pipe4 popen1 popen2 spipe4 tshm$/;"	m
+PROGS	apue.2e/ipc/solaris.mk	/^PROGS = add2 add2stdio fifo1 myuclc pipe1 pipe2 pipe4 popen1 popen2 spipe4 tshm$/;"	m
+PROGS	apue.2e/ipp/freebsd.mk	/^PROGS = print printd$/;"	m
+PROGS	apue.2e/ipp/linux.mk	/^PROGS = print printd$/;"	m
+PROGS	apue.2e/ipp/macos.mk	/^PROGS = print printd$/;"	m
+PROGS	apue.2e/ipp/solaris.mk	/^PROGS = print printd$/;"	m
+PROGS	apue.2e/lock/freebsd.mk	/^PROGS =	deadlock mandatory$/;"	m
+PROGS	apue.2e/lock/linux.mk	/^PROGS =	deadlock mandatory$/;"	m
+PROGS	apue.2e/lock/macos.mk	/^PROGS =	deadlock mandatory$/;"	m
+PROGS	apue.2e/lock/solaris.mk	/^PROGS =	deadlock mandatory$/;"	m
+PROGS	apue.2e/mycat/freebsd.mk	/^PROGS = mycat fgetsfputs getcputc$/;"	m
+PROGS	apue.2e/mycat/linux.mk	/^PROGS = mycat fgetsfputs getcputc$/;"	m
+PROGS	apue.2e/mycat/macos.mk	/^PROGS = mycat fgetsfputs getcputc$/;"	m
+PROGS	apue.2e/mycat/solaris.mk	/^PROGS = mycat fgetsfputs getcputc$/;"	m
+PROGS	apue.2e/open.fe/freebsd.mk	/^PROGS = openclient$/;"	m
+PROGS	apue.2e/open.fe/linux.mk	/^PROGS = openclient$/;"	m
+PROGS	apue.2e/open.fe/macos.mk	/^PROGS = openclient$/;"	m
+PROGS	apue.2e/open.fe/solaris.mk	/^PROGS = openclient$/;"	m
+PROGS	apue.2e/open/freebsd.mk	/^PROGS = openclient$/;"	m
+PROGS	apue.2e/open/linux.mk	/^PROGS = openclient$/;"	m
+PROGS	apue.2e/open/macos.mk	/^PROGS = openclient$/;"	m
+PROGS	apue.2e/open/solaris.mk	/^PROGS = openclient$/;"	m
+PROGS	apue.2e/opend.fe/freebsd.mk	/^PROGS = opend$/;"	m
+PROGS	apue.2e/opend.fe/linux.mk	/^PROGS = opend$/;"	m
+PROGS	apue.2e/opend.fe/macos.mk	/^PROGS = opend$/;"	m
+PROGS	apue.2e/opend.fe/solaris.mk	/^PROGS = opend$/;"	m
+PROGS	apue.2e/opend/freebsd.mk	/^PROGS = opend.poll opend.select$/;"	m
+PROGS	apue.2e/opend/linux.mk	/^PROGS = opend.poll opend.select$/;"	m
+PROGS	apue.2e/opend/macos.mk	/^PROGS = opend.poll opend.select$/;"	m
+PROGS	apue.2e/opend/solaris.mk	/^PROGS = opend.poll opend.select$/;"	m
+PROGS	apue.2e/proc/freebsd.mk	/^PROGS =	echoall echoarg exec1 exec2 fork1 fork2 pracct pruids shell1 shell2 \\$/;"	m
+PROGS	apue.2e/proc/linux.mk	/^PROGS =	echoall echoarg exec1 exec2 fork1 fork2 pracct pruids shell1 shell2 \\$/;"	m
+PROGS	apue.2e/proc/macos.mk	/^PROGS =	echoall echoarg exec1 exec2 fork1 fork2 pracct pruids shell1 shell2 \\$/;"	m
+PROGS	apue.2e/proc/solaris.mk	/^PROGS =	echoall echoarg exec1 exec2 fork1 fork2 pracct pruids shell1 shell2 \\$/;"	m
+PROGS	apue.2e/pty/freebsd.mk	/^PROGS =	pty$/;"	m
+PROGS	apue.2e/pty/linux.mk	/^PROGS =	pty$/;"	m
+PROGS	apue.2e/pty/macos.mk	/^PROGS =	pty$/;"	m
+PROGS	apue.2e/pty/solaris.mk	/^PROGS =	pty$/;"	m
+PROGS	apue.2e/signals/freebsd.mk	/^PROGS =	critical mask read1 read2 reenter sigtstp \\$/;"	m
+PROGS	apue.2e/signals/linux.mk	/^PROGS =	child critical mask read1 read2 reenter sigtstp \\$/;"	m
+PROGS	apue.2e/signals/macos.mk	/^PROGS =	critical mask read1 read2 reenter sigtstp \\$/;"	m
+PROGS	apue.2e/signals/solaris.mk	/^PROGS =	child critical mask read1 read2 reenter sigtstp \\$/;"	m
+PROGS	apue.2e/sockets/freebsd.mk	/^PROGS = findsvc bo ruptime ruptimed ruptimed-fd ruptime-dg ruptimed-dg \\$/;"	m
+PROGS	apue.2e/sockets/linux.mk	/^PROGS = findsvc bo ruptime ruptimed ruptimed-fd ruptime-dg ruptimed-dg \\$/;"	m
+PROGS	apue.2e/sockets/macos.mk	/^PROGS = findsvc bo ruptime ruptimed ruptimed-fd ruptime-dg ruptimed-dg \\$/;"	m
+PROGS	apue.2e/sockets/solaris.mk	/^PROGS = findsvc bo ruptime ruptimed ruptimed-fd ruptime-dg ruptimed-dg \\$/;"	m
+PROGS	apue.2e/std/freebsd.mk	/^PROGS = conf options$/;"	m
+PROGS	apue.2e/std/linux.mk	/^PROGS = conf options$/;"	m
+PROGS	apue.2e/std/macos.mk	/^PROGS = conf options$/;"	m
+PROGS	apue.2e/std/solaris.mk	/^PROGS = conf options$/;"	m
+PROGS	apue.2e/stdio/freebsd.mk	/^PROGS = tempfiles tempnam$/;"	m
+PROGS	apue.2e/stdio/linux.mk	/^PROGS = buf tempfiles tempnam$/;"	m
+PROGS	apue.2e/stdio/macos.mk	/^PROGS = buf tempfiles tempnam$/;"	m
+PROGS	apue.2e/stdio/solaris.mk	/^PROGS = tempfiles tempnam$/;"	m
+PROGS	apue.2e/streams/freebsd.mk	/^PROGS=$/;"	m
+PROGS	apue.2e/streams/linux.mk	/^PROGS = #strlist t_isastream$/;"	m
+PROGS	apue.2e/streams/macos.mk	/^PROGS=$/;"	m
+PROGS	apue.2e/streams/solaris.mk	/^PROGS = strlist t_isastream$/;"	m
+PROGS	apue.2e/termios/freebsd.mk	/^PROGS =	csize settty t_getpass t_isatty t_raw t_ttyname winch$/;"	m
+PROGS	apue.2e/termios/linux.mk	/^PROGS =	csize settty t_getpass t_isatty t_raw t_ttyname winch$/;"	m
+PROGS	apue.2e/termios/macos.mk	/^PROGS =	csize settty t_getpass t_isatty t_raw t_ttyname winch$/;"	m
+PROGS	apue.2e/termios/solaris.mk	/^PROGS =	csize settty t_getpass t_isatty t_raw t_ttyname winch$/;"	m
+PROGS	apue.2e/threadctl/freebsd.mk	/^PROGS =	atfork timeout suspend$/;"	m
+PROGS	apue.2e/threadctl/linux.mk	/^PROGS =	atfork timeout suspend$/;"	m
+PROGS	apue.2e/threadctl/macos.mk	/^PROGS =	atfork timeout suspend$/;"	m
+PROGS	apue.2e/threadctl/solaris.mk	/^PROGS =	atfork timeout suspend$/;"	m
+PROGS	apue.2e/threads/freebsd.mk	/^PROGS =	threadid exitstatus cleanup badexit2$/;"	m
+PROGS	apue.2e/threads/linux.mk	/^PROGS =	threadid exitstatus cleanup badexit2$/;"	m
+PROGS	apue.2e/threads/macos.mk	/^PROGS =	threadid exitstatus cleanup badexit2$/;"	m
+PROGS	apue.2e/threads/solaris.mk	/^PROGS =	threadid exitstatus cleanup badexit2$/;"	m
+PR_TEXT	apue.2e/ipp/print.h	62;"	d
+PSCMD	apue.2e/proc/zombie.c	4;"	d	file:
+PSCMD	apue.2e/proc/zombie.c	6;"	d	file:
+PTR_MAX	apue.2e/db/db.c	23;"	d	file:
+PTR_MAX	chapter_20/db.c	28;"	d	file:
+PTR_SZ	apue.2e/db/db.c	22;"	d	file:
+PTR_SZ	chapter_20/db.c	27;"	d	file:
+QLEN	apue.2e/ipp/print.h	31;"	d
+QLEN	apue.2e/lib/servlisten.c	6;"	d	file:
+QLEN	apue.2e/sockets/ruptimed-fd.c	9;"	d	file:
+QLEN	apue.2e/sockets/ruptimed.c	8;"	d	file:
+QLEN	apue.2e/sockets/servlisten.c	6;"	d	file:
+QLEN	chapter_16/pro_16_15.c	11;"	d	file:
+QLEN	chapter_16/pro_16_16.c	15;"	d	file:
+RANLIB	apue.2e/db/freebsd.mk	/^RANLIB     = ranlib$/;"	m
+RANLIB	apue.2e/db/linux.mk	/^RANLIB     = ranlib$/;"	m
+RANLIB	apue.2e/db/macos.mk	/^RANLIB     = ranlib$/;"	m
+RANLIB	apue.2e/lib/freebsd.mk	/^RANLIB     = ranlib$/;"	m
+RANLIB	apue.2e/lib/linux.mk	/^RANLIB     = ranlib$/;"	m
+RANLIB	apue.2e/lib/macos.mk	/^RANLIB     = ranlib$/;"	m
+RAW	apue.2e/lib/ttymodes.c	/^static enum { RESET, RAW, CBREAK }	ttystate = RESET;$/;"	e	enum:__anon2	file:
+RAW	chapter_18/pro_18_20.c	/^static enum { RESET,RAW,CBREAK} ttystate = RESET;$/;"	e	enum:__anon10	file:
+REQDIR	apue.2e/ipp/print.h	18;"	d
+RESET	apue.2e/lib/ttymodes.c	/^static enum { RESET, RAW, CBREAK }	ttystate = RESET;$/;"	e	enum:__anon2	file:
+RESET	chapter_18/pro_18_20.c	/^static enum { RESET,RAW,CBREAK} ttystate = RESET;$/;"	e	enum:__anon10	file:
+RIGHTSLEN	apue.2e/sockets/recvfd2.c	20;"	d	file:
+RIGHTSLEN	apue.2e/sockets/sendfd2.c	15;"	d	file:
+RWRWRW	apue.2e/file/umask.c	4;"	d	file:
+RWRWRW	chapter_4/pro_4_9.c	6;"	d	file:
+RWX	chapter_3/practice_creat.c	4;"	d	file:
+SCM_CREDTYPE	apue.2e/sockets/recvfd2.c	14;"	d	file:
+SCM_CREDTYPE	apue.2e/sockets/recvfd2.c	9;"	d	file:
+SCM_CREDTYPE	apue.2e/sockets/sendfd2.c	6;"	d	file:
+SCM_CREDTYPE	apue.2e/sockets/sendfd2.c	9;"	d	file:
+SECTONSEC	apue.2e/threadctl/timeout.c	14;"	d	file:
+SECTONSEC	chapter_12/pro_12_8.c	22;"	d	file:
+SEP	apue.2e/db/db.c	14;"	d	file:
+SEP	chapter_20/db.c	18;"	d	file:
+SHM_MODE	apue.2e/ipc/tshm.c	7;"	d	file:
+SHM_MODE	chapter_15/pro_15_31.c	8;"	d	file:
+SHM_SIZE	apue.2e/ipc/tshm.c	6;"	d	file:
+SHM_SIZE	chapter_15/pro_15_31.c	7;"	d	file:
+SIGBAD	apue.2e/signals/setops.c	5;"	d	file:
+SIGBAD	chapter_10/pro_10_12.c	5;"	d	file:
+SIG_ERR	apue.2e/include/apue.h	41;"	d
+SIZE	apue.2e/advio/devzero.c	6;"	d	file:
+SIZE	chapter_15/anonymous_memory_mapping_test.c	6;"	d	file:
+SIZE	chapter_15/pro_15_33.c	6;"	d	file:
+SPACE	apue.2e/db/db.c	15;"	d	file:
+SPACE	chapter_20/db.c	19;"	d	file:
+SPOOLDIR	apue.2e/ipp/print.h	15;"	d
+STALE	apue.2e/lib/servaccept.c	7;"	d	file:
+STALE	apue.2e/sockets/servaccept.c	7;"	d	file:
+STATCLASS_CLIERR	apue.2e/ipp/ipp.h	15;"	d
+STATCLASS_INFO	apue.2e/ipp/ipp.h	13;"	d
+STATCLASS_OK	apue.2e/ipp/ipp.h	12;"	d
+STATCLASS_REDIR	apue.2e/ipp/ipp.h	14;"	d
+STATCLASS_SRVERR	apue.2e/ipp/ipp.h	16;"	d
+STAT_CLI_ACCERR	apue.2e/ipp/ipp.h	43;"	d
+STAT_CLI_ATTRCON	apue.2e/ipp/ipp.h	39;"	d
+STAT_CLI_BADFMT	apue.2e/ipp/ipp.h	35;"	d
+STAT_CLI_BADREQ	apue.2e/ipp/ipp.h	25;"	d
+STAT_CLI_COMPERR	apue.2e/ipp/ipp.h	41;"	d
+STAT_CLI_FMTERR	apue.2e/ipp/ipp.h	42;"	d
+STAT_CLI_FORBID	apue.2e/ipp/ipp.h	26;"	d
+STAT_CLI_NOAUTH	apue.2e/ipp/ipp.h	27;"	d
+STAT_CLI_NOCHAR	apue.2e/ipp/ipp.h	38;"	d
+STAT_CLI_NOCOMP	apue.2e/ipp/ipp.h	40;"	d
+STAT_CLI_NOPERM	apue.2e/ipp/ipp.h	28;"	d
+STAT_CLI_NOSCHM	apue.2e/ipp/ipp.h	37;"	d
+STAT_CLI_NOTFND	apue.2e/ipp/ipp.h	31;"	d
+STAT_CLI_NOTPOS	apue.2e/ipp/ipp.h	29;"	d
+STAT_CLI_NOTSUP	apue.2e/ipp/ipp.h	36;"	d
+STAT_CLI_OBJGONE	apue.2e/ipp/ipp.h	32;"	d
+STAT_CLI_TIMOUT	apue.2e/ipp/ipp.h	30;"	d
+STAT_CLI_TOOBIG	apue.2e/ipp/ipp.h	33;"	d
+STAT_CLI_TOOLNG	apue.2e/ipp/ipp.h	34;"	d
+STAT_OK	apue.2e/ipp/ipp.h	21;"	d
+STAT_OK_ATTRCON	apue.2e/ipp/ipp.h	23;"	d
+STAT_OK_ATTRIGN	apue.2e/ipp/ipp.h	22;"	d
+STAT_SRV_BADVER	apue.2e/ipp/ipp.h	48;"	d
+STAT_SRV_CANCEL	apue.2e/ipp/ipp.h	53;"	d
+STAT_SRV_DEVERR	apue.2e/ipp/ipp.h	49;"	d
+STAT_SRV_INTERN	apue.2e/ipp/ipp.h	45;"	d
+STAT_SRV_NOMULTI	apue.2e/ipp/ipp.h	54;"	d
+STAT_SRV_NOTSUP	apue.2e/ipp/ipp.h	46;"	d
+STAT_SRV_REJECT	apue.2e/ipp/ipp.h	51;"	d
+STAT_SRV_TMPERR	apue.2e/ipp/ipp.h	50;"	d
+STAT_SRV_TOOBUSY	apue.2e/ipp/ipp.h	52;"	d
+STAT_SRV_UNAVAIL	apue.2e/ipp/ipp.h	47;"	d
+SUSV3	apue.2e/lib/pathalloc.c	11;"	d	file:
+SUSV3	chapter_2/path_alloc.c	11;"	d	file:
+SYSTEMS	apue.2e/calld/calld.h	16;"	d
+Sigfunc	apue.2e/include/apue.h	/^typedef	void	Sigfunc(int);	\/* for signal handlers *\/$/;"	t
+Systems	apue.2e/calld/calld.h	/^} Systems;$/;"	t	typeref:struct:__anon7
+TAG_BOOLEAN	apue.2e/ipp/ipp.h	92;"	d
+TAG_CHARSET	apue.2e/ipp/ipp.h	105;"	d
+TAG_DATETIME	apue.2e/ipp/ipp.h	95;"	d
+TAG_END_OF_ATTR	apue.2e/ipp/ipp.h	81;"	d
+TAG_ENUM	apue.2e/ipp/ipp.h	93;"	d
+TAG_INTEGER	apue.2e/ipp/ipp.h	91;"	d
+TAG_INTRANGE	apue.2e/ipp/ipp.h	97;"	d
+TAG_JOB_ATTR	apue.2e/ipp/ipp.h	80;"	d
+TAG_KEYWORD	apue.2e/ipp/ipp.h	102;"	d
+TAG_MIMETYPE	apue.2e/ipp/ipp.h	107;"	d
+TAG_NAMEWLANG	apue.2e/ipp/ipp.h	99;"	d
+TAG_NAMEWOLANG	apue.2e/ipp/ipp.h	101;"	d
+TAG_NATULANG	apue.2e/ipp/ipp.h	106;"	d
+TAG_NONE	apue.2e/ipp/ipp.h	90;"	d
+TAG_OCTSTR	apue.2e/ipp/ipp.h	94;"	d
+TAG_OPERATION_ATTR	apue.2e/ipp/ipp.h	79;"	d
+TAG_PRINTER_ATTR	apue.2e/ipp/ipp.h	82;"	d
+TAG_RESOLUTION	apue.2e/ipp/ipp.h	96;"	d
+TAG_TEXTWLANG	apue.2e/ipp/ipp.h	98;"	d
+TAG_TEXTWOLANG	apue.2e/ipp/ipp.h	100;"	d
+TAG_UNKNOWN	apue.2e/ipp/ipp.h	89;"	d
+TAG_UNSUPPORTED	apue.2e/ipp/ipp.h	88;"	d
+TAG_UNSUPP_ATTR	apue.2e/ipp/ipp.h	83;"	d
+TAG_URI	apue.2e/ipp/ipp.h	103;"	d
+TAG_URISCHEME	apue.2e/ipp/ipp.h	104;"	d
+TELL_CHILD	apue.2e/ipc/tellwait.c	/^TELL_CHILD(pid_t pid)$/;"	f
+TELL_CHILD	apue.2e/lib/tellwait.c	/^TELL_CHILD(pid_t pid)$/;"	f
+TELL_CHILD	chapter_10/pro_10_24.c	/^void TELL_CHILD(pid_t pid)$/;"	f
+TELL_CHILD	chapter_15/pro_15_7.c	/^void TELL_CHILD(pid_t pid)\/\/tell to child$/;"	f
+TELL_PARENT	apue.2e/ipc/tellwait.c	/^TELL_PARENT(pid_t pid)$/;"	f
+TELL_PARENT	apue.2e/lib/tellwait.c	/^TELL_PARENT(pid_t pid)$/;"	f
+TELL_PARENT	chapter_10/pro_10_24.c	/^void TELL_PARENT(void)$/;"	f
+TELL_PARENT	chapter_15/pro_15_7.c	/^void TELL_PARENT(void)\/\/tell to parent$/;"	f
+TELL_WAIT	apue.2e/ipc/tellwait.c	/^TELL_WAIT(void)$/;"	f
+TELL_WAIT	apue.2e/lib/tellwait.c	/^TELL_WAIT(void)$/;"	f
+TELL_WAIT	chapter_10/pro_10_24.c	/^void TELL_WAIT(void)$/;"	f
+TELL_WAIT	chapter_15/pro_15_7.c	/^void TELL_WAIT(void)$/;"	f
+TIMEOUT	apue.2e/sockets/ruptime-dg.c	7;"	d	file:
+TIMEOUT	chapter_16/pro_16_17.c	7;"	d	file:
+TOK_ADD	apue.2e/environ/cmd1.c	3;"	d	file:
+TOK_ADD	apue.2e/environ/cmd2.c	4;"	d	file:
+TOK_ADD	chapter_7/pro_7_11.c	4;"	d	file:
+TOK_ADD	chapter_7/pro_7_9.c	4;"	d	file:
+USECTONSEC	apue.2e/threadctl/timeout.c	15;"	d	file:
+USECTONSEC	chapter_12/pro_12_8.c	23;"	d	file:
+USERNM_MAX	apue.2e/ipp/print.h	22;"	d
+WAIT_CHILD	apue.2e/ipc/tellwait.c	/^WAIT_CHILD(void)$/;"	f
+WAIT_CHILD	apue.2e/lib/tellwait.c	/^WAIT_CHILD(void)$/;"	f
+WAIT_CHILD	chapter_10/pro_10_24.c	/^void WAIT_CHILD(void)$/;"	f
+WAIT_CHILD	chapter_15/pro_15_7.c	/^void WAIT_CHILD(void)\/\/wait for child$/;"	f
+WAIT_PARENT	apue.2e/ipc/tellwait.c	/^WAIT_PARENT(void)$/;"	f
+WAIT_PARENT	apue.2e/lib/tellwait.c	/^WAIT_PARENT(void)$/;"	f
+WAIT_PARENT	chapter_10/pro_10_24.c	/^void WAIT_PARENT(void)$/;"	f
+WAIT_PARENT	chapter_15/pro_15_7.c	/^void WAIT_PARENT(void)\/\/wait for parent$/;"	f
+WHITE	apue.2e/calld/calld.h	15;"	d
+WHITE	apue.2e/lib/bufargs.c	4;"	d	file:
+_APUE_DB_H	apue.2e/db/apue_db.h	2;"	d
+_APUE_DB_H	chapter_20/apue_db.h	2;"	d
+_APUE_H	apue.2e/include/apue.h	4;"	d
+_BSD_SOURCE	chapter_4/pro_4_25.c	5;"	d	file:
+_IO_LINE_BUF	apue.2e/stdio/buf.c	5;"	d	file:
+_IO_UNBUFFERED	apue.2e/stdio/buf.c	4;"	d	file:
+_IO_file_flags	apue.2e/stdio/buf.c	6;"	d	file:
+_IPP_H	apue.2e/ipp/ipp.h	2;"	d
+_PATH_ALLOC_H	chapter_2/path_alloc.h	2;"	d
+_POSIX_C_SOURCE	chapter_8/waitid_test.c	19;"	d	file:
+_PRINT_H	apue.2e/ipp/print.h	2;"	d
+_PR_EXIT_H	chapter_8/pr_exit.c	2;"	d	file:
+_PR_EXIT_H	chapter_8/pr_exit.h	2;"	d
+_XOPEN_SOURCE	apue.2e/include/apue.h	10;"	d
+_XOPEN_SOURCE	apue.2e/include/apue.h	7;"	d
+_base	chapter_5/pro_5_11.c	97;"	d	file:
+_db_alloc	apue.2e/db/db.c	/^_db_alloc(int namelen)$/;"	f	file:
+_db_alloc	chapter_20/db.c	/^static DB* _db_alloc(int namelen)$/;"	f	file:
+_db_dodelete	apue.2e/db/db.c	/^_db_dodelete(DB *db)$/;"	f	file:
+_db_dodelete	chapter_20/db.c	/^static void _db_dodelete(DB * db)$/;"	f	file:
+_db_find_and_lock	apue.2e/db/db.c	/^_db_find_and_lock(DB *db, const char *key, int writelock)$/;"	f	file:
+_db_find_and_lock	chapter_20/db.c	/^_db_find_and_lock(DB *db, const char *key, int writelock)$/;"	f	file:
+_db_findfree	apue.2e/db/db.c	/^_db_findfree(DB *db, int keylen, int datlen)$/;"	f	file:
+_db_findfree	chapter_20/db.c	/^_db_findfree(DB *db, int keylen, int datlen)$/;"	f	file:
+_db_free	apue.2e/db/db.c	/^_db_free(DB *db)$/;"	f	file:
+_db_free	chapter_20/db.c	/^static void _db_free(DB * db)$/;"	f	file:
+_db_hash	apue.2e/db/db.c	/^_db_hash(DB *db, const char *key)$/;"	f	file:
+_db_hash	chapter_20/db.c	/^_db_hash(DB *db, const char *key)$/;"	f	file:
+_db_readdat	apue.2e/db/db.c	/^_db_readdat(DB *db)$/;"	f	file:
+_db_readdat	chapter_20/db.c	/^static char* _db_readdat(DB *db)$/;"	f	file:
+_db_readidx	apue.2e/db/db.c	/^_db_readidx(DB *db, off_t offset)$/;"	f	file:
+_db_readidx	chapter_20/db.c	/^_db_readidx(DB *db, off_t offset)$/;"	f	file:
+_db_readptr	apue.2e/db/db.c	/^_db_readptr(DB *db, off_t offset)$/;"	f	file:
+_db_readptr	chapter_20/db.c	/^_db_readptr(DB *db, off_t offset)$/;"	f	file:
+_db_writedat	apue.2e/db/db.c	/^_db_writedat(DB *db, const char *data, off_t offset, int whence)$/;"	f	file:
+_db_writedat	chapter_20/db.c	/^_db_writedat(DB *db, const char* data, off_t offset, int whence)$/;"	f	file:
+_db_writeidx	apue.2e/db/db.c	/^_db_writeidx(DB *db, const char *key,$/;"	f	file:
+_db_writeidx	chapter_20/db.c	/^_db_writeidx(DB    *db, const char *key, off_t offset,$/;"	f	file:
+_db_writeptr	apue.2e/db/db.c	/^_db_writeptr(DB *db, off_t offset, off_t ptrval)$/;"	f	file:
+_db_writeptr	chapter_20/db.c	/^static void _db_writeptr(DB *db, off_t offset, off_t ptrval)$/;"	f	file:
+_flag	chapter_5/pro_5_11.c	95;"	d	file:
+_ptr	chapter_5/pro_5_11.c	96;"	d	file:
+a	apue.2e/exercises/goodexit.c	/^	int a, b, c, d;$/;"	m	struct:foo	file:
+a	apue.2e/threads/badexit2.c	/^	int a, b, c, d;$/;"	m	struct:foo	file:
+a	chapter_11/mutexes_test.c	/^int a[100];$/;"	v
+a	chapter_11/mutexes_try_test.c	/^int a[100];$/;"	v
+a	chapter_11/pro_11_10.c	/^int a[100];$/;"	v
+a	chapter_11/pro_11_4.c	/^	 int a,b,c,d;$/;"	m	struct:foo	file:
+abort	apue.2e/signals/abort.c	/^abort(void)			\/* POSIX-style abort() function *\/$/;"	f
+abort	chapter_10/pro_10_25.c	/^void abort(void)$/;"	f
+add	apue.2e/termios/ttyname.c	/^add(char *dirname)$/;"	f	file:
+add	chapter_18/pro_18_15.c	/^static void add(char * dirname)$/;"	f	file:
+add_job	apue.2e/ipp/printd.c	/^add_job(struct printreq *reqp, long jobid)$/;"	f
+add_option	apue.2e/ipp/printd.c	/^add_option(char *cp, int tag, char *optname, char *optval)$/;"	f
+add_worker	apue.2e/ipp/printd.c	/^add_worker(pthread_t tid, int sockfd)$/;"	f
+allset	apue.2e/calld/loop.c	/^static fd_set	allset;$/;"	v	file:
+already_running	apue.2e/daemons/single.c	/^already_running(void)$/;"	f
+already_running	chapter_13/pro_13_6.c	/^int already_running(void)$/;"	f
+array	apue.2e/ipc/tshm.c	/^char	array[ARRAY_SIZE];	\/* uninitialized data = bss *\/$/;"	v
+array	chapter_15/pro_15_31.c	/^char	array[ARRAY_SIZE];$/;"	v
+attr	apue.2e/threadctl/timeout.c	/^pthread_mutexattr_t attr;$/;"	v
+attr	chapter_12/pro_12_8.c	/^pthread_mutexattr_t attr;$/;"	v
+attr_group	apue.2e/ipp/ipp.h	/^	char    attr_group[1];	\/* start of optional attributes group *\/$/;"	m	struct:ipp_hdr
+b	apue.2e/exercises/goodexit.c	/^	int a, b, c, d;$/;"	m	struct:foo	file:
+b	apue.2e/threads/badexit2.c	/^	int a, b, c, d;$/;"	m	struct:foo	file:
+b	chapter_11/pro_11_4.c	/^	 int a,b,c,d;$/;"	m	struct:foo	file:
+buf	apue.2e/advio/nonblockw.c	/^char	buf[500000];$/;"	v
+buf	apue.2e/proc/fork1.c	/^char	buf[] = "a write to stdout\\n";$/;"	v
+buf	chapter_14/pro_14_1.c	/^char buf[BUFFSIZE];$/;"	v
+buf	chapter_8/pro_8_1.c	/^char buf[] = "a write to stdout\\n";$/;"	v
+buf1	apue.2e/file/hole.c	/^char	buf1[] = "abcdefghij";$/;"	v
+buf1	chapter_3/pro_3_2.c	/^char buf1[] = "abcdefghij";$/;"	v
+buf2	apue.2e/file/hole.c	/^char	buf2[] = "ABCDEFGHIJ";$/;"	v
+buf2	chapter_3/pro_3_2.c	/^char buf2[] = "ABCDEFGHIJ";$/;"	v
+buf_args	apue.2e/lib/bufargs.c	/^buf_args(char *buf, int (*optfunc)(int, char **))$/;"	f
+buffer_size	chapter_5/pro_5_11.c	/^int buffer_size(FILE *fp)$/;"	f
+buffer_size	chapter_5/pro_5_11.c	/^int buffer_size(FILE*fp)$/;"	f
+build_qonstart	apue.2e/ipp/printd.c	/^build_qonstart(void)$/;"	f
+c	apue.2e/exercises/goodexit.c	/^	int a, b, c, d;$/;"	m	struct:foo	file:
+c	apue.2e/threads/badexit2.c	/^	int a, b, c, d;$/;"	m	struct:foo	file:
+c	chapter_11/pro_11_4.c	/^	 int a,b,c,d;$/;"	m	struct:foo	file:
+call	apue.2e/call/call.c	/^call(const char *args)$/;"	f
+canjump	apue.2e/signals/mask.c	/^static volatile sig_atomic_t	canjump;$/;"	v	file:
+canjump	chapter_10/pro_10_20.c	/^static volatile	sig_atomic_t	canjump;$/;"	v	file:
+caught_alrm	apue.2e/calld/expectstr.c	/^static volatile sig_atomic_t	caught_alrm;$/;"	v	file:
+chainoff	apue.2e/db/db.c	/^  off_t  chainoff; \/* offset of hash chain for this index record *\/$/;"	m	struct:__anon4	file:
+chainoff	chapter_20/db.c	/^	off_t   chainoff;$/;"	m	struct:__anon11	file:
+charatatime	apue.2e/proc/tellwait1.c	/^charatatime(char *str)$/;"	f	file:
+charatatime	apue.2e/proc/tellwait2.c	/^charatatime(char *str)$/;"	f	file:
+charatatime	chapter_8/pro_8_12.c	/^charatatime(char* str)$/;"	f	file:
+child	apue.2e/threadctl/atfork.c	/^child(void)$/;"	f
+child	chapter_12/pro_12_17.c	/^void child(void)$/;"	f
+child_dial	apue.2e/calld/childdial.c	/^child_dial(Client *cliptr)$/;"	f
+child_done	apue.2e/calld/loop.c	/^child_done(int maxi)$/;"	f	file:
+child_handler	chapter_14/pro_14_12.c	/^void child_handler(int signo)$/;"	f
+child_handler	chapter_14/pro_14_7.c	/^void child_handler(int signo)$/;"	f
+childdone	apue.2e/calld/calld.h	/^  int	childdone;	\/* nonzero when SIGCHLD from dialing child recvd:$/;"	m	struct:__anon6
+childpid	apue.2e/lib/popen.c	/^static pid_t	*childpid = NULL;$/;"	v	file:
+childpid	chapter_15/pro_15_12.c	/^static pid_t	*childpid = NULL;$/;"	v	file:
+chld_flag	apue.2e/calld/main.c	/^volatile sig_atomic_t chld_flag;$/;"	v
+cleanup	apue.2e/termios/ttyname.c	/^cleanup(void)$/;"	f	file:
+cleanup	apue.2e/threads/cleanup.c	/^cleanup(void *arg)$/;"	f
+cleanup	chapter_11/pro_11_5.c	/^void cleanup(void *arg)$/;"	f
+cleanup	chapter_18/pro_18_15.c	/^static void cleanup(void)$/;"	f	file:
+cli_args	apue.2e/calld/cliargs.c	/^cli_args(int argc, char **argv)$/;"	f
+cli_args	apue.2e/opend.fe/cliargs.c	/^cli_args(int argc, char **argv)$/;"	f
+cli_conn	apue.2e/lib/cliconn.c	/^cli_conn(const char *name)$/;"	f
+cli_conn	apue.2e/sockets/cliconn.c	/^cli_conn(const char *name)$/;"	f
+cli_conn	apue.2e/streams/cliconn.c	/^cli_conn(const char *name)$/;"	f
+cli_done	apue.2e/calld/loop.c	/^cli_done(int clifd)$/;"	f	file:
+client	apue.2e/calld/main.c	/^Client		*client = NULL;$/;"	v
+client	apue.2e/opend/main.c	/^Client	*client = NULL;$/;"	v
+client_add	apue.2e/calld/client.c	/^client_add(int fd, uid_t uid)$/;"	f
+client_add	apue.2e/opend/client.c	/^client_add(int fd, uid_t uid)$/;"	f
+client_alloc	apue.2e/calld/client.c	/^client_alloc(void)		\/* alloc more entries in the client[] array *\/$/;"	f	file:
+client_alloc	apue.2e/opend/client.c	/^client_alloc(void)		\/* alloc more entries in the client[] array *\/$/;"	f	file:
+client_cleanup	apue.2e/ipp/printd.c	/^client_cleanup(void *arg)$/;"	f
+client_del	apue.2e/calld/client.c	/^client_del(int fd)$/;"	f
+client_del	apue.2e/opend/client.c	/^client_del(int fd)$/;"	f
+client_sigchld	apue.2e/calld/client.c	/^client_sigchld(pid_t pid, int stat)$/;"	f
+client_size	apue.2e/calld/main.c	/^int			clifd, log_to_stderr, client_size;$/;"	v
+client_size	apue.2e/opend/main.c	/^int		 debug, oflag, client_size, log_to_stderr;$/;"	v
+client_thread	apue.2e/ipp/printd.c	/^client_thread(void *arg)$/;"	f
+clifd	apue.2e/calld/main.c	/^int			clifd, log_to_stderr, client_size;$/;"	v
+clr_fl	apue.2e/lib/clrfl.c	/^clr_fl(int fd, int flags)$/;"	f
+clr_fl	chapter_14/pro_14_1.c	/^void clr_fl(int fd,int flags)$/;"	f
+clrasync	apue.2e/exercises/asyncsocket.c	/^clrasync(int sockfd)$/;"	f
+cmd_add	apue.2e/environ/cmd1.c	/^cmd_add(void)$/;"	f
+cmd_add	apue.2e/environ/cmd2.c	/^cmd_add(void)$/;"	f
+cmd_add	chapter_7/pro_7_11.c	/^void cmd_add(void)$/;"	f
+cmd_add	chapter_7/pro_7_9.c	/^void cmd_add(void)$/;"	f
+cmdargs	apue.2e/call/takeput.c	/^static char	cmdargs[MAXLINE];$/;"	v	file:
+cmptr	apue.2e/lib/recvfd.c	/^static struct cmsghdr	*cmptr = NULL;		\/* malloc'ed first time *\/$/;"	v	typeref:struct:cmsghdr	file:
+cmptr	apue.2e/lib/sendfd.c	/^static struct cmsghdr	*cmptr = NULL;	\/* malloc'ed first time *\/$/;"	v	typeref:struct:cmsghdr	file:
+cmptr	apue.2e/sockets/recvfd.c	/^static struct cmsghdr	*cmptr = NULL;		\/* malloc'ed first time *\/$/;"	v	typeref:struct:cmsghdr	file:
+cmptr	apue.2e/sockets/recvfd2.c	/^static struct cmsghdr	*cmptr = NULL;		\/* malloc'ed first time *\/$/;"	v	typeref:struct:cmsghdr	file:
+cmptr	apue.2e/sockets/sendfd.c	/^static struct cmsghdr	*cmptr = NULL;	\/* malloc'ed first time *\/$/;"	v	typeref:struct:cmsghdr	file:
+cmptr	apue.2e/sockets/sendfd2.c	/^static struct cmsghdr	*cmptr = NULL;	\/* malloc'ed first time *\/$/;"	v	typeref:struct:cmsghdr	file:
+cnt_delerr	apue.2e/db/db.c	/^  COUNT  cnt_delerr;   \/* delete error *\/$/;"	m	struct:__anon4	file:
+cnt_delerr	chapter_20/db.c	/^	COUNT   cnt_delerr;$/;"	m	struct:__anon11	file:
+cnt_delok	apue.2e/db/db.c	/^  COUNT  cnt_delok;    \/* delete OK *\/$/;"	m	struct:__anon4	file:
+cnt_delok	chapter_20/db.c	/^	COUNT   cnt_delok;$/;"	m	struct:__anon11	file:
+cnt_fetcherr	apue.2e/db/db.c	/^  COUNT  cnt_fetcherr; \/* fetch error *\/$/;"	m	struct:__anon4	file:
+cnt_fetcherr	chapter_20/db.c	/^	COUNT   cnt_fetcherr;$/;"	m	struct:__anon11	file:
+cnt_fetchok	apue.2e/db/db.c	/^  COUNT  cnt_fetchok;  \/* fetch OK *\/$/;"	m	struct:__anon4	file:
+cnt_fetchok	chapter_20/db.c	/^	COUNT   cnt_fetchok;$/;"	m	struct:__anon11	file:
+cnt_nextrec	apue.2e/db/db.c	/^  COUNT  cnt_nextrec;  \/* nextrec *\/$/;"	m	struct:__anon4	file:
+cnt_nextrec	chapter_20/db.c	/^	COUNT   cnt_nextrec;$/;"	m	struct:__anon11	file:
+cnt_stor1	apue.2e/db/db.c	/^  COUNT  cnt_stor1;    \/* store: DB_INSERT, no empty, appended *\/$/;"	m	struct:__anon4	file:
+cnt_stor1	chapter_20/db.c	/^	COUNT   cnt_stor1;$/;"	m	struct:__anon11	file:
+cnt_stor2	apue.2e/db/db.c	/^  COUNT  cnt_stor2;    \/* store: DB_INSERT, found empty, reused *\/$/;"	m	struct:__anon4	file:
+cnt_stor2	chapter_20/db.c	/^	COUNT   cnt_stor2;$/;"	m	struct:__anon11	file:
+cnt_stor3	apue.2e/db/db.c	/^  COUNT  cnt_stor3;    \/* store: DB_REPLACE, diff len, appended *\/$/;"	m	struct:__anon4	file:
+cnt_stor3	chapter_20/db.c	/^	COUNT   cnt_stor3;$/;"	m	struct:__anon11	file:
+cnt_stor4	apue.2e/db/db.c	/^  COUNT  cnt_stor4;    \/* store: DB_REPLACE, same len, overwrote *\/$/;"	m	struct:__anon4	file:
+cnt_stor4	chapter_20/db.c	/^	COUNT   cnt_stor4;$/;"	m	struct:__anon11	file:
+cnt_storerr	apue.2e/db/db.c	/^  COUNT  cnt_storerr;  \/* store error *\/$/;"	m	struct:__anon4	file:
+cnt_storerr	chapter_20/db.c	/^	COUNT   cnt_storerr;$/;"	m	struct:__anon11	file:
+compt2ulong	apue.2e/proc/pracct.c	/^compt2ulong(comp_t comptime)	\/* convert comp_t to unsigned long *\/$/;"	f	file:
+compt2ulong	chapter_8/pro_8_29.c	/^compt2ulong(comp_t comptime)$/;"	f	file:
+configlock	apue.2e/ipp/printd.c	/^pthread_mutex_t		configlock = PTHREAD_MUTEX_INITIALIZER;$/;"	v
+connect_retry	apue.2e/sockets/clconn.c	/^connect_retry(int sockfd, const struct sockaddr *addr, socklen_t alen)$/;"	f
+connect_retry	chapter_16/pro_16_9.c	/^int connect_retry(int sockfd,const struct sockaddr *addr,socklen_t alen)$/;"	f
+csopen	apue.2e/open.fe/open.c	/^csopen(char *name, int oflag)$/;"	f
+csopen	apue.2e/open/open.c	/^csopen(char *name, int oflag)$/;"	f
+ctermid	apue.2e/termios/ctermid.c	/^ctermid(char *str)$/;"	f
+ctermid_name	apue.2e/termios/ctermid.c	/^static char	ctermid_name[L_ctermid];$/;"	v	file:
+ctl_str	apue.2e/calld/ctlstr.c	/^ctl_str(unsigned char c)$/;"	f
+d	apue.2e/exercises/goodexit.c	/^	int a, b, c, d;$/;"	m	struct:foo	file:
+d	apue.2e/threads/badexit2.c	/^	int a, b, c, d;$/;"	m	struct:foo	file:
+d	chapter_11/pro_11_4.c	/^	 int a,b,c,d;$/;"	m	struct:foo	file:
+d_name	apue.2e/termios/ttyname.c	/^	char			*d_name;$/;"	m	struct:devdir	file:
+d_name	chapter_18/pro_18_15.c	/^	char	      *d_name;$/;"	m	struct:devdir	file:
+d_next	apue.2e/termios/ttyname.c	/^	struct devdir	*d_next;$/;"	m	struct:devdir	typeref:struct:devdir::devdir	file:
+d_next	chapter_18/pro_18_15.c	/^	struct devdir *d_next;$/;"	m	struct:devdir	typeref:struct:devdir::devdir	file:
+daemonize	apue.2e/daemons/init.c	/^daemonize(const char *cmd)$/;"	f
+daemonize	apue.2e/lib/daemonize.c	/^daemonize(const char *cmd)$/;"	f
+daemonize	chapter_13/pro_13_1.c	/^void daemonize(const char * cmd)$/;"	f
+datbuf	apue.2e/db/db.c	/^  char  *datbuf; \/* malloc'ed buffer for data record*\/$/;"	m	struct:__anon4	file:
+datbuf	chapter_20/db.c	/^	char	*datbuf;$/;"	m	struct:__anon11	file:
+datfd	apue.2e/db/db.c	/^  int    datfd;  \/* fd for data file *\/$/;"	m	struct:__anon4	file:
+datfd	chapter_20/db.c	/^	int	datfd;$/;"	m	struct:__anon11	file:
+datlen	apue.2e/db/db.c	/^  size_t datlen; \/* length of data record *\/$/;"	m	struct:__anon4	file:
+datlen	chapter_20/db.c	/^	size_t  datlen;$/;"	m	struct:__anon11	file:
+datoff	apue.2e/db/db.c	/^  off_t  datoff; \/* offset in data file of data record *\/$/;"	m	struct:__anon4	file:
+datoff	chapter_20/db.c	/^	off_t   datoff;$/;"	m	struct:__anon11	file:
+db_close	apue.2e/db/db.c	/^db_close(DBHANDLE h)$/;"	f
+db_close	chapter_20/db.c	/^void db_close(DBHANDLE h)$/;"	f
+db_delete	apue.2e/db/db.c	/^db_delete(DBHANDLE h, const char *key)$/;"	f
+db_delete	chapter_20/db.c	/^int db_delete(DBHANDLE h, const char *key)$/;"	f
+db_fetch	apue.2e/db/db.c	/^db_fetch(DBHANDLE h, const char *key)$/;"	f
+db_fetch	chapter_20/db.c	/^char *db_fetch(DBHANDLE h, const char *key)$/;"	f
+db_nextrec	apue.2e/db/db.c	/^db_nextrec(DBHANDLE h, char *key)$/;"	f
+db_nextrec	chapter_20/db.c	/^db_nextrec(DBHANDLE h, char *key)$/;"	f
+db_open	apue.2e/db/db.c	/^db_open(const char *pathname, int oflag, ...)$/;"	f
+db_open	chapter_20/db.c	/^db_open(const char *pathname, int oflag, ...)$/;"	f
+db_rewind	apue.2e/db/db.c	/^db_rewind(DBHANDLE h)$/;"	f
+db_rewind	chapter_20/db.c	/^void db_rewind(DBHANDLE h)$/;"	f
+db_store	apue.2e/db/db.c	/^db_store(DBHANDLE h, const char *key, const char *data, int flag)$/;"	f
+db_store	chapter_20/db.c	/^int db_store(DBHANDLE h,const char *key, const char *data, int flag)$/;"	f
+debug	apue.2e/opend/main.c	/^int		 debug, oflag, client_size, log_to_stderr;$/;"	v
+dev_find	apue.2e/calld/devfile.c	/^dev_find(Devices *devptr, const Systems *sysptr)$/;"	f
+dev_next	apue.2e/calld/devfile.c	/^dev_next(Devices *devptr)	\/* pointers in structure are filled in *\/$/;"	f
+dev_rew	apue.2e/calld/devfile.c	/^dev_rew(void)$/;"	f
+devdir	apue.2e/termios/ttyname.c	/^struct devdir {$/;"	s	file:
+devdir	chapter_18/pro_18_15.c	/^struct devdir$/;"	s	file:
+devices	apue.2e/calld/main.c	/^Devices		devices;$/;"	v
+devline	apue.2e/calld/devfile.c	/^static char	devline[MAXLINE];$/;"	v	file:
+devlineno	apue.2e/calld/devfile.c	/^static int	devlineno;			\/* for error messages *\/$/;"	v	file:
+dial_find	apue.2e/calld/dialfile.c	/^dial_find(Dialers *dialptr, const Devices *devptr)$/;"	f
+dial_next	apue.2e/calld/dialfile.c	/^dial_next(Dialers *dialptr)	\/* pointers in structure are filled in *\/$/;"	f
+dial_rew	apue.2e/calld/dialfile.c	/^dial_rew(void)$/;"	f
+dialer	apue.2e/calld/calld.h	/^  char	*dialer;	\/* matched by dialer in Devices *\/$/;"	m	struct:__anon9
+dialer	apue.2e/calld/calld.h	/^  char	*dialer;	\/* name of dialer in Dialers *\/$/;"	m	struct:__anon8
+dialers	apue.2e/calld/main.c	/^Dialers		dialers;$/;"	v
+dialline	apue.2e/calld/dialfile.c	/^static char	dialline[MAXLINE];$/;"	v	file:
+diallineno	apue.2e/calld/dialfile.c	/^static int	diallineno;			\/* for error messages *\/$/;"	v	file:
+do_cmd	apue.2e/proc/times1.c	/^do_cmd(char *cmd)		\/* execute and time the "cmd" *\/$/;"	f	file:
+do_cmd	chapter_8/pro_8_30.c	/^do_cmd(char* cmd)$/;"	f	file:
+do_driver	apue.2e/pty/driver.c	/^do_driver(char *driver)$/;"	f
+do_line	apue.2e/environ/cmd1.c	/^do_line(char *ptr)		\/* process one line of input *\/$/;"	f
+do_line	chapter_7/pro_7_9.c	/^void do_line(char* ptr)$/;"	f
+doescape	apue.2e/call/escape.c	/^doescape(int remfd)$/;"	f
+doit	apue.2e/environ/getrlimit.c	10;"	d	file:
+doit	chapter_7/pro_7_17.c	5;"	d	file:
+dopath	apue.2e/file/ftw4.c	/^dopath(Myfunc* func)$/;"	f	file:
+dopath	chapter_4/pro_4_22.c	/^static int dopath(Myfunc* func)$/;"	f	file:
+dst	apue.2e/call/main.c	/^char	*dst;$/;"	v
+enqueue_msg	apue.2e/threads/condvar.c	/^enqueue_msg(struct msg *mp)$/;"	f
+env_alrm	apue.2e/signals/read2.c	/^static jmp_buf	env_alrm;$/;"	v	file:
+env_alrm	apue.2e/signals/sleep2.c	/^static jmp_buf	env_alrm;$/;"	v	file:
+env_alrm	chapter_10/pro_10_11.c	/^static jmp_buf env_alrm;$/;"	v	file:
+env_alrm	chapter_10/pro_10_8.c	/^static jmp_buf env_alrm;$/;"	v	file:
+env_alrm	chapter_10/sleep2_test.c	/^static jmp_buf env_alrm;$/;"	v	file:
+env_init	apue.2e/proc/exec1.c	/^char	*env_init[] = { "USER=unknown", "PATH=\/tmp", NULL };$/;"	v
+env_init	chapter_8/pro_8_16.c	/^char* env_init[] = {"USER=unknown" ,"PATH=\/tmp",NULL};$/;"	v
+env_mutex	apue.2e/threadctl/getenv2.c	/^pthread_mutex_t env_mutex;$/;"	v
+env_mutex	apue.2e/threadctl/getenv3.c	/^pthread_mutex_t env_mutex = PTHREAD_MUTEX_INITIALIZER;$/;"	v
+envbuf	apue.2e/threadctl/getenv1.c	/^static char envbuf[ARG_MAX];$/;"	v	file:
+err_doit	apue.2e/lib/error.c	/^err_doit(int errnoflag, int error, const char *fmt, va_list ap)$/;"	f	file:
+err_dump	apue.2e/lib/error.c	/^err_dump(const char *fmt, ...)$/;"	f
+err_exit	apue.2e/lib/error.c	/^err_exit(int error, const char *fmt, ...)$/;"	f
+err_msg	apue.2e/lib/error.c	/^err_msg(const char *fmt, ...)$/;"	f
+err_quit	apue.2e/lib/error.c	/^err_quit(const char *fmt, ...)$/;"	f
+err_ret	apue.2e/lib/error.c	/^err_ret(const char *fmt, ...)$/;"	f
+err_sys	apue.2e/lib/error.c	/^err_sys(const char *fmt, ...)$/;"	f
+errmsg	apue.2e/calld/main.c	/^char		errmsg[MAXLINE];$/;"	v
+errmsg	apue.2e/opend.fe/main.c	/^char	 errmsg[MAXLINE];$/;"	v
+errmsg	apue.2e/opend/main.c	/^char	 errmsg[MAXLINE];$/;"	v
+escapec	apue.2e/call/main.c	/^char	 escapec = '~';$/;"	v
+exp_read	apue.2e/calld/expectstr.c	/^exp_read(int fd, char *buf)$/;"	f
+expalarm	apue.2e/calld/expectstr.c	/^static int		expalarm = EXPALRM;$/;"	v	file:
+expect_str	apue.2e/calld/expectstr.c	/^expect_str(int fd, char *ptr)$/;"	f
+expsend	apue.2e/calld/calld.h	/^  char	*expsend;	\/* expect\/send chat *\/$/;"	m	struct:__anon9
+f1	apue.2e/environ/testjmp.c	/^f1(int i, int j, int k, int l)$/;"	f	file:
+f1	apue.2e/proc/vfork3.c	/^f1(void)$/;"	f	file:
+f1	chapter_7/pro_7_13.c	/^static void f1(int i,int j,int k,int l)$/;"	f	file:
+f2	apue.2e/environ/testjmp.c	/^f2(void)$/;"	f	file:
+f2	apue.2e/proc/vfork3.c	/^f2(void)$/;"	f	file:
+f2	chapter_7/pro_7_13.c	/^static void f2(void)$/;"	f	file:
+f_count	apue.2e/threads/mutex1.c	/^	int             f_count;$/;"	m	struct:foo	file:
+f_count	apue.2e/threads/mutex2.c	/^	int             f_count;$/;"	m	struct:foo	file:
+f_count	apue.2e/threads/mutex3.c	/^	int             f_count; \/* protected by hashlock *\/$/;"	m	struct:foo	file:
+f_count	chapter_11/pro_11_10.c	/^	int f_count;$/;"	m	struct:foo	file:
+f_id	apue.2e/threads/mutex2.c	/^	int             f_id;$/;"	m	struct:foo	file:
+f_id	apue.2e/threads/mutex3.c	/^	int             f_id;$/;"	m	struct:foo	file:
+f_lock	apue.2e/threads/mutex1.c	/^	pthread_mutex_t f_lock;$/;"	m	struct:foo	file:
+f_lock	apue.2e/threads/mutex2.c	/^	pthread_mutex_t f_lock;$/;"	m	struct:foo	file:
+f_lock	apue.2e/threads/mutex3.c	/^	pthread_mutex_t f_lock;$/;"	m	struct:foo	file:
+f_lock	chapter_11/pro_11_10.c	/^	pthread_mutex_t	f_lock;$/;"	m	struct:foo	file:
+f_next	apue.2e/threads/mutex2.c	/^	struct foo     *f_next; \/* protected by hashlock *\/$/;"	m	struct:foo	typeref:struct:foo::foo	file:
+f_next	apue.2e/threads/mutex3.c	/^	struct foo     *f_next; \/* protected by hashlock *\/$/;"	m	struct:foo	typeref:struct:foo::foo	file:
+fd	apue.2e/calld/calld.h	/^  int	fd;			\/* fd, or -1 if available *\/$/;"	m	struct:__anon6
+fd	apue.2e/opend/opend.h	/^  int	fd;			\/* fd, or -1 if available *\/$/;"	m	struct:__anon3
+fh	apue.2e/threads/mutex2.c	/^struct foo *fh[NHASH];$/;"	v	typeref:struct:foo
+fh	apue.2e/threads/mutex3.c	/^struct foo *fh[NHASH];$/;"	v	typeref:struct:foo
+fh	chapter_11/pro_11_11.c	/^struct foo* fh[NHASH];$/;"	v	typeref:struct:foo
+find_line	apue.2e/calld/lock.c	/^find_line(char *line)$/;"	f	file:
+flags	apue.2e/ipp/print.h	/^	long flags;					\/* see below *\/$/;"	m	struct:printreq
+foo	apue.2e/exercises/goodexit.c	/^struct foo {$/;"	s	file:
+foo	apue.2e/threads/badexit2.c	/^struct foo {$/;"	s	file:
+foo	apue.2e/threads/mutex1.c	/^struct foo {$/;"	s	file:
+foo	apue.2e/threads/mutex2.c	/^struct foo {$/;"	s	file:
+foo	apue.2e/threads/mutex3.c	/^struct foo {$/;"	s	file:
+foo	chapter_11/pro_11_10.c	/^struct foo$/;"	s	file:
+foo	chapter_11/pro_11_4.c	/^struct foo foo ={1,2,3,4};$/;"	v	typeref:struct:foo
+foo	chapter_11/pro_11_4.c	/^struct foo$/;"	s	file:
+foo_alloc	apue.2e/threads/mutex1.c	/^foo_alloc(void) \/* allocate the object *\/$/;"	f
+foo_alloc	apue.2e/threads/mutex2.c	/^foo_alloc(void) \/* allocate the object *\/$/;"	f
+foo_alloc	apue.2e/threads/mutex3.c	/^foo_alloc(void) \/* allocate the object *\/$/;"	f
+foo_alloc	chapter_11/pro_11_10.c	/^struct foo* foo_alloc(void)$/;"	f
+foo_find	apue.2e/threads/mutex2.c	/^foo_find(int id) \/* find an existing object *\/$/;"	f
+foo_find	apue.2e/threads/mutex3.c	/^foo_find(int id) \/* find a existing object *\/$/;"	f
+foo_hold	apue.2e/threads/mutex1.c	/^foo_hold(struct foo *fp) \/* add a reference to the object *\/$/;"	f
+foo_hold	apue.2e/threads/mutex2.c	/^foo_hold(struct foo *fp) \/* add a reference to the object *\/$/;"	f
+foo_hold	apue.2e/threads/mutex3.c	/^foo_hold(struct foo *fp) \/* add a reference to the object *\/$/;"	f
+foo_hold	chapter_11/pro_11_10.c	/^void foo_hold(struct foo*fp)$/;"	f
+foo_rele	apue.2e/threads/mutex1.c	/^foo_rele(struct foo *fp) \/* release a reference to the object *\/$/;"	f
+foo_rele	apue.2e/threads/mutex2.c	/^foo_rele(struct foo *fp) \/* release a reference to the object *\/$/;"	f
+foo_rele	apue.2e/threads/mutex3.c	/^foo_rele(struct foo *fp) \/* release a reference to the object *\/$/;"	f
+foo_rele	chapter_11/pro_11_10.c	/^void foo_rele(struct foo*fp)$/;"	f
+foundone	apue.2e/calld/calld.h	/^  long	foundone;	\/* true if we find a matching sysfile entry *\/$/;"	m	struct:__anon6
+fpdev	apue.2e/calld/devfile.c	/^static FILE	*fpdev = NULL;$/;"	v	file:
+fpdial	apue.2e/calld/dialfile.c	/^static FILE	*fpdial = NULL;$/;"	v	file:
+fpsys	apue.2e/calld/sysfile.c	/^static FILE	*fpsys = NULL;$/;"	v	file:
+fullpath	apue.2e/file/ftw4.c	/^static char	*fullpath;		\/* contains full pathname for every file *\/$/;"	v	file:
+fullpath	chapter_4/pro_4_22.c	/^static char *fullpath;$/;"	v	file:
+get_newjobno	apue.2e/ipp/printd.c	/^get_newjobno(void)$/;"	f
+get_printaddr	apue.2e/ipp/util.c	/^get_printaddr(void)$/;"	f
+get_printserver	apue.2e/ipp/util.c	/^get_printserver(void)$/;"	f
+get_toke	chapter_7/pro_7_9.c	/^int get_toke(void)$/;"	f
+get_token	apue.2e/environ/cmd1.c	/^get_token(void)$/;"	f
+getaddrlist	apue.2e/ipp/util.c	/^getaddrlist(const char *host, const char *service,$/;"	f
+getenv	apue.2e/threadctl/getenv1.c	/^getenv(const char *name)$/;"	f
+getenv	apue.2e/threadctl/getenv3.c	/^getenv(const char *name)$/;"	f
+getenv_r	apue.2e/threadctl/getenv2.c	/^getenv_r(const char *name, char *buf, int buflen)$/;"	f
+getpass	apue.2e/termios/getpass.c	/^getpass(const char *prompt)$/;"	f
+getpass	chapter_18/pro_18_17.c	/^char* getpass(const char* prompt)$/;"	f
+getpwnam	apue.2e/datafiles/getpwnam.c	/^getpwnam(const char *name)$/;"	f
+getpwname	chapter_6/pro_6_2.c	/^getpwname(const char*name)$/;"	f
+glob	apue.2e/proc/fork1.c	/^int		glob = 6;		\/* external variable in initialized data *\/$/;"	v
+glob	apue.2e/proc/vfork1.c	/^int		glob = 6;		\/* external variable in initialized data *\/$/;"	v
+glob	chapter_8/pro_8_1.c	/^int glob = 6;$/;"	v
+glob	chapter_8/pro_8_3.c	/^int glob = 6;$/;"	v
+globval	apue.2e/environ/testjmp.c	/^static int		globval;$/;"	v	file:
+globval	chapter_7/pro_7_13.c	/^static int globval;$/;"	v	file:
+grantpt	apue.2e/lib/bsd_ptyopen.c	/^grantpt(int fdm)$/;"	f
+grantpt	apue.2e/lib/linux_ptyopen.c	/^grantpt(int fdm)$/;"	f
+hashlock	apue.2e/threads/mutex2.c	/^pthread_mutex_t hashlock = PTHREAD_MUTEX_INITIALIZER;$/;"	v
+hashlock	apue.2e/threads/mutex3.c	/^pthread_mutex_t hashlock = PTHREAD_MUTEX_INITIALIZER;$/;"	v
+hashoff	apue.2e/db/db.c	/^  off_t  hashoff;  \/* offset in index file of hash table *\/$/;"	m	struct:__anon4	file:
+hashoff	chapter_20/db.c	/^	off_t   hashoff;$/;"	m	struct:__anon11	file:
+head	apue.2e/termios/ttyname.c	/^static struct devdir	*head;$/;"	v	typeref:struct:devdir	file:
+head	chapter_18/pro_18_15.c	/^static struct devdir	*head;$/;"	v	typeref:struct:devdir	file:
+idxbuf	apue.2e/db/db.c	/^  char  *idxbuf; \/* malloc'ed buffer for index record *\/$/;"	m	struct:__anon4	file:
+idxbuf	chapter_20/db.c	/^	char	*idxbuf;$/;"	m	struct:__anon11	file:
+idxfd	apue.2e/db/db.c	/^  int    idxfd;  \/* fd for index file *\/$/;"	m	struct:__anon4	file:
+idxfd	chapter_20/db.c	/^	int	idxfd;$/;"	m	struct:__anon11	file:
+idxlen	apue.2e/db/db.c	/^  size_t idxlen; \/* length of index record *\/$/;"	m	struct:__anon4	file:
+idxlen	chapter_20/db.c	/^	size_t  idxlen;$/;"	m	struct:__anon11	file:
+idxoff	apue.2e/db/db.c	/^  off_t  idxoff; \/* offset in index file of index record *\/$/;"	m	struct:__anon4	file:
+idxoff	chapter_20/db.c	/^	off_t   idxoff;$/;"	m	struct:__anon11	file:
+init_done	apue.2e/threadctl/getenv2.c	/^static pthread_once_t init_done = PTHREAD_ONCE_INIT;$/;"	v	file:
+init_done	apue.2e/threadctl/getenv3.c	/^static pthread_once_t init_done = PTHREAD_ONCE_INIT;$/;"	v	file:
+init_printer	apue.2e/ipp/printd.c	/^init_printer(void)$/;"	f
+init_request	apue.2e/ipp/printd.c	/^init_request(void)$/;"	f
+initserver	apue.2e/sockets/initsrv1.c	/^initserver(int type, const struct sockaddr *addr, socklen_t alen,$/;"	f
+initserver	apue.2e/sockets/initsrv2.c	/^initserver(int type, const struct sockaddr *addr, socklen_t alen,$/;"	f
+initserver	chapter_16/pro_16_10.c	/^int initserver(int type,const struct sockaddr *addr,socklen_t alen,int qlen)$/;"	f
+ipp_hdr	apue.2e/ipp/ipp.h	/^struct ipp_hdr {$/;"	s
+is_linebuffered	chapter_5/pro_5_11.c	/^int is_linebuffered(FILE* fp)$/;"	f
+is_linebuffered	chapter_5/pro_5_11.c	/^int is_linebuffered(FILE*fp)$/;"	f
+is_locked	apue.2e/calld/lock.c	/^is_locked(char *line)$/;"	f
+is_read_lockable	apue.2e/include/apue.h	104;"	d
+is_unbuffered	chapter_5/pro_5_11.c	/^int is_unbuffered(FILE *fp)$/;"	f
+is_unbuffered	chapter_5/pro_5_11.c	/^int is_unbuffered(FILE*fp)$/;"	f
+is_write_lockable	apue.2e/include/apue.h	106;"	d
+isastream	apue.2e/streams/isastream.c	/^isastream(int fd)$/;"	f
+isatty	apue.2e/termios/isatty.c	/^isatty(int fd)$/;"	f
+j_id	apue.2e/threads/rwlock.c	/^	pthread_t   j_id;   \/* tells which thread handles this job *\/$/;"	m	struct:job	file:
+j_id	chapter_11/pro_11_13.c	/^	pthread_t   j_id;$/;"	m	struct:job	file:
+j_next	apue.2e/threads/rwlock.c	/^	struct job *j_next;$/;"	m	struct:job	typeref:struct:job::job	file:
+j_next	chapter_11/pro_11_13.c	/^	struct job* j_next;$/;"	m	struct:job	typeref:struct:job::job	file:
+j_prev	apue.2e/threads/rwlock.c	/^	struct job *j_prev;$/;"	m	struct:job	typeref:struct:job::job	file:
+j_prev	chapter_11/pro_11_13.c	/^	struct job* j_prev;$/;"	m	struct:job	typeref:struct:job::job	file:
+jmpbuf	apue.2e/signals/mask.c	/^static sigjmp_buf				jmpbuf;$/;"	v	file:
+jmpbuf	chapter_10/pro_10_20.c	/^static sigjmp_buf		jmpbuf;$/;"	v	file:
+jmpbuffer	apue.2e/environ/cmd2.c	/^jmp_buf	jmpbuffer;$/;"	v
+jmpbuffer	apue.2e/environ/testjmp.c	/^static jmp_buf	jmpbuffer;$/;"	v	file:
+jmpbuffer	chapter_7/pro_7_11.c	/^jmp_buf jmpbuffer;$/;"	v
+jmpbuffer	chapter_7/pro_7_13.c	/^static jmp_buf jmpbuffer;$/;"	v	file:
+job	apue.2e/ipp/printd.c	/^struct job {$/;"	s	file:
+job	apue.2e/threads/rwlock.c	/^struct job {$/;"	s	file:
+job	chapter_11/pro_11_13.c	/^struct job$/;"	s	file:
+job_append	apue.2e/threads/rwlock.c	/^job_append(struct queue *qp, struct job *jp)$/;"	f
+job_append	chapter_11/pro_11_13.c	/^void job_append(struct queue* qp,struct job *jp)$/;"	f
+job_find	apue.2e/threads/rwlock.c	/^job_find(struct queue *qp, pthread_t id)$/;"	f
+job_insert	apue.2e/threads/rwlock.c	/^job_insert(struct queue *qp, struct job *jp)$/;"	f
+job_insert	chapter_11/pro_11_13.c	/^void job_insert(struct queue* qp,struct job *jp)$/;"	f
+job_remove	apue.2e/threads/rwlock.c	/^job_remove(struct queue *qp, struct job *jp)$/;"	f
+job_remove	chapter_11/pro_11_13.c	/^void job_remove(struct queue*qp,struct job * jp)$/;"	f
+jobfd	apue.2e/ipp/printd.c	/^int					jobfd;$/;"	v
+jobhead	apue.2e/ipp/printd.c	/^struct job				*jobhead, *jobtail;$/;"	v	typeref:struct:job
+jobid	apue.2e/ipp/print.h	/^	long jobid;					\/* job ID *\/$/;"	m	struct:printresp
+jobid	apue.2e/ipp/printd.c	/^	long             jobid;		\/* job ID *\/$/;"	m	struct:job	file:
+joblock	apue.2e/ipp/printd.c	/^pthread_mutex_t		joblock = PTHREAD_MUTEX_INITIALIZER;$/;"	v
+jobnm	apue.2e/ipp/print.h	/^	char jobnm[JOBNM_MAX];		\/* job's name *\/$/;"	m	struct:printreq
+jobtail	apue.2e/ipp/printd.c	/^struct job				*jobhead, *jobtail;$/;"	v	typeref:struct:
+jobwait	apue.2e/ipp/printd.c	/^pthread_cond_t			jobwait = PTHREAD_COND_INITIALIZER;$/;"	v
+key	apue.2e/threadctl/getenv3.c	/^static pthread_key_t key;$/;"	v	file:
+kill_workers	apue.2e/ipp/printd.c	/^kill_workers(void)$/;"	f
+line	apue.2e/calld/calld.h	/^  char	*line;		\/* (e.g., "cua0") without preceding "\/dev\/" *\/$/;"	m	struct:__anon8
+line	apue.2e/calld/lock.c	/^  char	*line;	\/* points to malloc()ed area *\/$/;"	m	struct:__anon5	file:
+line2	apue.2e/calld/calld.h	/^  char	*line2;		\/* (ignored) *\/$/;"	m	struct:__anon8
+lock	apue.2e/calld/lock.c	/^static Lock	*lock = NULL;	\/* the malloc'ed\/realloc'ed array *\/$/;"	v	file:
+lock	apue.2e/threadctl/suspend.c	/^pthread_mutex_t lock = PTHREAD_MUTEX_INITIALIZER;$/;"	v
+lock	chapter_11/mutexes_test.c	/^pthread_mutex_t lock;$/;"	v
+lock	chapter_11/mutexes_try_test.c	/^pthread_mutex_t lock;$/;"	v
+lock	chapter_12/pro_12_16.c	/^pthread_mutex_t	lock = PTHREAD_MUTEX_INITIALIZER;$/;"	v
+lock1	apue.2e/threadctl/atfork.c	/^pthread_mutex_t lock1 = PTHREAD_MUTEX_INITIALIZER;$/;"	v
+lock1	chapter_12/pro_12_17.c	/^pthread_mutex_t lock1 = PTHREAD_MUTEX_INITIALIZER;$/;"	v
+lock2	apue.2e/threadctl/atfork.c	/^pthread_mutex_t lock2 = PTHREAD_MUTEX_INITIALIZER;$/;"	v
+lock2	chapter_12/pro_12_17.c	/^pthread_mutex_t lock2 = PTHREAD_MUTEX_INITIALIZER;$/;"	v
+lock_reg	apue.2e/lib/lockreg.c	/^lock_reg(int fd, int cmd, int type, off_t offset, int whence, off_t len)$/;"	f
+lock_reg	chapter_14/pro_14_12.c	/^int lock_reg(int fd,int cmd,int type,off_t offset,int whence,off_t len)$/;"	f
+lock_reg	chapter_14/pro_14_5.c	/^int lock_reg(int fd,int cmd,int type,off_t offset,int whence,off_t len)$/;"	f
+lock_reg	chapter_14/pro_14_7.c	/^int lock_reg(int fd,int cmd,int type,off_t offset,int whence,off_t len)$/;"	f
+lock_reg	chapter_20/db.c	/^int lock_reg(int fd,       int    cmd, int type, $/;"	f
+lock_rel	apue.2e/calld/lock.c	/^lock_rel(pid_t pid)$/;"	f
+lock_set	apue.2e/calld/lock.c	/^lock_set(char *line, pid_t pid)$/;"	f
+lock_size	apue.2e/calld/lock.c	/^static int	 lock_size;		\/* #entries in lock[] *\/$/;"	v	file:
+lock_test	apue.2e/lib/locktest.c	/^lock_test(int fd, int type, off_t offset, int whence, off_t len)$/;"	f
+lock_test	chapter_14/pro_14_6.c	/^lock_test(int fd,int type,off_t offset,int whence,off_t len)$/;"	f
+lockabyte	apue.2e/lock/deadlock.c	/^lockabyte(const char *name, int fd, off_t offset)$/;"	f	file:
+lockabyte	chapter_14/pro_14_7.c	/^static void lockabyte(const char *name,int fd,off_t offset)$/;"	f	file:
+lockfile	apue.2e/daemons/lockfile.c	/^lockfile(int fd)$/;"	f
+log_doit	apue.2e/lib/errorlog.c	/^log_doit(int errnoflag, int priority, const char *fmt, va_list ap)$/;"	f	file:
+log_msg	apue.2e/lib/errorlog.c	/^log_msg(const char *fmt, ...)$/;"	f
+log_open	apue.2e/lib/errorlog.c	/^log_open(const char *ident, int option, int facility)$/;"	f
+log_quit	apue.2e/lib/errorlog.c	/^log_quit(const char *fmt, ...)$/;"	f
+log_ret	apue.2e/lib/errorlog.c	/^log_ret(const char *fmt, ...)$/;"	f
+log_sys	apue.2e/lib/errorlog.c	/^log_sys(const char *fmt, ...)$/;"	f
+log_to_stderr	apue.2e/calld/main.c	/^int			clifd, log_to_stderr, client_size;$/;"	v
+log_to_stderr	apue.2e/ipp/print.c	/^int log_to_stderr = 1;$/;"	v
+log_to_stderr	apue.2e/ipp/printd.c	/^int					log_to_stderr = 0;$/;"	v
+log_to_stderr	apue.2e/opend/main.c	/^int		 debug, oflag, client_size, log_to_stderr;$/;"	v
+login	apue.2e/calld/calld.h	/^  char	*login;		\/* uucp login chat (ignored) *\/$/;"	m	struct:__anon7
+loop	apue.2e/call/loop.poll.c	/^loop(int remfd)$/;"	f
+loop	apue.2e/calld/loop.c	/^loop(void)$/;"	f
+loop	apue.2e/opend/loop.poll.c	/^loop(void)$/;"	f
+loop	apue.2e/opend/loop.select.c	/^loop(void)$/;"	f
+loop	apue.2e/pty/loop.c	/^loop(int ptym, int ignoreeof)$/;"	f
+m_next	apue.2e/threads/condvar.c	/^	struct msg *m_next;$/;"	m	struct:msg	typeref:struct:msg::msg	file:
+main	apue.2e/advio/catgetmsg.c	/^main(void)$/;"	f
+main	apue.2e/advio/devzero.c	/^main(void)$/;"	f
+main	apue.2e/advio/mcopy.c	/^main(int argc, char *argv[])$/;"	f
+main	apue.2e/advio/nonblockw.c	/^main(void)$/;"	f
+main	apue.2e/advio/pendlock.c	/^main(void)$/;"	f
+main	apue.2e/call/main.c	/^main(int argc, char *argv[])$/;"	f
+main	apue.2e/calld/main.c	/^main(int argc, char *argv[])$/;"	f
+main	apue.2e/daemons/reread.c	/^main(int argc, char *argv[])$/;"	f
+main	apue.2e/daemons/reread2.c	/^main(int argc, char *argv[])$/;"	f
+main	apue.2e/db/t4.c	/^main(void)$/;"	f
+main	apue.2e/environ/cmd1.c	/^main(void)$/;"	f
+main	apue.2e/environ/cmd2.c	/^main(void)$/;"	f
+main	apue.2e/environ/doatexit.c	/^main(void)$/;"	f
+main	apue.2e/environ/getrlimit.c	/^main(void)$/;"	f
+main	apue.2e/environ/hello1.c	/^main()$/;"	f
+main	apue.2e/environ/testjmp.c	/^main(void)$/;"	f
+main	apue.2e/exercises/getlogin.c	/^main(void)$/;"	f
+main	apue.2e/exercises/getpw44bsd.c	/^main(void)		\/* FreeBSD\/Mac OS X version *\/$/;"	f
+main	apue.2e/exercises/getpwsvr4.c	/^main(void)		\/* Linux\/Solaris version *\/$/;"	f
+main	apue.2e/exercises/goodexit.c	/^main(void)$/;"	f
+main	apue.2e/exercises/prtime.c	/^main(void)$/;"	f
+main	apue.2e/exercises/sizepipe.c	/^main(void)$/;"	f
+main	apue.2e/file/access.c	/^main(int argc, char *argv[])$/;"	f
+main	apue.2e/file/cdpwd.c	/^main(void)$/;"	f
+main	apue.2e/file/changemod.c	/^main(void)$/;"	f
+main	apue.2e/file/devrdev.c	/^main(int argc, char *argv[])$/;"	f
+main	apue.2e/file/fileflags.c	/^main(int argc, char *argv[])$/;"	f
+main	apue.2e/file/filetype.c	/^main(int argc, char *argv[])$/;"	f
+main	apue.2e/file/ftw4.c	/^main(int argc, char *argv[])$/;"	f
+main	apue.2e/file/hello.c	/^main(void)$/;"	f
+main	apue.2e/file/hole.c	/^main(void)$/;"	f
+main	apue.2e/file/longpath.c	/^main(void)$/;"	f
+main	apue.2e/file/ls1.c	/^main(int argc, char *argv[])$/;"	f
+main	apue.2e/file/mycd.c	/^main(void)$/;"	f
+main	apue.2e/file/seek.c	/^main(void)$/;"	f
+main	apue.2e/file/testerror.c	/^main(int argc, char *argv[])$/;"	f
+main	apue.2e/file/uidgid.c	/^main(void)$/;"	f
+main	apue.2e/file/umask.c	/^main(void)$/;"	f
+main	apue.2e/file/unlink.c	/^main(void)$/;"	f
+main	apue.2e/file/zap.c	/^main(int argc, char *argv[])$/;"	f
+main	apue.2e/ipc/add2.c	/^main(void)$/;"	f
+main	apue.2e/ipc/add2stdio.c	/^main(void)$/;"	f
+main	apue.2e/ipc/fifo1.c	/^main(void)$/;"	f
+main	apue.2e/ipc/myuclc.c	/^main(void)$/;"	f
+main	apue.2e/ipc/pipe1.c	/^main(void)$/;"	f
+main	apue.2e/ipc/pipe2.c	/^main(int argc, char *argv[])$/;"	f
+main	apue.2e/ipc/pipe4.c	/^main(void)$/;"	f
+main	apue.2e/ipc/popen1.c	/^main(void)$/;"	f
+main	apue.2e/ipc/popen2.c	/^main(int argc, char *argv[])$/;"	f
+main	apue.2e/ipc/spipe4.c	/^main(void)$/;"	f
+main	apue.2e/ipc/tshm.c	/^main(void)$/;"	f
+main	apue.2e/ipp/print.c	/^main(int argc, char *argv[])$/;"	f
+main	apue.2e/ipp/printd.c	/^main(int argc, char *argv[])$/;"	f
+main	apue.2e/lock/deadlock.c	/^main(void)$/;"	f
+main	apue.2e/lock/mandatory.c	/^main(int argc, char *argv[])$/;"	f
+main	apue.2e/mycat/fgetsfputs.c	/^main(void)$/;"	f
+main	apue.2e/mycat/getcputc.c	/^main(void)$/;"	f
+main	apue.2e/mycat/mycat.c	/^main(void)$/;"	f
+main	apue.2e/open.fe/main.c	/^main(int argc, char *argv[])$/;"	f
+main	apue.2e/opend.fe/main.c	/^main(void)$/;"	f
+main	apue.2e/opend/main.c	/^main(int argc, char *argv[])$/;"	f
+main	apue.2e/proc/echoall.c	/^main(int argc, char *argv[])$/;"	f
+main	apue.2e/proc/echoarg.c	/^main(int argc, char *argv[])$/;"	f
+main	apue.2e/proc/exec1.c	/^main(void)$/;"	f
+main	apue.2e/proc/exec2.c	/^main(void)$/;"	f
+main	apue.2e/proc/fork1.c	/^main(void)$/;"	f
+main	apue.2e/proc/fork2.c	/^main(void)$/;"	f
+main	apue.2e/proc/pracct.c	/^main(int argc, char *argv[])$/;"	f
+main	apue.2e/proc/pruids.c	/^main(void)$/;"	f
+main	apue.2e/proc/shell1.c	/^main(void)$/;"	f
+main	apue.2e/proc/shell2.c	/^main(void)$/;"	f
+main	apue.2e/proc/systest1.c	/^main(void)$/;"	f
+main	apue.2e/proc/systest2.c	/^main(void)$/;"	f
+main	apue.2e/proc/systest3.c	/^main(int argc, char *argv[])$/;"	f
+main	apue.2e/proc/tellwait1.c	/^main(void)$/;"	f
+main	apue.2e/proc/tellwait2.c	/^main(void)$/;"	f
+main	apue.2e/proc/test1.c	/^main(void)$/;"	f
+main	apue.2e/proc/times1.c	/^main(int argc, char *argv[])$/;"	f
+main	apue.2e/proc/vfork1.c	/^main(void)$/;"	f
+main	apue.2e/proc/vfork3.c	/^main(void)$/;"	f
+main	apue.2e/proc/wait1.c	/^main(void)$/;"	f
+main	apue.2e/proc/zombie.c	/^main(void)$/;"	f
+main	apue.2e/pty/main.c	/^main(int argc, char *argv[])$/;"	f
+main	apue.2e/sess/orphan3.c	/^main(void)$/;"	f
+main	apue.2e/signals/child.c	/^main()$/;"	f
+main	apue.2e/signals/critical.c	/^main(void)$/;"	f
+main	apue.2e/signals/mask.c	/^main(void)$/;"	f
+main	apue.2e/signals/read1.c	/^main(void)$/;"	f
+main	apue.2e/signals/read2.c	/^main(void)$/;"	f
+main	apue.2e/signals/reenter.c	/^main(void)$/;"	f
+main	apue.2e/signals/sigtstp.c	/^main(void)$/;"	f
+main	apue.2e/signals/sigusr.c	/^main(void)$/;"	f
+main	apue.2e/signals/suspend1.c	/^main(void)$/;"	f
+main	apue.2e/signals/suspend2.c	/^main(void)$/;"	f
+main	apue.2e/signals/tsleep2.c	/^main(void)$/;"	f
+main	apue.2e/sockets/bindunix.c	/^main(void)$/;"	f
+main	apue.2e/sockets/bo.c	/^main(void)$/;"	f
+main	apue.2e/sockets/findsvc.c	/^main(int argc, char *argv[])$/;"	f
+main	apue.2e/sockets/ruptime-dg.c	/^main(int argc, char *argv[])$/;"	f
+main	apue.2e/sockets/ruptime.c	/^main(int argc, char *argv[])$/;"	f
+main	apue.2e/sockets/ruptimed-dg.c	/^main(int argc, char *argv[])$/;"	f
+main	apue.2e/sockets/ruptimed-fd.c	/^main(int argc, char *argv[])$/;"	f
+main	apue.2e/sockets/ruptimed.c	/^main(int argc, char *argv[])$/;"	f
+main	apue.2e/stdio/buf.c	/^main(void)$/;"	f
+main	apue.2e/stdio/tempfiles.c	/^main(void)$/;"	f
+main	apue.2e/stdio/tempnam.c	/^main(int argc, char *argv[])$/;"	f
+main	apue.2e/streams/strlist.c	/^main(int argc, char *argv[])$/;"	f
+main	apue.2e/streams/t_isastream.c	/^main(int argc, char *argv[])$/;"	f
+main	apue.2e/termios/csize.c	/^main(void)$/;"	f
+main	apue.2e/termios/settty.c	/^main(void)$/;"	f
+main	apue.2e/termios/t_getpass.c	/^main(void)$/;"	f
+main	apue.2e/termios/t_isatty.c	/^main(void)$/;"	f
+main	apue.2e/termios/t_raw.c	/^main(void)$/;"	f
+main	apue.2e/termios/t_ttyname.c	/^main(void)$/;"	f
+main	apue.2e/termios/winch.c	/^main(void)$/;"	f
+main	apue.2e/threadctl/atfork.c	/^main(void)$/;"	f
+main	apue.2e/threadctl/suspend.c	/^main(void)$/;"	f
+main	apue.2e/threadctl/timeout.c	/^main(void)$/;"	f
+main	apue.2e/threads/badexit2.c	/^main(void)$/;"	f
+main	apue.2e/threads/cleanup.c	/^main(void)$/;"	f
+main	apue.2e/threads/exitstatus.c	/^main(void)$/;"	f
+main	apue.2e/threads/threadid.c	/^main(void)$/;"	f
+main	chapter_1/Readcommandsexe.c	/^int main()$/;"	f
+main	chapter_1/csitso.c	/^int main()$/;"	f
+main	chapter_1/demo_strerror_perrpr.c	/^int main(int argc,char *argv[])$/;"	f
+main	chapter_1/laf.c	/^int main ()$/;"	f
+main	chapter_1/myls.c	/^int main (int argc,char *argv[])$/;"	f
+main	chapter_1/ppID.c	/^int main()$/;"	f
+main	chapter_1/print_u_g_id.c	/^int main()$/;"	f
+main	chapter_10/hello.c	/^int main()$/;"	f
+main	chapter_10/pro_10_10.c	/^int main()$/;"	f
+main	chapter_10/pro_10_11.c	/^int main()$/;"	f
+main	chapter_10/pro_10_15.c	/^int main()$/;"	f
+main	chapter_10/pro_10_2.c	/^int main()$/;"	f
+main	chapter_10/pro_10_20.c	/^int main()$/;"	f
+main	chapter_10/pro_10_22.c	/^int main()$/;"	f
+main	chapter_10/pro_10_23.c	/^int main()$/;"	f
+main	chapter_10/pro_10_26.c	/^int main()$/;"	f
+main	chapter_10/pro_10_5.c	/^int main()$/;"	f
+main	chapter_10/pro_10_6.c	/^int main()$/;"	f
+main	chapter_10/pro_10_9.c	/^int main()$/;"	f
+main	chapter_10/psignal_test.c	/^int main()$/;"	f
+main	chapter_10/sig2str_test.c	/^int main()$/;"	f
+main	chapter_10/sigaction_test.c	/^int main()$/;"	f
+main	chapter_10/sigemptyset_test.c	/^int main()$/;"	f
+main	chapter_10/signal_test.c	/^int main()$/;"	f
+main	chapter_10/signal_test_2.c	/^int main()$/;"	f
+main	chapter_10/sleep2_test.c	/^int main()$/;"	f
+main	chapter_10/test.c	/^int main()$/;"	f
+main	chapter_10/time_test.c	/^int main()$/;"	f
+main	chapter_11/mutexes_test.c	/^int main()$/;"	f
+main	chapter_11/mutexes_try_test.c	/^int main()$/;"	f
+main	chapter_11/pro_11_10.c	/^int main()$/;"	f
+main	chapter_11/pro_11_2.c	/^int main()$/;"	f
+main	chapter_11/pro_11_3.c	/^int main()$/;"	f
+main	chapter_11/pro_11_4.c	/^int main()$/;"	f
+main	chapter_11/pro_11_5.c	/^int main()$/;"	f
+main	chapter_11/test.c	/^int main()$/;"	f
+main	chapter_11/wakaka.c	/^int main()$/;"	f
+main	chapter_12/pro_12_16.c	/^int main()$/;"	f
+main	chapter_12/pro_12_17.c	/^int main()$/;"	f
+main	chapter_12/pro_12_8.c	/^int main()$/;"	f
+main	chapter_12/pthread_attr_getdetachstate_test.c	/^int main()$/;"	f
+main	chapter_13/pro_13_7.c	/^int main(int argc,char* argv[])$/;"	f
+main	chapter_13/pro_13_8.c	/^int main(int argc,char* argv[])$/;"	f
+main	chapter_14/pro_14_1.c	/^int main()$/;"	f
+main	chapter_14/pro_14_12.c	/^int main(int argc, char* argv[])$/;"	f
+main	chapter_14/pro_14_17.c	/^int main(int argc,char* argv[])$/;"	f
+main	chapter_14/pro_14_18.c	/^int main(int argc,char* argv[])$/;"	f
+main	chapter_14/pro_14_19.c	/^int main()$/;"	f
+main	chapter_14/pro_14_32.c	/^int main(int argc,char* argv[])$/;"	f
+main	chapter_14/pro_14_7.c	/^int main()$/;"	f
+main	chapter_15/add2.c	/^int main()$/;"	f
+main	chapter_15/anonymous_memory_mapping_test.c	/^int main()$/;"	f
+main	chapter_15/pro_15_11.c	/^int main(int argc,char* argv[])$/;"	f
+main	chapter_15/pro_15_14.c	/^int main()$/;"	f
+main	chapter_15/pro_15_15.c	/^int main()$/;"	f
+main	chapter_15/pro_15_17.c	/^int main()$/;"	f
+main	chapter_15/pro_15_18.c	/^int main()$/;"	f
+main	chapter_15/pro_15_19.c	/^int main()$/;"	f
+main	chapter_15/pro_15_31.c	/^int main()$/;"	f
+main	chapter_15/pro_15_33.c	/^int main()$/;"	f
+main	chapter_15/pro_15_5.c	/^int main()$/;"	f
+main	chapter_15/pro_15_6.c	/^int main(int argc,char* argv[])$/;"	f
+main	chapter_15/test.c	/^int main()$/;"	f
+main	chapter_16/pro_16_14.c	/^int main(int argc,char* argv[])$/;"	f
+main	chapter_16/pro_16_15.c	/^int main(int argc,char* argv[])$/;"	f
+main	chapter_16/pro_16_16.c	/^int main(int argc,char* argv)$/;"	f
+main	chapter_16/pro_16_17.c	/^int main(int argc,char* argv[])$/;"	f
+main	chapter_16/pro_16_18.c	/^int main(int argc,char * argv[])$/;"	f
+main	chapter_16/pro_16_8.c	/^int main(int argc,char* argv[])$/;"	f
+main	chapter_17/pro_17_14.c	/^int main()$/;"	f
+main	chapter_17/pro_17_4.c	/^int main()$/;"	f
+main	chapter_18/cfgetispeed_test.c	/^int main()$/;"	f
+main	chapter_18/ctermid_test.c	/^int main()$/;"	f
+main	chapter_18/pro_18_10.c	/^int main()$/;"	f
+main	chapter_18/pro_18_11.c	/^int main()$/;"	f
+main	chapter_18/pro_18_14.c	/^int main()$/;"	f
+main	chapter_18/pro_18_16.c	/^int main()$/;"	f
+main	chapter_18/pro_18_18.c	/^int main()$/;"	f
+main	chapter_18/pro_18_21.c	/^int main()$/;"	f
+main	chapter_18/pro_18_22.c	/^int main()$/;"	f
+main	chapter_18/tcdrain_test.c	/^int main()$/;"	f
+main	chapter_18/test.c	/^int main()$/;"	f
+main	chapter_18/ttyname_test.c	/^int main()$/;"	f
+main	chapter_20/test.c	/^int main()$/;"	f
+main	chapter_3/dup2_test.c	/^int main()$/;"	f
+main	chapter_3/practice.c	/^int main()$/;"	f
+main	chapter_3/practice_atomic.c	/^int main()$/;"	f
+main	chapter_3/practice_creat.c	/^int main()$/;"	f
+main	chapter_3/practice_dup.c	/^int main()$/;"	f
+main	chapter_3/practice_fcntl.c	/^int main()$/;"	f
+main	chapter_3/practice_lseek.c	/^int main()$/;"	f
+main	chapter_3/practive_open.c	/^int main()$/;"	f
+main	chapter_3/pro_3_1.c	/^int main()$/;"	f
+main	chapter_3/pro_3_11.c	/^int main(int argc ,char *argv[])$/;"	f
+main	chapter_3/pro_3_2.c	/^int main()$/;"	f
+main	chapter_3/pro_3_4.c	/^int main()$/;"	f
+main	chapter_3/test.c	/^int main()$/;"	f
+main	chapter_3/test_lseek_read.c	/^int main()$/;"	f
+main	chapter_3/test_open_lseek.c	/^int main()$/;"	f
+main	chapter_4/exercise_4_6.c	/^int main(int argc,char* argv[])$/;"	f
+main	chapter_4/file_permission.c	/^int main(int argc,char* argv[])$/;"	f
+main	chapter_4/fstat_test.c	/^int main()$/;"	f
+main	chapter_4/link_test.c	/^int main()$/;"	f
+main	chapter_4/lstat_test.c	/^int main()$/;"	f
+main	chapter_4/mkdir_test.c	/^int main()$/;"	f
+main	chapter_4/pro_4_12.c	/^int main()$/;"	f
+main	chapter_4/pro_4_16.c	/^int main()$/;"	f
+main	chapter_4/pro_4_21.c	/^int main(int argc,char* argv[])$/;"	f
+main	chapter_4/pro_4_22.c	/^int main(int argc,char* argv[])$/;"	f
+main	chapter_4/pro_4_23.c	/^int main()$/;"	f
+main	chapter_4/pro_4_24.c	/^int main()$/;"	f
+main	chapter_4/pro_4_25.c	/^int main(int argc,char* argv[])$/;"	f
+main	chapter_4/pro_4_3.c	/^int main(int argc,char* argv[])$/;"	f
+main	chapter_4/pro_4_8.c	/^int main(int argc ,char* argv[])$/;"	f
+main	chapter_4/pro_4_9.c	/^int main()$/;"	f
+main	chapter_4/rename_test.c	/^int main()$/;"	f
+main	chapter_4/show_stat.c	/^int main(int argc,char* argv[])$/;"	f
+main	chapter_4/truncation_test.c	/^int main()$/;"	f
+main	chapter_5/freopen_test.c	/^int main()$/;"	f
+main	chapter_5/fwide_test.c	/^int main()$/;"	f
+main	chapter_5/pro_5_11.c	/^int main()$/;"	f
+main	chapter_5/pro_5_12.c	/^int main()$/;"	f
+main	chapter_5/pro_5_13.c	/^int main(int argc ,char* argv[])$/;"	f
+main	chapter_5/setbuf_test.c	/^int main()$/;"	f
+main	chapter_5/ungetc_test.c	/^int main()$/;"	f
+main	chapter_6/getgrnam_test.c	/^int main()$/;"	f
+main	chapter_6/gethostname_test.c	/^int main()$/;"	f
+main	chapter_6/getpwent_test.c	/^int main()$/;"	f
+main	chapter_6/getpwnam_test.c	/^int main()$/;"	f
+main	chapter_6/getspnam_test.c	/^int main()$/;"	f
+main	chapter_6/time_test.c	/^int main()$/;"	f
+main	chapter_6/uname_test.c	/^int main()$/;"	f
+main	chapter_7/environ_test.c	/^int main()$/;"	f
+main	chapter_7/getenv_test.c	/^int main()$/;"	f
+main	chapter_7/hello.c	/^int main()$/;"	f
+main	chapter_7/pro_7_1.c	/^main()$/;"	f
+main	chapter_7/pro_7_11.c	/^int main()$/;"	f
+main	chapter_7/pro_7_13.c	/^int main()$/;"	f
+main	chapter_7/pro_7_17.c	/^int main()$/;"	f
+main	chapter_7/pro_7_3.c	/^int main()$/;"	f
+main	chapter_7/pro_7_4.c	/^int main(int argc,char* argv[])$/;"	f
+main	chapter_7/pro_7_9.c	/^int main()$/;"	f
+main	chapter_8/getlogin_test.c	/^int main()$/;"	f
+main	chapter_8/getpid_test.c	/^int main()$/;"	f
+main	chapter_8/pro_8_1.c	/^int main(int argc ,char* argv[])$/;"	f
+main	chapter_8/pro_8_12.c	/^int main()$/;"	f
+main	chapter_8/pro_8_16.c	/^int main()$/;"	f
+main	chapter_8/pro_8_17.c	/^int main(int argc,char* argv[])$/;"	f
+main	chapter_8/pro_8_20.c	/^int main()$/;"	f
+main	chapter_8/pro_8_23.c	/^int main()$/;"	f
+main	chapter_8/pro_8_24.c	/^int main(int argc,char* argv[])$/;"	f
+main	chapter_8/pro_8_25.c	/^int main()$/;"	f
+main	chapter_8/pro_8_28.c	/^int main()$/;"	f
+main	chapter_8/pro_8_29.c	/^int main(int argc,char* argv[])$/;"	f
+main	chapter_8/pro_8_3.c	/^int main()$/;"	f
+main	chapter_8/pro_8_30.c	/^int main (int argc ,char* argv[])$/;"	f
+main	chapter_8/pro_8_6.c	/^int main ()$/;"	f
+main	chapter_8/pro_8_8.c	/^int main()$/;"	f
+main	chapter_8/setuid_test.c	/^int main()$/;"	f
+main	chapter_8/test.c	/^int main()$/;"	f
+main	chapter_8/waitid_test.c	/^int main()$/;"	f
+main	chapter_9/getpgid_test.c	/^int main()$/;"	f
+main	chapter_9/getpgrp_test.c	/^int main()$/;"	f
+main	chapter_9/pro_9_11.c	/^int main(int argc,char* argv[])$/;"	f
+main	chapter_9/setpgid_test.c	/^int main()$/;"	f
+main	chapter_9/tcgetpgrp_test.c	/^int main()$/;"	f
+main	hello.c	/^int main()$/;"	f
+major_version	apue.2e/ipp/ipp.h	/^	int8_t  major_version;	\/* always 1 *\/$/;"	m	struct:ipp_hdr
+makethread	apue.2e/threadctl/detach.c	/^makethread(void *(*fn)(void *), void *arg)$/;"	f
+makethread	chapter_12/pro_12_4.c	/^int makethread(void *(* fn) (void *),void * arg)$/;"	f
+mask	apue.2e/daemons/reread.c	/^sigset_t	mask;$/;"	v
+mask	apue.2e/ipp/printd.c	/^sigset_t				mask;$/;"	v
+mask	apue.2e/threadctl/suspend.c	/^sigset_t	mask;$/;"	v
+mask	chapter_12/pro_12_16.c	/^sigset_t mask;$/;"	v
+mask	chapter_13/pro_13_7.c	/^sigset_t mask;$/;"	v
+max	apue.2e/include/apue.h	45;"	d
+maxfd	apue.2e/lib/popen.c	/^static int		maxfd;$/;"	v	file:
+maxfd	chapter_15/pro_15_12.c	/^static int	maxfd;$/;"	v	file:
+min	apue.2e/include/apue.h	44;"	d
+minor_version	apue.2e/ipp/ipp.h	/^	int8_t  minor_version;	\/* always 1 *\/$/;"	m	struct:ipp_hdr
+msg	apue.2e/ipp/print.h	/^	char msg[MSGLEN_MAX];		\/* error message *\/$/;"	m	struct:printresp
+msg	apue.2e/threads/condvar.c	/^struct msg {$/;"	s	file:
+mutex	apue.2e/threadctl/timeout.c	/^pthread_mutex_t mutex;$/;"	v
+mutex	chapter_12/pro_12_8.c	/^pthread_mutex_t	    mutex;$/;"	v
+my_alarm	apue.2e/signals/reenter.c	/^my_alarm(int signo)$/;"	f	file:
+my_alarm	chapter_10/pro_10_5.c	/^my_alarm(int signo)$/;"	f	file:
+my_exit1	apue.2e/environ/doatexit.c	/^my_exit1(void)$/;"	f	file:
+my_exit1	chapter_7/pro_7_3.c	/^static void my_exit1(void)$/;"	f	file:
+my_exit2	apue.2e/environ/doatexit.c	/^my_exit2(void)$/;"	f	file:
+my_exit2	chapter_7/pro_7_3.c	/^static void my_exit2(void)$/;"	f	file:
+my_memset	chapter_10/test.c	/^char* my_memset(char* p_int,char character,size_t num)$/;"	f
+myftw	apue.2e/file/ftw4.c	/^myftw(char *pathname, Myfunc *func)$/;"	f	file:
+myftw	chapter_4/pro_4_22.c	/^static int myftw(char *pathname,Myfunc* func)$/;"	f	file:
+myfunc	apue.2e/file/ftw4.c	/^myfunc(const char *pathname, const struct stat *statptr, int type)$/;"	f	file:
+myfunc	apue.2e/file/ftw4.c	/^static Myfunc	myfunc;$/;"	v	file:
+myfunc	chapter_4/pro_4_22.c	/^static Myfunc myfunc;$/;"	v	file:
+myfunc	chapter_4/pro_4_22.c	/^static int myfunc(const char* pathname,const struct stat* statptr,int type)$/;"	f	file:
+myfunc1	chapter_11/mutexes_test.c	/^void* myfunc1(void* ptr)$/;"	f
+myfunc1	chapter_11/mutexes_try_test.c	/^void* myfunc1(void* ptr)$/;"	f
+myfunc1	chapter_11/pro_11_10.c	/^void* myfunc1(void* ptr)$/;"	f
+myfunc2	chapter_11/mutexes_test.c	/^void* myfunc2(void* ptr)$/;"	f
+myfunc2	chapter_11/mutexes_try_test.c	/^void* myfunc2(void* ptr)$/;"	f
+myfunc2	chapter_11/pro_11_10.c	/^void* myfunc2(void* ptr)$/;"	f
+name	apue.2e/calld/calld.h	/^  char	*name;		\/* system name *\/$/;"	m	struct:__anon7
+name	apue.2e/db/db.c	/^  char  *name;   \/* name db was opened under *\/$/;"	m	struct:__anon4	file:
+name	chapter_20/db.c	/^	char	*name;$/;"	m	struct:__anon11	file:
+nblk	apue.2e/file/ftw4.c	/^static long	nreg, ndir, nblk, nchr, nfifo, nslink, nsock, ntot;$/;"	v	file:
+nblk	chapter_4/pro_4_22.c	/^static long nreg ,ndir ,nblk,nchr,nfifo,nslink,nsock,ntot;$/;"	v	file:
+nchr	apue.2e/file/ftw4.c	/^static long	nreg, ndir, nblk, nchr, nfifo, nslink, nsock, ntot;$/;"	v	file:
+nchr	chapter_4/pro_4_22.c	/^static long nreg ,ndir ,nblk,nchr,nfifo,nslink,nsock,ntot;$/;"	v	file:
+ndir	apue.2e/file/ftw4.c	/^static long	nreg, ndir, nblk, nchr, nfifo, nslink, nsock, ntot;$/;"	v	file:
+ndir	chapter_4/pro_4_22.c	/^static long nreg ,ndir ,nblk,nchr,nfifo,nslink,nsock,ntot;$/;"	v	file:
+newmask	apue.2e/lib/tellwait.c	/^static sigset_t newmask, oldmask, zeromask;$/;"	v	file:
+newmask	chapter_10/pro_10_24.c	/^static sigset_t newmask,oldmask,zeromask;$/;"	v	file:
+next	apue.2e/ipp/printd.c	/^	struct job      *next;		\/* next in list *\/$/;"	m	struct:job	typeref:struct:job::job	file:
+next	apue.2e/ipp/printd.c	/^	struct worker_thread  *next;	\/* next in list *\/$/;"	m	struct:worker_thread	typeref:struct:worker_thread::worker_thread	file:
+nextjob	apue.2e/ipp/printd.c	/^long					nextjob;$/;"	v
+nfifo	apue.2e/file/ftw4.c	/^static long	nreg, ndir, nblk, nchr, nfifo, nslink, nsock, ntot;$/;"	v	file:
+nfifo	chapter_4/pro_4_22.c	/^static long nreg ,ndir ,nblk,nchr,nfifo,nslink,nsock,ntot;$/;"	v	file:
+nhash	apue.2e/db/db.c	/^  DBHASH nhash;    \/* current hash table size *\/$/;"	m	struct:__anon4	file:
+nhash	chapter_20/db.c	/^	DBHASH  nhash;$/;"	m	struct:__anon11	file:
+nlocks	apue.2e/calld/lock.c	/^static int	 nlocks;		\/* #entries currently used in lock[] *\/$/;"	v	file:
+nreg	apue.2e/file/ftw4.c	/^static long	nreg, ndir, nblk, nchr, nfifo, nslink, nsock, ntot;$/;"	v	file:
+nreg	chapter_4/pro_4_22.c	/^static long nreg ,ndir ,nblk,nchr,nfifo,nslink,nsock,ntot;$/;"	v	file:
+ns_pipe	apue.2e/lib/nspipe.c	/^ns_pipe(const char *name, int fd[2])$/;"	f
+nslink	apue.2e/file/ftw4.c	/^static long	nreg, ndir, nblk, nchr, nfifo, nslink, nsock, ntot;$/;"	v	file:
+nslink	chapter_4/pro_4_22.c	/^static long nreg ,ndir ,nblk,nchr,nfifo,nslink,nsock,ntot;$/;"	v	file:
+nsock	apue.2e/file/ftw4.c	/^static long	nreg, ndir, nblk, nchr, nfifo, nslink, nsock, ntot;$/;"	v	file:
+nsock	chapter_4/pro_4_22.c	/^static long nreg ,ndir ,nblk,nchr,nfifo,nslink,nsock,ntot;$/;"	v	file:
+ntid	apue.2e/threads/threadid.c	/^pthread_t ntid;$/;"	v
+ntid	chapter_11/pro_11_2.c	/^pthread_t ntid;$/;"	v
+ntot	apue.2e/file/ftw4.c	/^static long	nreg, ndir, nblk, nchr, nfifo, nslink, nsock, ntot;$/;"	v	file:
+ntot	chapter_4/pro_4_22.c	/^static long nreg ,ndir ,nblk,nchr,nfifo,nslink,nsock,ntot;$/;"	v	file:
+oflag	apue.2e/opend.fe/main.c	/^int		 oflag;$/;"	v
+oflag	apue.2e/opend/main.c	/^int		 debug, oflag, client_size, log_to_stderr;$/;"	v
+oldmask	apue.2e/lib/tellwait.c	/^static sigset_t newmask, oldmask, zeromask;$/;"	v	file:
+oldmask	chapter_10/pro_10_24.c	/^static sigset_t newmask,oldmask,zeromask;$/;"	v	file:
+op	apue.2e/ipp/ipp.h	/^		int16_t op;	\/* operation ID *\/$/;"	m	union:ipp_hdr::__anon1
+op_close	apue.2e/lib/semaph.c	/^static struct sembuf	op_close[3] = {$/;"	v	typeref:struct:sembuf	file:
+op_endcreate	apue.2e/lib/semaph.c	/^static struct sembuf	op_endcreate[2] = {$/;"	v	typeref:struct:sembuf	file:
+op_lock	apue.2e/lib/semaph.c	/^static struct sembuf	op_lock[2] = {$/;"	v	typeref:struct:sembuf	file:
+op_op	apue.2e/lib/semaph.c	/^static struct sembuf	op_op[1] = {$/;"	v	typeref:struct:sembuf	file:
+op_open	apue.2e/lib/semaph.c	/^static struct sembuf	op_open[1] = {$/;"	v	typeref:struct:sembuf	file:
+op_unlock	apue.2e/lib/semaph.c	/^static struct sembuf	op_unlock[1] = {$/;"	v	typeref:struct:sembuf	file:
+open_data	apue.2e/environ/opendata.c	/^open_data(void)$/;"	f
+open_max	apue.2e/exercises/openmax.c	/^open_max(void)$/;"	f
+open_max	apue.2e/lib/openmax.c	/^open_max(void)$/;"	f
+openmax	apue.2e/lib/openmax.c	/^static long	openmax = 0;$/;"	v	file:
+openmax	apue.2e/lib/openmax.c	/^static long	openmax = OPEN_MAX;$/;"	v	file:
+operation	apue.2e/ipp/ipp.h	121;"	d
+parent	apue.2e/threadctl/atfork.c	/^parent(void)$/;"	f
+parent	chapter_12/pro_12_17.c	/^void parent(void)$/;"	f
+parent_handler	chapter_14/pro_14_7.c	/^void parent_handler(int signo)$/;"	f
+parity	apue.2e/calld/calld.h	/^  enum parity parity;		\/* option from client *\/$/;"	m	struct:__anon6	typeref:enum:__anon6::parity
+parity	apue.2e/calld/calld.h	/^extern enum parity { NONE, EVEN, ODD } parity;	\/* specified by client *\/$/;"	g
+parity	apue.2e/calld/main.c	/^enum parity parity = NONE;$/;"	v	typeref:enum:parity
+path_alloc	apue.2e/lib/pathalloc.c	/^path_alloc(int *sizep) \/* also return allocated size, if nonnull *\/$/;"	f
+path_alloc	chapter_2/path_alloc.c	/^path_alloc(int* sizep)$/;"	f
+pathlen	chapter_4/pro_4_22.c	/^static size_t pathlen;$/;"	v	file:
+pathmax	apue.2e/lib/pathalloc.c	/^static int	pathmax = 0;$/;"	v	file:
+pathmax	apue.2e/lib/pathalloc.c	/^static int	pathmax = PATH_MAX;$/;"	v	file:
+pathmax	chapter_2/path_alloc.c	/^	static int pathmax = 0;$/;"	v	file:
+pathmax	chapter_2/path_alloc.c	/^	static int pathmax = PATH_MAX;$/;"	v	file:
+pathname	apue.2e/opend.fe/main.c	/^char	*pathname;$/;"	v
+pathname	apue.2e/opend/main.c	/^char	*pathname;$/;"	v
+pathname	apue.2e/termios/ttyname.c	/^static char				pathname[_POSIX_PATH_MAX + 1];$/;"	v	file:
+pathname	chapter_18/pro_18_15.c	/^static char		pathname[_POSIX_PATH_MAX + 1];$/;"	v	file:
+pclose	apue.2e/lib/popen.c	/^pclose(FILE *fp)$/;"	f
+pclose	chapter_15/pro_15_12.c	/^int pclose(FILE* fp)$/;"	f
+pfd1	apue.2e/ipc/tellwait.c	/^static int	pfd1[2], pfd2[2];$/;"	v	file:
+pfd1	chapter_15/pro_15_7.c	/^static pfd1[2],pfd2[2];$/;"	v	file:
+pfd2	apue.2e/ipc/tellwait.c	/^static int	pfd1[2], pfd2[2];$/;"	v	file:
+pfd2	chapter_15/pro_15_7.c	/^static pfd1[2],pfd2[2];$/;"	v	file:
+phone	apue.2e/calld/calld.h	/^  char	*phone;		\/* phone number or "-" if direct connect *\/$/;"	m	struct:__anon7
+pid	apue.2e/calld/calld.h	/^  pid_t	pid;		\/* child pid while dialing *\/$/;"	m	struct:__anon6
+pid	apue.2e/calld/lock.c	/^  pid_t	pid;	\/* but unlock by process ID *\/$/;"	m	struct:__anon5	file:
+popen	apue.2e/lib/popen.c	/^popen(const char *cmdstring, const char *type)$/;"	f
+popen	chapter_15/pro_15_12.c	/^FILE* popen(const char* cmdstring,const char* type)$/;"	f
+posix_openpt	apue.2e/lib/bsd_ptyopen.c	/^posix_openpt(int oflag)$/;"	f
+posix_openpt	apue.2e/lib/linux_ptyopen.c	/^posix_openpt(int oflag)$/;"	f
+posix_version	apue.2e/lib/pathalloc.c	/^static long	posix_version = 0;$/;"	v	file:
+posix_version	chapter_2/path_alloc.c	/^static long posix_version = 0;$/;"	v	file:
+pr_exit	apue.2e/lib/prexit.c	/^pr_exit(int status)$/;"	f
+pr_exit	chapter_8/pr_exit.c	/^void pr_exit(int status)$/;"	f
+pr_exit	chapter_8/pr_exit.h	/^void pr_exit(int status)$/;"	f
+pr_exit	chapter_8/pro_8_5.c	/^pr_exit(int status)$/;"	f
+pr_ids	apue.2e/sess/orphan3.c	/^pr_ids(char *name)$/;"	f	file:
+pr_ids	chapter_9/pro_9_11.c	/^pr_ids(char* name)$/;"	f	file:
+pr_limits	apue.2e/environ/getrlimit.c	/^pr_limits(char *name, int resource)$/;"	f	file:
+pr_limits	chapter_7/pro_7_17.c	/^pr_limits(char* name,int resource)$/;"	f	file:
+pr_mask	apue.2e/lib/prmask.c	/^pr_mask(const char *str)$/;"	f
+pr_mask	chapter_10/pro_10_14.c	/^pr_mask(const char* str)$/;"	f
+pr_mask	chapter_10/pro_10_20.c	/^pr_mask(const char* str)$/;"	f
+pr_stdio	apue.2e/stdio/buf.c	/^pr_stdio(const char *name, FILE *fp)$/;"	f
+pr_stdio	chapter_5/pro_5_11.c	/^void pr_stdio(const char* name,FILE*fp)$/;"	f
+pr_times	apue.2e/proc/times1.c	/^pr_times(clock_t real, struct tms *tmsstart, struct tms *tmsend)$/;"	f	file:
+pr_times	chapter_8/pro_8_30.c	/^pr_times(clock_t real,struct tms* tmsstart,struct tms* tmsend)$/;"	f	file:
+pr_winsize	apue.2e/termios/winch.c	/^pr_winsize(int fd)$/;"	f	file:
+pr_winsize	chapter_18/pro_18_22.c	/^static void pr_winsize(int fd)$/;"	f	file:
+prepare	apue.2e/threadctl/atfork.c	/^prepare(void)$/;"	f
+prepare	chapter_12/pro_12_17.c	/^void prepare(void)$/;"	f
+prev	apue.2e/ipp/printd.c	/^	struct job      *prev;		\/* previous in list *\/$/;"	m	struct:job	typeref:struct:job::job	file:
+prev	apue.2e/ipp/printd.c	/^	struct worker_thread  *prev;	\/* previous in list *\/$/;"	m	struct:worker_thread	typeref:struct:worker_thread::worker_thread	file:
+print_family	apue.2e/sockets/findsvc.c	/^print_family(struct addrinfo *aip)$/;"	f
+print_family	chapter_16/pro_16_8.c	/^void print_family(struct addrinfo *aip)$/;"	f
+print_flags	apue.2e/sockets/findsvc.c	/^print_flags(struct addrinfo *aip)$/;"	f
+print_flags	chapter_16/pro_16_8.c	/^void print_flags(struct addrinfo* aip)$/;"	f
+print_protocol	apue.2e/sockets/findsvc.c	/^print_protocol(struct addrinfo *aip)$/;"	f
+print_protocol	chapter_16/pro_16_8.c	/^void print_protocol(struct addrinfo *aip)$/;"	f
+print_type	apue.2e/sockets/findsvc.c	/^print_type(struct addrinfo *aip)$/;"	f
+print_type	chapter_16/pro_16_8.c	/^void print_type(struct addrinfo *aip)$/;"	f
+print_uptime	apue.2e/sockets/ruptime-dg.c	/^print_uptime(int sockfd, struct addrinfo *aip)$/;"	f
+print_uptime	apue.2e/sockets/ruptime.c	/^print_uptime(int sockfd)$/;"	f
+print_uptime	chapter_16/pro_16_14.c	/^void print_uptime(int sockfd)$/;"	f
+print_uptime	chapter_16/pro_16_17.c	/^void print_uptime(int sockfd,struct addrinfo *aip)$/;"	f
+printer	apue.2e/ipp/printd.c	/^struct addrinfo		*printer;$/;"	v	typeref:struct:addrinfo
+printer_name	apue.2e/ipp/printd.c	/^char					*printer_name;$/;"	v
+printer_status	apue.2e/ipp/printd.c	/^printer_status(int sockfd, struct job *jp)$/;"	f
+printer_thread	apue.2e/ipp/printd.c	/^printer_thread(void *arg)$/;"	f
+printfoo	apue.2e/exercises/goodexit.c	/^printfoo(const char *s, const struct foo *fp)$/;"	f
+printfoo	apue.2e/threads/badexit2.c	/^printfoo(const char *s, const struct foo *fp)$/;"	f
+printfoo	chapter_11/pro_11_4.c	/^void printfoo(const char*s,const struct foo* fp)$/;"	f
+printids	apue.2e/threads/threadid.c	/^printids(const char *s)$/;"	f
+printids	chapter_11/pro_11_2.c	/^void printids(const char* s)$/;"	f
+printreq	apue.2e/ipp/print.h	/^struct printreq {$/;"	s
+printresp	apue.2e/ipp/print.h	/^struct printresp {$/;"	s
+process_msg	apue.2e/threads/condvar.c	/^process_msg(void)$/;"	f
+prompt_read	apue.2e/call/takeput.c	/^prompt_read(char *prompt, int (*userfunc)(int, char **))$/;"	f
+ptroff	apue.2e/db/db.c	/^  off_t  ptroff; \/* chain ptr offset pointing to this idx record *\/$/;"	m	struct:__anon4	file:
+ptroff	chapter_20/db.c	/^	off_t   ptroff;$/;"	m	struct:__anon11	file:
+ptrval	apue.2e/db/db.c	/^  off_t  ptrval; \/* contents of chain ptr in index record *\/$/;"	m	struct:__anon4	file:
+ptrval	chapter_20/db.c	/^	off_t   ptrval;$/;"	m	struct:__anon11	file:
+ptsname	apue.2e/lib/bsd_ptyopen.c	/^ptsname(int fdm)$/;"	f
+ptsname	apue.2e/lib/linux_ptyopen.c	/^ptsname(int fdm)$/;"	f
+pty_fork	apue.2e/lib/ptyfork.c	/^pty_fork(int *ptrfdm, char *slave_name, int slave_namesz,$/;"	f
+ptym_open	apue.2e/lib/bsd_ptyopen.c	/^ptym_open(char *pts_name, int pts_namesz)$/;"	f
+ptym_open	apue.2e/lib/linux_ptyopen.c	/^ptym_open(char *pts_name, int pts_namesz)$/;"	f
+ptym_open	apue.2e/streams/ptyopen.c	/^ptym_open(char *pts_name, int pts_namesz)$/;"	f
+ptys_open	apue.2e/lib/bsd_ptyopen.c	/^ptys_open(char *pts_name)$/;"	f
+ptys_open	apue.2e/lib/linux_ptyopen.c	/^ptys_open(char *pts_name)$/;"	f
+ptys_open	apue.2e/streams/ptyopen.c	/^ptys_open(char *pts_name)$/;"	f
+put	apue.2e/call/put.c	/^put(int remfd)$/;"	f
+q_head	apue.2e/threads/rwlock.c	/^	struct job      *q_head;$/;"	m	struct:queue	typeref:struct:queue::job	file:
+q_head	chapter_11/pro_11_13.c	/^	struct job* q_head;$/;"	m	struct:queue	typeref:struct:queue::job	file:
+q_lock	apue.2e/threads/rwlock.c	/^	pthread_rwlock_t q_lock;$/;"	m	struct:queue	file:
+q_lock	chapter_11/pro_11_13.c	/^	pthread_rwlock_t  q_lock;$/;"	m	struct:queue	file:
+q_tail	apue.2e/threads/rwlock.c	/^	struct job      *q_tail;$/;"	m	struct:queue	typeref:struct:queue::job	file:
+q_tail	chapter_11/pro_11_13.c	/^	struct job* q_tail;$/;"	m	struct:queue	typeref:struct:queue::job	file:
+qlock	apue.2e/threads/condvar.c	/^pthread_mutex_t qlock = PTHREAD_MUTEX_INITIALIZER;$/;"	v
+qready	apue.2e/threads/condvar.c	/^pthread_cond_t qready = PTHREAD_COND_INITIALIZER;$/;"	v
+queue	apue.2e/threads/rwlock.c	/^struct queue {$/;"	s	file:
+queue	chapter_11/pro_11_13.c	/^struct queue$/;"	s	file:
+queue_init	apue.2e/threads/rwlock.c	/^queue_init(struct queue *qp)$/;"	f
+queue_init	chapter_11/pro_11_13.c	/^int queue_init(struct queue* qp)$/;"	f
+quitflag	apue.2e/signals/suspend2.c	/^volatile sig_atomic_t	quitflag;	\/* set nonzero by signal handler *\/$/;"	v
+quitflag	apue.2e/threadctl/suspend.c	/^int			quitflag;	\/* set nonzero by thread *\/$/;"	v
+quitflag	chapter_10/pro_10_23.c	/^volatile sig_atomic_t quitflag = 0;$/;"	v
+quitflag	chapter_12/pro_12_16.c	/^int quitflag;$/;"	v
+read_lock	apue.2e/include/apue.h	91;"	d
+read_lock	chapter_20/db.c	34;"	d	file:
+readmore	apue.2e/ipp/printd.c	/^readmore(int sockfd, char **bpp, int off, int *bszp)$/;"	f
+readn	apue.2e/lib/readn.c	/^readn(int fd, void *ptr, size_t n)$/;"	f
+readw_lock	apue.2e/include/apue.h	93;"	d
+readw_lock	chapter_20/db.c	37;"	d	file:
+recv_fd	apue.2e/lib/recvfd.c	/^recv_fd(int fd, ssize_t (*userfunc)(int, const void *, size_t))$/;"	f
+recv_fd	apue.2e/sockets/recvfd.c	/^recv_fd(int fd, ssize_t (*userfunc)(int, const void *, size_t))$/;"	f
+recv_fd	apue.2e/streams/recvfd.c	/^recv_fd(int fd, ssize_t (*userfunc)(int, const void *, size_t))$/;"	f
+recv_ufd	apue.2e/sockets/recvfd2.c	/^recv_ufd(int fd, uid_t *uidptr,$/;"	f
+rem_buf	apue.2e/call/take.c	/^static char		 rem_buf[MAXLINE];$/;"	v	file:
+rem_cnt	apue.2e/call/take.c	/^static int		 rem_cnt = 0;$/;"	v	file:
+rem_ptr	apue.2e/call/take.c	/^static char		*rem_ptr;$/;"	v	file:
+rem_read	apue.2e/call/take.c	/^rem_read(int remfd)$/;"	f
+remove_job	apue.2e/ipp/printd.c	/^remove_job(struct job *target)$/;"	f
+replace_job	apue.2e/ipp/printd.c	/^replace_job(struct job *jp)$/;"	f
+req	apue.2e/ipp/printd.c	/^	struct printreq  req;		\/* copy of print request *\/$/;"	m	struct:job	typeref:struct:job::printreq	file:
+request	apue.2e/calld/request.c	/^request(Client *cliptr)$/;"	f
+request	apue.2e/opend.fe/request.c	/^request(char *buf, int nread, int fd)$/;"	f
+request	apue.2e/opend/request.c	/^request(char *buf, int nread, int clifd, uid_t uid)$/;"	f
+request_id	apue.2e/ipp/ipp.h	/^	int32_t request_id;		\/* request ID *\/$/;"	m	struct:ipp_hdr
+reread	apue.2e/daemons/reread.c	/^reread(void)$/;"	f
+reread	apue.2e/daemons/reread2.c	/^reread(void)$/;"	f
+reread	apue.2e/ipp/printd.c	/^int					reread;$/;"	v
+reread	chapter_13/pro_13_7.c	/^void reread(void)$/;"	f
+reread	chapter_13/pro_13_8.c	/^void reread(void)$/;"	f
+retcode	apue.2e/ipp/print.h	/^	long retcode;				\/* 0=success, !0=error code *\/$/;"	m	struct:printresp
+retry	apue.2e/threadctl/timeout.c	/^retry(void *arg)$/;"	f
+retry	chapter_12/pro_12_8.c	/^void retry(void* arg)$/;"	f
+s_pipe	apue.2e/lib/spipe.c	/^s_pipe(int fd[2])$/;"	f
+s_pipe	apue.2e/sockets/spipe.c	/^s_pipe(int fd[2])$/;"	f
+s_pipe	apue.2e/streams/spipe.c	/^s_pipe(int fd[2])$/;"	f
+s_pipe	chapter_17/pro_17_4.c	/^int s_pipe(int fd[2])$/;"	f
+save_termios	apue.2e/lib/ttymodes.c	/^static struct termios		save_termios;$/;"	v	typeref:struct:termios	file:
+save_termios	chapter_18/pro_18_20.c	/^static struct termios	save_termios;$/;"	v	typeref:struct:termios	file:
+scan_configfile	apue.2e/ipp/util.c	/^scan_configfile(char *keyword)$/;"	f	file:
+searchdir	apue.2e/termios/ttyname.c	/^searchdir(char *dirname, struct stat *fdstatp)$/;"	f	file:
+searchdir	chapter_18/pro_18_15.c	/^static char* searchdir(char* dirname,struct stat* fdstatp)$/;"	f	file:
+sem_close	apue.2e/lib/semaph.c	/^sem_close(int id)$/;"	f
+sem_create	apue.2e/lib/semaph.c	/^sem_create(key_t key, int initval)$/;"	f
+sem_op	apue.2e/lib/semaph.c	/^sem_op(int id, int value)$/;"	f
+sem_open	apue.2e/lib/semaph.c	/^sem_open(key_t key)$/;"	f
+sem_rm	apue.2e/lib/semaph.c	/^sem_rm(int id)$/;"	f
+sem_signal	apue.2e/lib/semaph.c	/^sem_signal(int id)$/;"	f
+sem_wait	apue.2e/lib/semaph.c	/^sem_wait(int id)$/;"	f
+send_err	apue.2e/lib/senderr.c	/^send_err(int fd, int errcode, const char *msg)$/;"	f
+send_fd	apue.2e/lib/sendfd.c	/^send_fd(int fd, int fd_to_send)$/;"	f
+send_fd	apue.2e/sockets/sendfd.c	/^send_fd(int fd, int fd_to_send)$/;"	f
+send_fd	apue.2e/sockets/sendfd2.c	/^send_fd(int fd, int fd_to_send)$/;"	f
+send_fd	apue.2e/streams/sendfd.c	/^send_fd(int fd, int fd_to_send)$/;"	f
+send_str	apue.2e/calld/sendstr.c	/^send_str(int fd, char *ptr, char *phone, int echocheck)$/;"	f
+serv_accept	apue.2e/lib/servaccept.c	/^serv_accept(int listenfd, uid_t *uidptr)$/;"	f
+serv_accept	apue.2e/sockets/servaccept.c	/^serv_accept(int listenfd, uid_t *uidptr)$/;"	f
+serv_accept	apue.2e/streams/servaccept.c	/^serv_accept(int listenfd, uid_t *uidptr)$/;"	f
+serv_listen	apue.2e/lib/servlisten.c	/^serv_listen(const char *name)$/;"	f
+serv_listen	apue.2e/sockets/servlisten.c	/^serv_listen(const char *name)$/;"	f
+serv_listen	apue.2e/streams/servlisten.c	/^serv_listen(const char *name)$/;"	f
+serve	apue.2e/sockets/ruptimed-dg.c	/^serve(int sockfd)$/;"	f
+serve	apue.2e/sockets/ruptimed-fd.c	/^serve(int sockfd)$/;"	f
+serve	apue.2e/sockets/ruptimed.c	/^serve(int sockfd)$/;"	f
+serve	chapter_16/pro_16_15.c	/^void serve(int sockfd)$/;"	f
+serve	chapter_16/pro_16_16.c	/^void serve(int sockfd)$/;"	f
+serve	chapter_16/pro_16_18.c	/^void serve(int sockfd)$/;"	f
+set_fl	apue.2e/lib/setfl.c	/^set_fl(int fd, int flags) \/* flags are file status flags to turn on *\/$/;"	f
+set_fl	chapter_14/pro_14_1.c	/^void set_fl(int fd,int flags)$/;"	f
+set_fl	chapter_14/pro_14_12.c	/^void set_fl(int fd,int flags)$/;"	f
+set_noecho	apue.2e/pty/main.c	/^set_noecho(int fd)		\/* turn off echo (for slave pty) *\/$/;"	f	file:
+setasync	apue.2e/exercises/asyncsocket.c	/^setasync(int sockfd)$/;"	f
+sig_alrm	apue.2e/calld/expectstr.c	/^sig_alrm(int signo)$/;"	f	file:
+sig_alrm	apue.2e/lib/sleep.c	/^sig_alrm(int signo)$/;"	f	file:
+sig_alrm	apue.2e/signals/mask.c	/^sig_alrm(int signo)$/;"	f	file:
+sig_alrm	apue.2e/signals/read1.c	/^sig_alrm(int signo)$/;"	f	file:
+sig_alrm	apue.2e/signals/read2.c	/^sig_alrm(int signo)$/;"	f	file:
+sig_alrm	apue.2e/signals/sleep1.c	/^sig_alrm(int signo)$/;"	f	file:
+sig_alrm	apue.2e/signals/sleep2.c	/^sig_alrm(int signo)$/;"	f	file:
+sig_alrm	chapter_10/pro_10_10.c	/^sig_alrm(int signo)$/;"	f	file:
+sig_alrm	chapter_10/pro_10_11.c	/^sig_alrm(int signo)$/;"	f	file:
+sig_alrm	chapter_10/pro_10_20.c	/^sig_alrm(int signo)$/;"	f	file:
+sig_alrm	chapter_10/pro_10_7.c	/^sig_alrm()$/;"	f	file:
+sig_alrm	chapter_10/pro_10_8.c	/^sig_alrm(int signo)$/;"	f	file:
+sig_alrm	chapter_10/sleep2_test.c	/^sig_alrm(int signo)$/;"	f	file:
+sig_catch	apue.2e/termios/t_raw.c	/^sig_catch(int signo)$/;"	f	file:
+sig_catch	chapter_18/pro_18_21.c	/^static void sig_catch(int signo)$/;"	f	file:
+sig_child	chapter_10/pro_10_26.c	/^static void sig_child(int signo)$/;"	f	file:
+sig_chld	apue.2e/calld/sigchld.c	/^sig_chld(int signo)$/;"	f
+sig_chld	apue.2e/proc/systest2.c	/^sig_chld(int signo)$/;"	f	file:
+sig_cld	apue.2e/signals/child.c	/^sig_cld(int signo)	\/* interrupts pause() *\/$/;"	f	file:
+sig_cld	chapter_10/pro_10_6.c	/^sig_cld(int signo)$/;"	f	file:
+sig_hup	apue.2e/sess/orphan3.c	/^sig_hup(int signo)$/;"	f	file:
+sig_hup	chapter_9/pro_9_11.c	/^sig_hup(int signo)$/;"	f	file:
+sig_int	apue.2e/proc/shell2.c	/^sig_int(int signo)$/;"	f
+sig_int	apue.2e/proc/systest2.c	/^sig_int(int signo)$/;"	f	file:
+sig_int	apue.2e/signals/suspend1.c	/^sig_int(int signo)$/;"	f	file:
+sig_int	apue.2e/signals/suspend2.c	/^sig_int(int signo)	\/* one signal handler for SIGINT and SIGQUIT *\/$/;"	f	file:
+sig_int	apue.2e/signals/tsleep2.c	/^sig_int(int signo)$/;"	f	file:
+sig_int	chapter_10/pro_10_22.c	/^static void sig_int(int signo)$/;"	f	file:
+sig_int	chapter_10/pro_10_23.c	/^static void sig_int(int signo)$/;"	f	file:
+sig_int	chapter_10/pro_10_26.c	/^static void sig_int(int signo)$/;"	f	file:
+sig_int	chapter_10/pro_10_9.c	/^sig_int(int signo)$/;"	f	file:
+sig_pipe	apue.2e/ipc/pipe4.c	/^sig_pipe(int signo)$/;"	f	file:
+sig_pipe	apue.2e/ipc/spipe4.c	/^sig_pipe(int signo)$/;"	f	file:
+sig_pipe	chapter_15/pro_15_18.c	/^static void sig_pipe(int signo)$/;"	f	file:
+sig_pipe	chapter_15/test.c	/^static void sig_pipe(int signo)$/;"	f	file:
+sig_pipe	chapter_17/pro_17_4.c	/^static void sig_pipe(int signo)$/;"	f	file:
+sig_quit	apue.2e/signals/critical.c	/^sig_quit(int signo)$/;"	f	file:
+sig_quit	chapter_10/pro_10_15.c	/^sig_quit(int signo)$/;"	f	file:
+sig_term	apue.2e/pty/loop.c	/^sig_term(int signo)$/;"	f	file:
+sig_tstp	apue.2e/signals/sigtstp.c	/^sig_tstp(int signo)	\/* signal handler for SIGTSTP *\/$/;"	f	file:
+sig_usr	apue.2e/lib/tellwait.c	/^sig_usr(int signo)	\/* one signal handler for SIGUSR1 and SIGUSR2 *\/$/;"	f	file:
+sig_usr	apue.2e/signals/sigusr.c	/^sig_usr(int signo)		\/* argument is signal number *\/$/;"	f	file:
+sig_usr	chapter_10/pro_10_2.c	/^static void sig_usr(int signo)$/;"	f	file:
+sig_usr	chapter_10/pro_10_24.c	/^static void sig_usr(int signo)$/;"	f	file:
+sig_usr	chapter_10/signal_test.c	/^static void sig_usr(int signo)$/;"	f	file:
+sig_usr	chapter_10/signal_test_2.c	/^static void sig_usr(int signo)$/;"	f	file:
+sig_usr1	apue.2e/signals/mask.c	/^sig_usr1(int signo)$/;"	f	file:
+sig_usr1	chapter_10/pro_10_20.c	/^sig_usr1(int signo)$/;"	f	file:
+sig_winch	apue.2e/termios/winch.c	/^sig_winch(int signo)$/;"	f	file:
+sig_winch	chapter_18/pro_18_22.c	/^static void sig_winch(int signo)$/;"	f	file:
+sigaddset	apue.2e/signals/setops.c	/^sigaddset(sigset_t *set, int signo)$/;"	f
+sigaddset	chapter_10/pro_10_12.c	/^int sigaddset(sigset_t*set,int signo)$/;"	f
+sigalrm	apue.2e/sockets/ruptime-dg.c	/^sigalrm(int signo)$/;"	f
+sigalrm	chapter_16/pro_16_17.c	/^void sigalrm(int signo)$/;"	f
+sigcaught	apue.2e/pty/loop.c	/^static volatile sig_atomic_t	sigcaught;	\/* set by signal handler *\/$/;"	v	file:
+sigdelset	apue.2e/signals/setops.c	/^sigdelset(sigset_t *set, int signo)$/;"	f
+sigdelset	chapter_10/pro_10_12.c	/^int sigdelset(sigset_t * set,int signo)$/;"	f
+sigflag	apue.2e/lib/tellwait.c	/^static volatile sig_atomic_t sigflag; \/* set nonzero by sig handler *\/$/;"	v	file:
+sigflag	chapter_10/pro_10_24.c	/^static volatile sig_atomic_t sigflag;$/;"	v	file:
+sighup	apue.2e/daemons/reread2.c	/^sighup(int signo)$/;"	f
+sighup	chapter_13/pro_13_8.c	/^void sighup(int signo)$/;"	f
+sigint	apue.2e/advio/pendlock.c	/^sigint(int signo)$/;"	f
+sigismember	apue.2e/signals/setops.c	/^sigismember(const sigset_t *set, int signo)$/;"	f
+sigismember	chapter_10/pro_10_12.c	/^int sigismember(const sigset_t *set,int signo)$/;"	f
+signal	apue.2e/lib/signal.c	/^signal(int signo, Sigfunc *func)$/;"	f
+signal_handler	chapter_10/sigaction_test.c	/^void signal_handler(int signo)$/;"	f
+signal_intr	apue.2e/lib/signalintr.c	/^signal_intr(int signo, Sigfunc *func)$/;"	f
+signal_thread	apue.2e/ipp/printd.c	/^signal_thread(void *arg)$/;"	f
+sigterm	apue.2e/daemons/reread2.c	/^sigterm(int signo)$/;"	f
+sigterm	chapter_13/pro_13_8.c	/^void sigterm(int signo)$/;"	f
+size	apue.2e/ipp/print.h	/^	long size;					\/* size in bytes *\/$/;"	m	struct:printreq
+sleep	apue.2e/exercises/sleep.c	/^sleep(unsigned nsec)$/;"	f
+sleep	apue.2e/lib/sleep.c	/^sleep(unsigned int nsecs)$/;"	f
+sleep1	apue.2e/signals/sleep1.c	/^sleep1(unsigned int nsecs)$/;"	f
+sleep1	chapter_10/pro_10_7.c	/^sleep1(unsigned int nsecs)$/;"	f
+sleep2	apue.2e/signals/sleep2.c	/^sleep2(unsigned int nsecs)$/;"	f
+sleep2	chapter_10/pro_10_8.c	/^sleep2(unsigned int nsecs)$/;"	f
+sleep2	chapter_10/sleep2_test.c	/^sleep2(unsigned int nsecs)$/;"	f
+sleep_us	apue.2e/exercises/sleepus_poll.c	/^sleep_us(unsigned int nusecs)$/;"	f
+sleep_us	apue.2e/exercises/sleepus_select.c	/^sleep_us(unsigned int nusecs)$/;"	f
+sleep_us	apue.2e/lib/sleepus.c	/^sleep_us(unsigned int nusecs)$/;"	f
+sockfd	apue.2e/ipp/printd.c	/^	int                    sockfd;	\/* socket *\/$/;"	m	struct:worker_thread	file:
+speed	apue.2e/calld/calld.h	/^  char	speed[MAXSPEEDSTR];	\/* option from client *\/$/;"	m	struct:__anon6
+speed	apue.2e/calld/main.c	/^char		*speed, *sysname;$/;"	v
+src	apue.2e/call/main.c	/^char	*src;$/;"	v
+st	apue.2e/ipp/ipp.h	/^		int16_t st;	\/* status *\/$/;"	m	union:ipp_hdr::__anon1
+status	apue.2e/ipp/ipp.h	122;"	d
+sub	apue.2e/calld/calld.h	/^  char	*sub;		\/* phone number substitution string (ignored) *\/$/;"	m	struct:__anon9
+submit_file	apue.2e/ipp/print.c	/^submit_file(int fd, int sockfd, const char *fname, size_t nbytes,$/;"	f
+sys_next	apue.2e/calld/sysfile.c	/^sys_next(Systems *sysptr)	\/* structure is filled in with pointers *\/$/;"	f
+sys_posn	apue.2e/calld/sysfile.c	/^sys_posn(long posn)		\/* position Systems file *\/$/;"	f
+sys_rew	apue.2e/calld/sysfile.c	/^sys_rew(void)$/;"	f
+sysftell	apue.2e/calld/calld.h	/^  long	sysftell;	\/* next line to read in Systems file *\/$/;"	m	struct:__anon6
+sysline	apue.2e/calld/sysfile.c	/^static char	 sysline[MAXLINE];$/;"	v	file:
+syslineno	apue.2e/calld/sysfile.c	/^static int	 syslineno;			\/* for error messages *\/$/;"	v	file:
+sysname	apue.2e/calld/calld.h	/^  char	sysname[MAXSYSNAME];\/* option from client *\/$/;"	m	struct:__anon6
+sysname	apue.2e/calld/main.c	/^char		*speed, *sysname;$/;"	v
+system	apue.2e/proc/system.c	/^system(const char *cmdstring)	\/* version without signal handling *\/$/;"	f
+system	apue.2e/signals/system.c	/^system(const char *cmdstring)	\/* with appropriate signal handling *\/$/;"	f
+system	chapter_10/pro_10_28.c	/^int system(const char* cmdstring)$/;"	f
+system	chapter_8/pro_8_22.c	/^int system(const char* cmdstring)$/;"	f
+systems	apue.2e/calld/main.c	/^Systems		systems;$/;"	v
+tail	apue.2e/termios/ttyname.c	/^static struct devdir	*tail;$/;"	v	typeref:struct:devdir	file:
+tail	chapter_18/pro_18_15.c	/^static struct devdir	*tail;$/;"	v	typeref:struct:devdir	file:
+take	apue.2e/call/take.c	/^take(int remfd)$/;"	f
+take_put_args	apue.2e/call/takeput.c	/^take_put_args(int argc, char **argv)$/;"	f
+test	chapter_14/pro_14_17.c	/^int test(int fd)$/;"	f
+thr_fn	apue.2e/daemons/reread.c	/^thr_fn(void *arg)$/;"	f
+thr_fn	apue.2e/threadctl/atfork.c	/^thr_fn(void *arg)$/;"	f
+thr_fn	apue.2e/threadctl/suspend.c	/^thr_fn(void *arg)$/;"	f
+thr_fn	apue.2e/threads/threadid.c	/^thr_fn(void *arg)$/;"	f
+thr_fn	chapter_11/pro_11_2.c	/^void* thr_fn(void*arg)$/;"	f
+thr_fn	chapter_12/pro_12_16.c	/^void* thr_fn(void* arg)$/;"	f
+thr_fn	chapter_12/pro_12_17.c	/^void* thr_fn(void* arg)$/;"	f
+thr_fn	chapter_13/pro_13_7.c	/^void* thr_fn(void*arg)$/;"	f
+thr_fn1	apue.2e/exercises/goodexit.c	/^thr_fn1(void *arg)$/;"	f
+thr_fn1	apue.2e/threads/badexit2.c	/^thr_fn1(void *arg)$/;"	f
+thr_fn1	apue.2e/threads/cleanup.c	/^thr_fn1(void *arg)$/;"	f
+thr_fn1	apue.2e/threads/exitstatus.c	/^thr_fn1(void *arg)$/;"	f
+thr_fn1	chapter_11/pro_11_3.c	/^void* thr_fn1(void* arg)$/;"	f
+thr_fn1	chapter_11/pro_11_4.c	/^void* thr_fn1(void* arg)$/;"	f
+thr_fn1	chapter_11/pro_11_5.c	/^void *thr_fn1(void *arg)$/;"	f
+thr_fn2	apue.2e/threads/badexit2.c	/^thr_fn2(void *arg)$/;"	f
+thr_fn2	apue.2e/threads/cleanup.c	/^thr_fn2(void *arg)$/;"	f
+thr_fn2	apue.2e/threads/exitstatus.c	/^thr_fn2(void *arg)$/;"	f
+thr_fn2	chapter_11/pro_11_3.c	/^void * thr_fn2(void * arg)$/;"	f
+thr_fn2	chapter_11/pro_11_4.c	/^void* thr_fn2(void* arg)$/;"	f
+thr_fn2	chapter_11/pro_11_5.c	/^void *thr_fn2(void *arg)$/;"	f
+thread_func	chapter_12/pthread_attr_getdetachstate_test.c	/^void* thread_func(void* smg)$/;"	f
+thread_init	apue.2e/threadctl/getenv2.c	/^thread_init(void)$/;"	f	file:
+thread_init	apue.2e/threadctl/getenv3.c	/^thread_init(void)$/;"	f	file:
+tid	apue.2e/ipp/printd.c	/^	pthread_t              tid;		\/* thread ID *\/$/;"	m	struct:worker_thread	file:
+time	apue.2e/calld/calld.h	/^  char	*time;		\/* (e.g., "Any") time to call (ignored) *\/$/;"	m	struct:__anon7
+timeout	apue.2e/threadctl/timeout.c	/^timeout(const struct timespec *when, void (*func)(void *), void *arg)$/;"	f
+timeout	chapter_12/pro_12_8.c	/^void timeout(const struct timespec* when,void (*func)(void*),void *arg)$/;"	f
+timeout_helper	apue.2e/threadctl/timeout.c	/^timeout_helper(void *arg)$/;"	f
+timeout_helper	chapter_12/pro_12_8.c	/^void * timeout_helper(void* arg)$/;"	f
+to_arg	apue.2e/threadctl/timeout.c	/^	void	*to_arg;			\/* argument *\/$/;"	m	struct:to_info	file:
+to_arg	chapter_12/pro_12_8.c	/^	void * to_arg;$/;"	m	struct:to_info	file:
+to_fn	apue.2e/threadctl/timeout.c	/^	void	(*to_fn)(void *);	\/* function *\/$/;"	m	struct:to_info	file:
+to_fn	chapter_12/pro_12_8.c	/^	void (*to_fn) (void *);$/;"	m	struct:to_info	file:
+to_info	apue.2e/threadctl/timeout.c	/^struct to_info {$/;"	s	file:
+to_info	chapter_12/pro_12_8.c	/^struct to_info$/;"	s	file:
+to_wait	apue.2e/threadctl/timeout.c	/^	struct timespec to_wait;	\/* time to wait *\/$/;"	m	struct:to_info	typeref:struct:to_info::timespec	file:
+to_wait	chapter_12/pro_12_8.c	/^	struct timespec to_wait;$/;"	m	struct:to_info	typeref:struct:to_info::timespec	file:
+tok_ptr	apue.2e/environ/cmd1.c	/^char	*tok_ptr;		\/* global pointer for get_token() *\/$/;"	v
+toke_ptr	chapter_7/pro_7_9.c	/^char *toke_ptr;$/;"	v
+tread	apue.2e/ipp/util.c	/^tread(int fd, void *buf, size_t nbytes, unsigned int timout)$/;"	f
+treadn	apue.2e/ipp/util.c	/^treadn(int fd, void *buf, size_t nbytes, unsigned int timout)$/;"	f
+tty	chapter_18/pro_18_15.c	/^char* tty(int fd)$/;"	f
+tty_atexit	apue.2e/lib/ttymodes.c	/^tty_atexit(void)		\/* can be set up by atexit(tty_atexit) *\/$/;"	f
+tty_atexit	chapter_18/pro_18_20.c	/^void tty_atexit(void)$/;"	f
+tty_cbreak	apue.2e/lib/ttymodes.c	/^tty_cbreak(int fd)	\/* put terminal into a cbreak mode *\/$/;"	f
+tty_cbreak	chapter_18/pro_18_20.c	/^int tty_cbreak(int fd)$/;"	f
+tty_dial	apue.2e/calld/ttydial.c	/^tty_dial(int fd, char *phone, char *dialer, char *sub, char *expsend)$/;"	f
+tty_open	apue.2e/calld/ttyopen.c	/^tty_open(char *class, char *line, enum parity parity, int modem)$/;"	f
+tty_raw	apue.2e/lib/ttymodes.c	/^tty_raw(int fd)		\/* put terminal into a raw mode *\/$/;"	f
+tty_raw	chapter_18/pro_18_20.c	/^int tty_raw(int fd)$/;"	f
+tty_reset	apue.2e/lib/ttymodes.c	/^tty_reset(int fd)		\/* restore terminal's mode *\/$/;"	f
+tty_reset	chapter_18/pro_18_20.c	/^int tty_reset(int fd)$/;"	f
+tty_termios	apue.2e/lib/ttymodes.c	/^tty_termios(void)		\/* let caller see original tty state *\/$/;"	f
+tty_termios	chapter_18/pro_18_20.c	/^struct termios* tty_termios(void)$/;"	f
+ttyname	apue.2e/termios/ttyname.c	/^ttyname(int fd)$/;"	f
+ttysavedfd	chapter_18/pro_18_20.c	/^static int    		ttysavedfd = -1;$/;"	v	file:
+ttysavefd	apue.2e/lib/ttymodes.c	/^static int					ttysavefd = -1;$/;"	v	file:
+ttystate	apue.2e/lib/ttymodes.c	/^static enum { RESET, RAW, CBREAK }	ttystate = RESET;$/;"	v	typeref:enum:__anon2	file:
+ttystate	chapter_18/pro_18_20.c	/^static enum { RESET,RAW,CBREAK} ttystate = RESET;$/;"	v	typeref:enum:__anon10	file:
+type	apue.2e/calld/calld.h	/^  char	*type;		\/* (e.g., "ACU") matched by type in Systems *\/$/;"	m	struct:__anon8
+type	apue.2e/calld/calld.h	/^  char	*type;		\/* (e.g., "ACU") or system name if direct connect *\/$/;"	m	struct:__anon7
+u	apue.2e/ipp/ipp.h	/^	} u;$/;"	m	struct:ipp_hdr	typeref:union:ipp_hdr::__anon1
+uid	apue.2e/calld/calld.h	/^  uid_t	uid;		\/* client's user ID *\/$/;"	m	struct:__anon6
+uid	apue.2e/calld/main.c	/^uid_t		uid;$/;"	v
+uid	apue.2e/opend/opend.h	/^  uid_t	uid;$/;"	m	struct:__anon3
+un_lock	apue.2e/include/apue.h	99;"	d
+un_lock	chapter_20/db.c	47;"	d	file:
+unlockpt	apue.2e/lib/bsd_ptyopen.c	/^unlockpt(int fdm)$/;"	f
+unlockpt	apue.2e/lib/linux_ptyopen.c	/^unlockpt(int fdm)$/;"	f
+update	apue.2e/advio/devzero.c	/^update(long *ptr)$/;"	f	file:
+update	chapter_15/anonymous_memory_mapping_test.c	/^static int update(long * ptr)$/;"	f	file:
+update	chapter_15/pro_15_33.c	/^static int update(long * ptr)$/;"	f	file:
+update_jobno	apue.2e/ipp/printd.c	/^update_jobno(void)$/;"	f
+usage	apue.2e/call/main.c	/^usage(char *msg)$/;"	f	file:
+usernm	apue.2e/ipp/print.h	/^	char usernm[USERNM_MAX];	\/* user's name *\/$/;"	m	struct:printreq
+wait	chapter_12/pro_12_16.c	/^pthread_cond_t	wait = PTHREAD_COND_INITIALIZER;$/;"	v
+waitloc	apue.2e/threadctl/suspend.c	/^pthread_cond_t waitloc = PTHREAD_COND_INITIALIZER;$/;"	v
+worker_thread	apue.2e/ipp/printd.c	/^struct worker_thread {$/;"	s	file:
+workerlock	apue.2e/ipp/printd.c	/^pthread_mutex_t		workerlock = PTHREAD_MUTEX_INITIALIZER;$/;"	v
+workers	apue.2e/ipp/printd.c	/^struct worker_thread	*workers;$/;"	v	typeref:struct:worker_thread
+workq	apue.2e/threads/condvar.c	/^struct msg *workq;$/;"	v	typeref:struct:msg
+write_lock	apue.2e/include/apue.h	95;"	d
+write_lock	chapter_20/db.c	40;"	d	file:
+writen	apue.2e/lib/writen.c	/^writen(int fd, const void *ptr, size_t n)$/;"	f
+writew_lock	apue.2e/include/apue.h	97;"	d
+writew_lock	chapter_20/db.c	43;"	d	file:
+zeromask	apue.2e/lib/tellwait.c	/^static sigset_t newmask, oldmask, zeromask;$/;"	v	file:
+zeromask	chapter_10/pro_10_24.c	/^static sigset_t newmask,oldmask,zeromask;$/;"	v	file:

@@ -200,6 +200,8 @@ db_open(const char *pathname, int oflag, ...)
 				strcat(hash, asciiptr);
 			}
 
+			strcat(hash,"\n");
+
 			i = strlen(hash);
 
 			if(write(db->idxfd, hash, i) != i)
@@ -727,11 +729,11 @@ static void
 _db_writeidx(DB    *db, const char *key, off_t offset,
 	    int whence, off_t    ptrval)
 {
-	if(!db || !key || offset < 0 || !ptrval)
+	if(!db || !key || offset < 0)
 	{
 		printf("ERROR!in function %s()\n",__FUNCTION__);
-		printf("@db %p\t@key %p\t@offset %u\t ptrval %p\n",
-			db, key, offset,ptrval);
+		printf("@db %p\t@key %p\t@offset %u\n",
+			db, key, (unsigned int)offset);
 
 		exit(-1);
 	}
@@ -823,8 +825,8 @@ static void _db_writeptr(DB *db, off_t offset, off_t ptrval)
 	if(!db || offset < 0 || !ptrval)
 	{
 		printf("ERROR!in function %s()\n",__FUNCTION__);
-		printf("@db %p\t@offset %d\t ptrval %p\n",
-			db, offset,ptrval);
+		printf("@db %p\t@offset %u\t ptrval %p\n",
+			db, (unsigned int)offset,(void *)ptrval);
 
 		exit(-1);
 	}
